@@ -1,0 +1,40 @@
+name: Build & Release Skill
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set version
+        id: version
+        run: echo "tag=v$(date +'%Y%m%d%H%M%S')" >> "$GITHUB_OUTPUT"
+
+      - name: Build .skill package
+        run: |
+          zip -r cpz-fitness.skill . \
+            --exclude "*.git*" \
+            --exclude ".DS_Store" \
+            --exclude ".gitignore" \
+            --exclude ".github/*"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.tag }}
+          name: CPZ Fitness Skill ${{ steps.version.outputs.tag }}
+          body: |
+            Auto-built from commit ${{ github.sha }}
+
+            **Install:** Download `cpz-fitness.skill` and install via Claude Code.
+          files: cpz-fitness.skill
+          make_latest: true
