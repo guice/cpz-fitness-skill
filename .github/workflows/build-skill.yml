@@ -25,7 +25,8 @@ jobs:
             --exclude "*.git*" \
             --exclude ".DS_Store" \
             --exclude ".gitignore" \
-            --exclude ".github/*"
+            --exclude ".github/*" \
+            --exclude "scripts/*"
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
