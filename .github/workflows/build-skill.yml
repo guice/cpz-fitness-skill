@@ -1,4 +1,4 @@
-name: Build & Release Skill
+name: Build & Release Skills
 
 on:
   push:
@@ -6,10 +6,28 @@ on:
       - main
 
 jobs:
+  discover:
+    runs-on: ubuntu-latest
+    outputs:
+      skills: ${{ steps.find.outputs.skills }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Discover skills
+        id: find
+        run: |
+          skills=$(ls -d skills/*/ 2>/dev/null | xargs -I{} basename {} | jq -R -s -c 'split("\n") | map(select(length > 0))')
+          echo "skills=$skills" >> "$GITHUB_OUTPUT"
+
   build:
+    needs: discover
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    strategy:
+      matrix:
+        skill: ${{ fromJson(needs.discover.outputs.skills) }}
 
     steps:
       - name: Checkout
@@ -19,23 +37,21 @@ jobs:
         id: version
         run: echo "tag=v$(date +'%Y%m%d%H%M%S')" >> "$GITHUB_OUTPUT"
 
-      - name: Build .skill package
+      - name: Build ${{ matrix.skill }}.skill
         run: |
-          zip -r cpz-fitness.skill . \
-            --exclude "*.git*" \
-            --exclude ".DS_Store" \
-            --exclude ".gitignore" \
-            --exclude ".github/*" \
-            --exclude "scripts/*"
+          cd skills/${{ matrix.skill }}
+          zip -r ../../${{ matrix.skill }}.skill . \
+            --exclude ".DS_Store"
+          cd ../..
 
-      - name: Create GitHub Release
+      - name: Release ${{ matrix.skill }}.skill
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.tag }}
-          name: CPZ Fitness Skill ${{ steps.version.outputs.tag }}
+          name: Skills ${{ steps.version.outputs.tag }}
           body: |
             Auto-built from commit ${{ github.sha }}
 
-            **Install:** Download `cpz-fitness.skill` and install via Claude Code.
-          files: cpz-fitness.skill
+            **Install:** Download a `.skill` file and install via Claude Code.
+          files: ${{ matrix.skill }}.skill
           make_latest: true
