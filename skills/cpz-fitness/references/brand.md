@@ -15,7 +15,7 @@
 | Background Color | #3c3f42 (slate grey) |
 | Tagline | "From desk-bound to damn-strong." |
 | Core Promise | "Build the body that matches the brain." |
-| Brand Metaphor | Geek/Nerd physique → Greek God physique (transformation of body, mind, AND confidence) |
+| Brand Metaphor | Geek/Nerd physique → Greek Arete. Not just a physical transformation — a complete transformation of body, mind, and confidence. |
 
 ---
 
@@ -28,6 +28,29 @@ The "Geek 2 Greek" transformation is built on this foundation. The target client
 This reframe is important for content: the transformation is **addition, not replacement**. The client doesn't leave the geek behind — he completes the package. The brain was never the problem. It's the foundation everything else is built on.
 
 This philosophy is why "Build the body your brain deserves" works as the core promise. The brain isn't incidental to the transformation — it's the reason for it.
+
+---
+## The Geek 2 Greek Brand Bridge
+
+Geek 2 Greek isn't about becoming a different person. It's about becoming the complete version of who you already are.
+
+The ancient Greeks called it **Arete** — full excellence across mind, body, and soul. You've already built it professionally. This system completes the picture.
+
+Because the Greeks understood something the modern fitness industry forgot — you cannot be fully excellent in the mind without respecting the body. And you cannot fully respect the body without understanding yourself first.
+
+**Know yourself. Build the foundation. Deploy the system. Become complete.**
+
+---
+
+## PHILOSOPHICAL ANCHORS
+*Drop these lightly. Never lecture.*
+
+| Greek Concept | Meaning | Where It Maps |
+|---|---|---|
+| **Arete** | Full excellence — nothing held back | Overarching brand philosophy |
+| **Gnōthi Seauton** | Know Thyself | Key #1 — The System Audit |
+| **Kairos** | Right action, right time, right amount | Key #2 — The Training Stack |
+| **Ethos** | Character expressed through repeated action | Key #3 — The Deployment Protocol |
 
 ---
 
