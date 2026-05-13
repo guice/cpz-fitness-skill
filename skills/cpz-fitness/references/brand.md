@@ -14,7 +14,7 @@
 | Primary Color | #ff8c00 (orange) |
 | Background Color | #3c3f42 (slate grey) |
 | Tagline | "From desk-bound to damn-strong." |
-| Core Promise | "Build the body that matches the brain." |
+| Core Promise | "Build the body that matches the mind." |
 | Brand Metaphor | Geek/Nerd physique → Greek Arete. Not just a physical transformation — a complete transformation of body, mind, and confidence. |
 
 ---
