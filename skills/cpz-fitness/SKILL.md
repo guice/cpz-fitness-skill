@@ -31,9 +31,10 @@ This skill provides persistent brand context for all CPZ Fitness work. Always lo
 | **Colors** | #ff8c00 orange on #3c3f42 slate grey |
 | **Logo** | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent) |
 | **Voice Archetype** | The "Sarcastic Sage" — dry humor + analytical framing + empathy + direct guidance |
-| **Core Promise** | "Build the body that matches the brain." |
+| **Core Promise** | "Build the body that matches the mind." |
 | **Tagline** | "From desk-bound to damn-strong." |
-| **Booking Calendar** | [Free Debug Session](https://im.philipz.fit/free-debug-session) — use this link in all upsell CTAs |
+| **Booking Calendar** | [Free System Audit](https://lnk.philipz.fit/free-system-audit) — use this link for upsell CTAs |
+| **PDF CTA Link** | [Free System Audit](https://lnk.philipz.fit/pdf-system-audit) — use this for downloadable PDF assets |
 
 ## Content Creation Rules
 
@@ -46,18 +47,3 @@ When writing any content for CPZ Fitness, always:
 5. End every lesson or post with a clear, single next action for the reader
 6. Avoid excessive emojis, hype language, and generic motivational phrases (see brand.md vocabulary guide)
 
-## Classroom Lesson Format
-
-**Course 1 & 2 lessons** follow this structure:
-1. **Opening hook** — a sarcastic or empathetic observation that names the problem
-2. **The diagnosis** — explain why the problem exists in analytical terms
-3. **The fix** — clear, actionable guidance broken into logical steps
-4. **The bridge** — a direct sentence pointing to the next lesson or action
-
-**Course 3 lessons** follow the Deployment Blueprint writing standards:
-- **Trigger Shift:** Opening sentence is the H3 header — no "welcome back" filler intros
-- **Active Reflection:** Every lesson includes all three checkpoint types — "Pause for a moment:", "Dig a little deeper:", and "Take Action:" — distributed across the lesson body
-- **Key Takeaway:** Every lesson ends with a bolded Key Takeaway in Deployment Blueprint vocabulary
-- **No module-level overview pages** — course-wide intro only
-
-Keep lessons conversational and readable. Aim for 400–700 words per lesson. Use headers to break up sections. Write in full paragraphs — avoid bullet-point-heavy formatting.
