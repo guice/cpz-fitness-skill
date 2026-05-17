@@ -1,36 +1,38 @@
 ---
 name: cpz-carousels
-description: "CPZ Fitness Instagram carousel production. Use for end-to-end carousel creation: slide structure, per-slide copy, image generation prompts, and platform captions. The primary content format for this brand."
+description: "CPZ Fitness Instagram carousel production. Use for end-to-end carousel creation: slide structure, per-slide copy, image generation prompts, and platform captions. The primary content format for this brand. Extends cpz-fitness root — load cpz-fitness first."
 ---
 
 # CPZ Fitness — Content Carousels Skill
 
+> Builds on **cpz-fitness** for brand DNA, voice, ICA, and colors. Load cpz-fitness first.
+
 ## Identity Quick Reference
 
-| Field | Value |
-| :--- | :--- |
-| **Handle** | @philipz.fit |
-| **Booking CTA** | https://lnk.philipz.fit/free-system-audit |
-| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit |
-| **Tagline** | "From desk-bound to damn-strong." |
+| Field             | Value                                     |
+|:------------------|:------------------------------------------|
+| **Handle**        | @philipz.fit                              |
+| **Booking CTA**   | https://lnk.philipz.fit/free-system-audit |
+| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit  |
+| **Tagline**       | "From desk-bound to damn-strong."         |
 
 ## Reference Files
 
-| File | Load When |
-| :--- | :--- |
+| File                               | Load When                                                               |
+|:-----------------------------------|:------------------------------------------------------------------------|
 | `references/carousel-structure.md` | Always — slide blueprints, design rules, CTA options, caption structure |
-| `references/design-guide.md` | When writing image generation prompts or specifying visual design |
+| `references/design-guide.md`       | When writing image generation prompts or specifying visual design       |
 
 ---
 
 ## The 4 Carousel Types (Quick Reference)
 
-| Type | Slides | Use When |
-| :--- | :--- | :--- |
-| **Data / Myth Bust** | 3–5 | Correcting a belief with data, presenting a surprising metric |
-| **Micro-Workout** | 4–6 | Delivering a complete, actionable workout routine |
-| **Nutrition / Protein** | 4–6 | Macro math, protein targets, debunking nutrition myths |
-| **Consistency / Habit** | 3–5 | Addressing the psychology and mechanics of showing up |
+| Type                    | Slides | Use When                                                      |
+|:------------------------|:-------|:--------------------------------------------------------------|
+| **Data / Myth Bust**    | 3–5    | Correcting a belief with data, presenting a surprising metric |
+| **Micro-Workout**       | 4–6    | Delivering a complete, actionable workout routine             |
+| **Nutrition / Protein** | 4–6    | Macro math, protein targets, debunking nutrition myths        |
+| **Consistency / Habit** | 3–5    | Addressing the psychology and mechanics of showing up         |
 
 Load `references/carousel-structure.md` for full slide-by-slide blueprints.
 
@@ -38,13 +40,13 @@ Load `references/carousel-structure.md` for full slide-by-slide blueprints.
 
 ## CTA Slide Options
 
-| CTA | Best For |
-| :--- | :--- |
-| "Drop your biggest gym obstacle in the comments." | Consistency/habit carousels |
-| "Save this for your next training day." | Workout carousels |
-| "Follow @philipz.fit for more system-level fitness." | Data/myth posts |
-| "Free System Audit → link in bio" (`lnk.philipz.fit/free-system-audit`) | Any carousel driving coaching inquiries |
-| "Download the free PDF → link in bio" (`lnk.philipz.fit/pdf-system-audit`) | Lead magnet / PDF download carousels |
+| CTA                                                                        | Best For                                |
+|:---------------------------------------------------------------------------|:----------------------------------------|
+| "Drop your biggest gym obstacle in the comments."                          | Consistency/habit carousels             |
+| "Save this for your next training day."                                    | Workout carousels                       |
+| "Follow @philipz.fit for more system-level fitness."                       | Data/myth posts                         |
+| "Free System Audit → link in bio" (`lnk.philipz.fit/free-system-audit`)    | Any carousel driving coaching inquiries |
+| "Download the free PDF → link in bio" (`lnk.philipz.fit/pdf-system-audit`) | Lead magnet / PDF download carousels    |
 
 ---
 
@@ -53,7 +55,7 @@ Load `references/carousel-structure.md` for full slide-by-slide blueprints.
 Every slide prompt should specify these 6 fields:
 
 ```
-Background: #0f1012 (cover/CTA) or #1a1d21 (body slides)
+Background: #191a1b (cover/CTA) or #1a1d21 (body slides)
 Text: #f0ede8 (body) / #ff8c00 (key word or stat)
 Typography: Barlow Condensed 800+ for headlines (uppercase), Space Grotesk for body, JetBrains Mono for labels/data
 Slide type: cover | data slide | workout slide | nutrition slide | CTA slide
@@ -107,6 +109,19 @@ PNGs are written to `scripts/output/<carousel_id>/slide_1.png`, `slide_2.png`, e
 Output resolution: ~1080×1350px.
 
 **Adding a new carousel:** Add a new key to the appropriate `carousels/round_N.py` file. See `scripts/README.md` for the full content dict structure.
+
+---
+
+## Voice for Carousels
+
+Carousels apply the 4 Voice Pillars in a specific visual rhythm:
+
+- **Slide copy = one claim + one proof.** Headline is the sarcastic or analytical observation. Body is 1–2 lines max — the data or logical proof that backs it.
+- **Cover slide:** Pillar 1 (Sarcastic/Humorous) leads — the hook must earn the swipe. Frame it as a bold, slightly provocative claim.
+- **Body slides:** Pillar 2 (Analytical) drives — stats and data over assertions. If you can quantify it, quantify it.
+- **CTA slide:** Pillar 4 (Direct) closes — one action, no options, no hedging.
+- **No compound sentences in headlines.** One idea per slide, stated plainly.
+- **Orange is reserved for the single most important word or number per slide** — not decoration.
 
 ---
 

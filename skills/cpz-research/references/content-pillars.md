@@ -146,12 +146,12 @@ All CPZ Fitness social content maps to one of these four pillars. Every pillar h
 
 ## Platform-Pillar Fit Matrix
 
-| Pillar | Instagram | Facebook | LinkedIn | Threads/BlueSky |
-| :--- | :---: | :---: | :---: | :---: |
-| Data-Driven Insights | ★★★ | ★★ | ★★★ | ★★★ |
-| Workout Tips & Micro-Workouts | ★★★ | ★★★ | ★ | ★★ |
-| Nutrition & Protein Strategy | ★★★ | ★★★ | ★★ | ★★ |
-| Consistency & Habit Systems | ★★★ | ★★★ | ★★★ | ★★★ |
+| Pillar                        | Instagram | Facebook | LinkedIn | Threads/BlueSky |
+|:------------------------------|:---------:|:--------:|:--------:|:---------------:|
+| Data-Driven Insights          |    ★★★    |    ★★    |   ★★★    |       ★★★       |
+| Workout Tips & Micro-Workouts |    ★★★    |   ★★★    |    ★     |       ★★        |
+| Nutrition & Protein Strategy  |    ★★★    |   ★★★    |    ★★    |       ★★        |
+| Consistency & Habit Systems   |    ★★★    |   ★★★    |   ★★★    |       ★★★       |
 
 ★★★ = High fit | ★★ = Good fit | ★ = Use sparingly
 

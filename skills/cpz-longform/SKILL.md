@@ -1,26 +1,27 @@
 ---
 name: cpz-longform
-description: CPZ Fitness long-form content writing. Use for blog posts, newsletters, LinkedIn articles, and full-length Skool classroom lessons. Loads brand voice and platform context.
+description: CPZ Fitness long-form content writing. Use for blog posts, newsletters, LinkedIn articles, and full-length Skool classroom lessons. Extends cpz-fitness root — load cpz-fitness first.
 ---
 
 # CPZ Fitness — Long-Form Content Skill
 
+> Builds on **cpz-fitness** for brand DNA, voice, ICA, and colors. Load cpz-fitness first.
+
 ## Identity Quick Reference
 
-| Field | Value |
-| :--- | :--- |
-| **Website** | https://www.philipz.fit |
-| **Skool Community** | https://lnk.philipz.fit/skool |
-| **Handle** | @philipz.fit |
-| **Booking CTA** | https://lnk.philipz.fit/free-system-audit |
-| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit |
-| **Voice Archetype** | The "Sarcastic Sage" |
+| Field               | Value                                     |
+|:--------------------|:------------------------------------------|
+| **Website**         | https://www.philipz.fit                   |
+| **Skool Community** | https://lnk.philipz.fit/skool             |
+| **Handle**          | @philipz.fit                              |
+| **Booking CTA**     | https://lnk.philipz.fit/free-system-audit |
+| **PDF Asset CTA**   | https://lnk.philipz.fit/pdf-system-audit  |
+| **Voice Archetype** | The "Sarcastic Sage"                      |
 
 ## Reference Files
 
-| File | Load When |
-| :--- | :--- |
-| `references/brand.md` | Always — for voice, tone, vocabulary, and content arc |
+| File                     | Load When                                                       |
+|:-------------------------|:----------------------------------------------------------------|
 | `references/platform.md` | When writing Skool classroom lessons or course-specific content |
 
 ---
@@ -106,7 +107,7 @@ All Course 3 lessons follow additional standards:
 
 ---
 
-## Writing Rules (All Long-Form)
+## Voice for Long-Form
 
 1. Write in Philip's first person — he is the author, not AI
 2. Self-implication before coaching — Philip's version of the mistake appears before the lesson

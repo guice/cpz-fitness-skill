@@ -1,6 +1,6 @@
 # CPZ Fitness — Brand & Design System Guide
 
-**Version 1.2 — April 2026***Derived from the philipz.fit website design system. Use this document to maintain visual and tonal cohesion across all brand touchpoints: social media, carousels, future websites, course materials, and community content.*
+**Version 1.2 — April 2026** *Derived from the philipz.fit website design system. Use this document to maintain visual and tonal cohesion across all brand touchpoints: social media, carousels, future websites, course materials, and community content.*
 
 ---
 
@@ -8,28 +8,28 @@
 
 ### 1.1 Names & Handles
 
-| Element | Value |
-| --- | --- |
-| Company Name | CPZ Fitness |
-| Program Brand | **Geek 2 Greek** |
-| Community Name | Geek 2 Greek Starter Zone |
-| Website | https://www.philipz.fit |
-| Social Handle | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky) |
-| Skool Community | https://lnk.philipz.fit/skool |
+| Element         | Value                                                        |
+|-----------------|--------------------------------------------------------------|
+| Company Name    | CPZ Fitness                                                  |
+| Program Brand   | **Geek 2 Greek**                                             |
+| Community Name  | Geek 2 Greek Starter Zone                                    |
+| Website         | https://www.philipz.fit                                      |
+| Social Handle   | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky) |
+| Skool Community | https://lnk.philipz.fit/skool                                |
 
 ### 1.2 Core Positioning
 
 The brand occupies a precise niche: **fitness coaching for analytical, desk-bound tech professionals** — engineers, developers, and IT specialists in their 30s and 40s who treat life as a system to optimize but have not yet applied that logic to their own bodies. The transformation is not just physical; it is a shift in confidence, identity, and self-perception.
 
-| Element | Statement |
-| --- | --- |
-| **Tagline** | "From desk-bound to damn-strong." |
-| **Core Promise** | "Build the body that matches the mind." |
-| **Brand Metaphor** | Geek physique → Greek God physique (transformation of body, mind, *and* confidence) |
-| **Voice Archetype** | The "Sarcastic Sage" — dry humor + analytical framing + empathy + direct guidance |
-| **Primary CTA** | "Help me debug" (replaces all "Book a Call" / "Strategy Call" language) |
-| **Form Submission CTA** | "Submit Debug Report" |
-| **Thank You Message** | "Bug report received. I'll review your situation and get back to you within 24 hours with a personalized roadmap. Keep an eye on your inbox." |
+| Element                 | Statement                                                                                                                                     |
+|-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+| **Tagline**             | "From desk-bound to damn-strong."                                                                                                             |
+| **Core Promise**        | "Build the body that matches the mind."                                                                                                       |
+| **Brand Metaphor**      | Geek physique → Greek God physique (transformation of body, mind, *and* confidence)                                                           |
+| **Voice Archetype**     | The "Sarcastic Sage" — dry humor + analytical framing + empathy + direct guidance                                                             |
+| **Primary CTA**         | "Help me debug" (replaces all "Book a Call" / "Strategy Call" language)                                                                       |
+| **Form Submission CTA** | "Submit Debug Report"                                                                                                                         |
+| **Thank You Message**   | "Bug report received. I'll review your situation and get back to you within 24 hours with a personalized roadmap. Keep an eye on your inbox." |
 
 ### 1.3 Brand Archetype: The Sarcastic Sage
 
@@ -43,23 +43,23 @@ Philip is the experienced senior engineer who has already debugged the system of
 
 The color system is built around three primary values that define the "Spartan Engineer" aesthetic: a near-black background that communicates seriousness and focus, a high-energy orange that signals action and transformation, and a warm off-white that provides readable contrast without the clinical harshness of pure white.
 
-| Role | Name | Hex | Usage |
-| --- | --- | --- | --- |
-| **Background** | Deep Dark | `#0f1012` | Page background, hero sections, full-bleed dark areas |
-| **Surface** | Dark Surface | `#1a1d21` | Cards, terminal windows, elevated containers |
-| **Card** | Card Surface | `#22262b` | Secondary cards, nested containers |
-| **Accent / CTA** | CPZ Orange | `#ff8c00` | Primary buttons, highlights, section labels, active states |
-| **Accent Dim** | Orange Dim | `rgba(255,130,0,0.15)` | Hover glows, background tints, subtle orange fills |
-| **Text Primary** | Warm White | `#f0ede8` | Headlines, body text, primary readable content |
-| **Text Muted** | Slate Muted | `#8a8f96` | Secondary text, captions, nav links at rest |
-| **Code Green** | Terminal Green | `#4ade80` | Code snippets, terminal output, status indicators |
-| **Border** | Orange Border | `rgba(255,130,0,0.2)` | Card borders, dividers, terminal window edges |
+| Role             | Name           | Hex                    | Usage                                                      |
+|------------------|----------------|------------------------|------------------------------------------------------------|
+| **Background**   | Coco's Black   | `#191a1b`              | Page background, hero sections, full-bleed dark areas      |
+| **Surface**      | Dark Surface   | `#1a1d21`              | Cards, terminal windows, elevated containers               |
+| **Card**         | Card Surface   | `#22262b`              | Secondary cards, nested containers                         |
+| **Accent / CTA** | CPZ Orange     | `#ff8c00`              | Primary buttons, highlights, section labels, active states |
+| **Accent Dim**   | Orange Dim     | `rgba(255,130,0,0.15)` | Hover glows, background tints, subtle orange fills         |
+| **Text Primary** | Warm White     | `#f0ede8`              | Headlines, body text, primary readable content             |
+| **Text Muted**   | Slate Muted    | `#8a8f96`              | Secondary text, captions, nav links at rest                |
+| **Code Green**   | Terminal Green | `#4ade80`              | Code snippets, terminal output, status indicators          |
+| **Border**       | Orange Border  | `rgba(255,130,0,0.2)`  | Card borders, dividers, terminal window edges              |
 
 ### 2.2 Color Usage Rules
 
 **Orange is earned, not decorative.** Use `#ff8c00` only on elements that demand attention: CTAs, active states, section labels, and key data points. Overusing orange dilutes its impact. On the website, it appears on the primary button, the section label lines, stat numbers, and pipeline card hover accents — nothing else.
 
-**Backgrounds layer in three steps.** The darkest value (`#0f1012`) is the page foundation. The surface (`#1a1d21`) lifts content one level. The card (`#22262b`) creates a third level for nested elements. Never skip levels — the depth creates visual hierarchy without borders.
+**Backgrounds layer in three steps.** The darkest value (`#191a1b`) is the page foundation. The surface (`#1a1d21`) lifts content one level. The card (`#22262b`) creates a third level for nested elements. Never skip levels — the depth creates visual hierarchy without borders.
 
 **Warm white, not pure white.** `#f0ede8` has a slight warm cast that prevents eye strain against the dark background and feels more human than `#ffffff`. Pure white should never appear as body text in this system.
 
@@ -67,7 +67,7 @@ The color system is built around three primary values that define the "Spartan E
 
 ### 2.3 Social Media Color Application
 
-For social media posts and carousels, the same three-level depth system applies. The background of any graphic should be `#0f1012` or `#1a1d21`. Orange is reserved for the single most important element on the frame — a headline word, a stat, a CTA label. Muted text (`#8a8f96`) handles supporting copy. Terminal green (`#4ade80`) can appear in code-metaphor posts but should not be used as a general accent.
+For social media posts and carousels, the same three-level depth system applies. The background of any graphic should be `#191a1b` or `#1a1d21`. Orange is reserved for the single most important element on the frame — a headline word, a stat, a CTA label. Muted text (`#8a8f96`) handles supporting copy. Terminal green (`#4ade80`) can appear in code-metaphor posts but should not be used as a general accent.
 
 ---
 
@@ -77,26 +77,26 @@ For social media posts and carousels, the same three-level depth system applies.
 
 Three typefaces form the complete typographic system, each assigned a specific semantic role:
 
-| Font | Role | Weights Used | Source |
-| --- | --- | --- | --- |
-| **Barlow Condensed** | Headlines, CTAs, nav, stats | 700 (Bold), 800 (ExtraBold), 900 (Black) | Google Fonts |
-| **Space Grotesk** | Body copy, descriptions, paragraphs | 400 (Regular), 500 (Medium) | Google Fonts |
-| **JetBrains Mono** | Code snippets, section labels, terminal text, data | 400 (Regular) | Google Fonts |
+| Font                 | Role                                               | Weights Used                             | Source       |
+|----------------------|----------------------------------------------------|------------------------------------------|--------------|
+| **Barlow Condensed** | Headlines, CTAs, nav, stats                        | 700 (Bold), 800 (ExtraBold), 900 (Black) | Google Fonts |
+| **Space Grotesk**    | Body copy, descriptions, paragraphs                | 400 (Regular), 500 (Medium)              | Google Fonts |
+| **JetBrains Mono**   | Code snippets, section labels, terminal text, data | 400 (Regular)                            | Google Fonts |
 
 ### 3.2 Typographic Hierarchy
 
 The hierarchy is intentionally aggressive. Headlines are large, condensed, and uppercase — they command attention. Body copy is compact and readable. Code text is small and precise. The contrast between these three registers is a core part of the brand's visual identity.
 
-| Level | Font | Size | Weight | Transform | Tracking |
-| --- | --- | --- | --- | --- | --- |
-| **Hero Headline** | Barlow Condensed | 5–7rem (responsive) | 900 | Uppercase | -0.01em |
-| **Section Headline** | Barlow Condensed | 2.5–3.5rem | 800 | Uppercase | -0.01em |
-| **Card Headline** | Barlow Condensed | 1.25–1.5rem | 700 | Uppercase | 0 |
-| **Body Copy** | Space Grotesk | 1rem–1.1rem | 400–500 | None | 0 |
-| **Section Label** | JetBrains Mono | 0.75rem | 400 | Uppercase | 0.1em |
-| **Nav Links** | Barlow Condensed | 0.95rem | 600 | Uppercase | 0.06em |
-| **Code / Terminal** | JetBrains Mono | 0.8–0.85rem | 400 | None | 0 |
-| **Stat Numbers** | Barlow Condensed | 3.5rem | 900 | None | 0 |
+| Level                | Font             | Size                | Weight  | Transform | Tracking |
+|----------------------|------------------|---------------------|---------|-----------|----------|
+| **Hero Headline**    | Barlow Condensed | 5–7rem (responsive) | 900     | Uppercase | -0.01em  |
+| **Section Headline** | Barlow Condensed | 2.5–3.5rem          | 800     | Uppercase | -0.01em  |
+| **Card Headline**    | Barlow Condensed | 1.25–1.5rem         | 700     | Uppercase | 0        |
+| **Body Copy**        | Space Grotesk    | 1rem–1.1rem         | 400–500 | None      | 0        |
+| **Section Label**    | JetBrains Mono   | 0.75rem             | 400     | Uppercase | 0.1em    |
+| **Nav Links**        | Barlow Condensed | 0.95rem             | 600     | Uppercase | 0.06em   |
+| **Code / Terminal**  | JetBrains Mono   | 0.8–0.85rem         | 400     | None      | 0        |
+| **Stat Numbers**     | Barlow Condensed | 3.5rem              | 900     | None      | 0        |
 
 ### 3.3 Typography Rules
 
@@ -120,12 +120,12 @@ On social media graphics and carousels, the same three-font system applies. The 
 
 The logo is a vectorized ZF lettermark in `#ff8c00` orange on a transparent background. It is a custom mark — not a wordmark, not an icon from a library. The mark is always paired with the "CPZ FITNESS" wordmark in Barlow Condensed 700, uppercase, at `#f0ede8`.
 
-| Context | Mark Size | Wordmark |
-| --- | --- | --- |
-| Desktop navbar | 38px | Paired |
-| Footer | 32px | Paired |
+| Context              | Mark Size         | Wordmark |
+|----------------------|-------------------|----------|
+| Desktop navbar       | 38px              | Paired   |
+| Footer               | 32px              | Paired   |
 | Social media profile | 400×400px minimum | Optional |
-| Carousel watermark | 24–32px | Optional |
+| Carousel watermark   | 24–32px           | Optional |
 
 ### 4.2 Logo Usage Rules
 
@@ -185,7 +185,7 @@ Two button variants exist in the system. No additional variants should be introd
 
 **Primary Button (****`btn-primary`****):**
 
-- Background: `#ff8c00` | Text: `#0f1012` | Border: 2px solid `#ff8c00`
+- Background: `#ff8c00` | Text: `#191a1b` | Border: 2px solid `#ff8c00`
 
 - Font: Barlow Condensed 700, uppercase, 1rem, 0.05em tracking
 
@@ -239,20 +239,20 @@ The brand voice is built on four pillars that must be present in all content, in
 
 ### 7.2 Vocabulary Reference
 
-| Use These | Avoid These |
-| --- | --- |
-| Systems / Optimization / Debugging | Crush it / Beast mode / Grind |
-| Inputs / Outputs / Metrics | Shredded / Ripped / Swole |
-| Refactoring / Upgrading | Bro / Boss / Chief |
-| Skinny-fat / Desk-bound | Excessive emojis (🚀🔥💯) |
-| Fuckarounditis | "No-BS" (prefer: straightforward, practical) |
-| Checkpoint / Level Up / XP (sparingly) | "LET'S GOOO" / hype filler |
-| Lean gain / Slow gain | Cookie-cutter / Generic |
-| Debug session / Spec / Deploy | Strategy call / Program / Launch |
-| Help me debug / Submit Debug Report | Book a call / Schedule now / Get started |
-| System principals | Best practices (when speaking to the ICP's work context) |
-| My fellow engineers | Guys / Folks / Everyone |
-| "we keep putting off" (inclusive) | "you keep putting off" (accusatory) |
+| Use These                              | Avoid These                                              |
+|----------------------------------------|----------------------------------------------------------|
+| Systems / Optimization / Debugging     | Crush it / Beast mode / Grind                            |
+| Inputs / Outputs / Metrics             | Shredded / Ripped / Swole                                |
+| Refactoring / Upgrading                | Bro / Boss / Chief                                       |
+| Skinny-fat / Desk-bound                | Excessive emojis (🚀🔥💯)                                |
+| Fuckarounditis                         | "No-BS" (prefer: straightforward, practical)             |
+| Checkpoint / Level Up / XP (sparingly) | "LET'S GOOO" / hype filler                               |
+| Lean gain / Slow gain                  | Cookie-cutter / Generic                                  |
+| Debug session / Spec / Deploy          | Strategy call / Program / Launch                         |
+| Help me debug / Submit Debug Report    | Book a call / Schedule now / Get started                 |
+| System principals                      | Best practices (when speaking to the ICP's work context) |
+| My fellow engineers                    | Guys / Folks / Everyone                                  |
+| "we keep putting off" (inclusive)      | "you keep putting off" (accusatory)                      |
 
 ### 7.3 The Inclusive "We" Principle
 
@@ -260,12 +260,12 @@ Philip does not speak *to* his audience — he speaks *with* them. This is not a
 
 The inclusive "we" applies across every community Philip belongs to and speaks from:
 
-| Community | How "We" Shows Up |
-| --- | --- |
+| Community                          | How "We" Shows Up                                                                                                                                                         |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Engineers / Tech professionals** | "We over-research and under-execute." "We know the theory — the execution loop is where we break." "We've been optimizing everything except the one system that matters." |
-| **Gay men** | "We know what it's like to feel invisible in spaces that weren't built for us." "We've spent years performing confidence we didn't feel." |
-| **LGBT community broadly** | "We've had to build our own definitions of strength and confidence — the mainstream ones never quite fit." |
-| **Fitness beginners / Skinny-fat** | "We've all stood in the gym not knowing what we're supposed to be building." "We've started three times. Maybe six." |
+| **Gay men**                        | "We know what it's like to feel invisible in spaces that weren't built for us." "We've spent years performing confidence we didn't feel."                                 |
+| **LGBT community broadly**         | "We've had to build our own definitions of strength and confidence — the mainstream ones never quite fit."                                                                |
+| **Fitness beginners / Skinny-fat** | "We've all stood in the gym not knowing what we're supposed to be building." "We've started three times. Maybe six."                                                      |
 
 **The rule:** If Philip is part of the community being addressed, use "we." If he is speaking about a group he is not part of, use "they" or name the group directly. Never use "you" in a way that positions Philip as an outside observer of a struggle he has personally lived.
 
@@ -279,11 +279,11 @@ Every post, caption, carousel, or lesson defaults to this arc:
 
 1. **Name the failure** — the specific wrong belief or mistake, including Philip's own experience with it
 
-1. **Diagnose it** — explain why it happens in plain, analytical terms
+2. **Diagnose it** — explain why it happens in plain, analytical terms
 
-1. **State the fix** — directly, without hedging
+3. **State the fix** — directly, without hedging
 
-1. **One clear next action** — a single thing to do, stated as a command
+4. **One clear next action** — a single thing to do, stated as a command
 
 ---
 
@@ -295,7 +295,7 @@ Social media graphics should feel like they were exported from the website — n
 
 **Single-image post structure:**
 
-- Background: `#0f1012` or `#1a1d21`
+- Background: `#191a1b` or `#1a1d21`
 
 - Headline: Barlow Condensed 800+, uppercase, `#f0ede8` or `#ff8c00` for the key word
 
@@ -309,14 +309,14 @@ Social media graphics should feel like they were exported from the website — n
 
 **Aspect ratios by platform:**
 
-| Platform | Ratio | Pixels |
-| --- | --- | --- |
-| Instagram Feed | 4:5 | 1080×1350 |
-| Instagram Stories / Reels cover | 9:16 | 1080×1920 |
-| TikTok cover | 9:16 | 1080×1920 |
-| LinkedIn post | 1.91:1 | 1200×628 |
-| Twitter/X post | 16:9 | 1200×675 |
-| Facebook post | 1.91:1 | 1200×628 |
+| Platform                        | Ratio  | Pixels    |
+|---------------------------------|--------|-----------|
+| Instagram Feed                  | 4:5    | 1080×1350 |
+| Instagram Stories / Reels cover | 9:16   | 1080×1920 |
+| TikTok cover                    | 9:16   | 1080×1920 |
+| LinkedIn post                   | 1.91:1 | 1200×628  |
+| Twitter/X post                  | 16:9   | 1200×675  |
+| Facebook post                   | 1.91:1 | 1200×628  |
 
 ### 8.2 Carousel Design System
 
@@ -342,13 +342,13 @@ Captions follow the same four-pillar voice as all other content. On Instagram an
 
 **Caption length by platform:**
 
-| Platform | Recommended Length |
-| --- | --- |
-| Instagram | 150–300 words (long-form performs well with this ICP) |
-| TikTok | 50–100 words (shorter — video carries the content) |
-| LinkedIn | 200–400 words (professional context supports longer reads) |
-| Twitter/X | 1–3 sentences or a thread |
-| Threads | 150–250 words |
+| Platform  | Recommended Length                                         |
+|-----------|------------------------------------------------------------|
+| Instagram | 150–300 words (long-form performs well with this ICP)      |
+| TikTok    | 50–100 words (shorter — video carries the content)         |
+| LinkedIn  | 200–400 words (professional context supports longer reads) |
+| Twitter/X | 1–3 sentences or a thread                                  |
+| Threads   | 150–250 words                                              |
 
 ---
 
@@ -358,7 +358,7 @@ Before publishing any piece of brand content — a post, a graphic, a page, a ca
 
 **Visual:**
 
-- [ ] Background is `#0f1012` or `#1a1d21` (not a custom dark color)
+- [ ] Background is `#191a1b` or `#1a1d21` (not a custom dark color)
 
 - [ ] Orange (`#ff8c00`) appears on one element only per frame/section
 
@@ -396,23 +396,23 @@ Before publishing any piece of brand content — a post, a graphic, a page, a ca
 
 This section documents the reasoning behind key design decisions made during the philipz.fit build. Reference this when making future decisions to ensure consistency.
 
-| Decision | Rationale |
-| --- | --- |
-| Dark-first theme | The ICP works late, thinks in dark-mode IDEs, and associates dark interfaces with seriousness and craft. A light-first design would feel like a consumer wellness app — wrong positioning. |
-| Barlow Condensed for headlines | Condensed type at heavy weight communicates strength and directness without being aggressive. It also allows large type at smaller widths, which is critical for mobile. |
-| 2px border-radius on buttons | Rounds the corner just enough to prevent a harsh right angle, but keeps the button feeling precise and engineered rather than soft and consumer-friendly. |
-| Section labels as code comments | `// about.me` and `// pipeline.yml` immediately signal to the ICP that this is their world. It is a micro-moment of recognition that builds trust before the copy even lands. |
-| Terminal card pattern | Wrapping content in a terminal window frame is the visual equivalent of speaking the ICP's language. It says: this is built by someone who understands how you think. |
-| Orange at 6% opacity for glow effects | Enough to add warmth and depth to the dark background without competing with the primary orange accent. The glow is felt, not seen. |
-| Asymmetric hero layout | Left-aligned headline with gym background bleeding right communicates forward momentum and confidence. A centered hero would feel generic and passive. |
-| Diagonal section cuts | Straight horizontal dividers between sections feel static. The diagonal cut creates a sense of motion — the page is going somewhere. |
-| Warm white (`#f0ede8`) instead of pure white | Pure white against near-black creates harsh contrast that fatigues the eye. The warm cast of `#f0ede8` is more comfortable for long reading sessions and feels more human. |
-| Three-level card depth | Using background color alone (no shadows) to create depth keeps the interface feeling clean and engineered. Shadows can feel decorative; color contrast feels structural. |
-| Git log for the About section | The ICP reads git logs. Presenting Philip's personal history as a git commit stream is the single most on-brand design decision on the site — it reframes a personal story as a version history, which is both clever and deeply resonant. |
-| Inclusive "we" in hero copy | The hero subheadline uses "we keep putting off" instead of "they keep putting off" — Philip includes himself in the struggle, which builds immediate trust and signals that this is a peer relationship, not a coach-client hierarchy. |
-| "System principals" over "systems thinking" | "Principals" is a stronger, more precise word that resonates with senior engineers who think in terms of architectural principles. It elevates the promise from a soft methodology to a rigorous framework. |
-| "My fellow engineers" in About copy | "My fellow" signals camaraderie and shared identity. Philip is not positioning himself above his clients — he is one of them, just further along the same path. |
-| 42 Reddit threads easter egg | The "Who This Is For" section references 42 Reddit threads — a deliberate Hitchhiker's Guide to the Galaxy reference. The ICP will catch it. It is a small signal that says: this person is one of us. |
-| "Since high school" anchor in About copy | Using "since high school" instead of a specific age creates a more universal emotional anchor — most people have a clear memory of their high school body as a baseline, regardless of their current age. |
-| "Help me debug" as primary CTA | Replacing "Book a Call" with "Help me debug" lowers the perceived commitment of the action. It frames the contact as a diagnostic request rather than a sales interaction, which is more aligned with how the analytical ICP prefers to initiate relationships. |
+| Decision                                     | Rationale                                                                                                                                                                                                                                                       |
+|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Dark-first theme                             | The ICP works late, thinks in dark-mode IDEs, and associates dark interfaces with seriousness and craft. A light-first design would feel like a consumer wellness app — wrong positioning.                                                                      |
+| Barlow Condensed for headlines               | Condensed type at heavy weight communicates strength and directness without being aggressive. It also allows large type at smaller widths, which is critical for mobile.                                                                                        |
+| 2px border-radius on buttons                 | Rounds the corner just enough to prevent a harsh right angle, but keeps the button feeling precise and engineered rather than soft and consumer-friendly.                                                                                                       |
+| Section labels as code comments              | `// about.me` and `// pipeline.yml` immediately signal to the ICP that this is their world. It is a micro-moment of recognition that builds trust before the copy even lands.                                                                                   |
+| Terminal card pattern                        | Wrapping content in a terminal window frame is the visual equivalent of speaking the ICP's language. It says: this is built by someone who understands how you think.                                                                                           |
+| Orange at 6% opacity for glow effects        | Enough to add warmth and depth to the dark background without competing with the primary orange accent. The glow is felt, not seen.                                                                                                                             |
+| Asymmetric hero layout                       | Left-aligned headline with gym background bleeding right communicates forward momentum and confidence. A centered hero would feel generic and passive.                                                                                                          |
+| Diagonal section cuts                        | Straight horizontal dividers between sections feel static. The diagonal cut creates a sense of motion — the page is going somewhere.                                                                                                                            |
+| Warm white (`#f0ede8`) instead of pure white | Pure white against near-black creates harsh contrast that fatigues the eye. The warm cast of `#f0ede8` is more comfortable for long reading sessions and feels more human.                                                                                      |
+| Three-level card depth                       | Using background color alone (no shadows) to create depth keeps the interface feeling clean and engineered. Shadows can feel decorative; color contrast feels structural.                                                                                       |
+| Git log for the About section                | The ICP reads git logs. Presenting Philip's personal history as a git commit stream is the single most on-brand design decision on the site — it reframes a personal story as a version history, which is both clever and deeply resonant.                      |
+| Inclusive "we" in hero copy                  | The hero subheadline uses "we keep putting off" instead of "they keep putting off" — Philip includes himself in the struggle, which builds immediate trust and signals that this is a peer relationship, not a coach-client hierarchy.                          |
+| "System principals" over "systems thinking"  | "Principals" is a stronger, more precise word that resonates with senior engineers who think in terms of architectural principles. It elevates the promise from a soft methodology to a rigorous framework.                                                     |
+| "My fellow engineers" in About copy          | "My fellow" signals camaraderie and shared identity. Philip is not positioning himself above his clients — he is one of them, just further along the same path.                                                                                                 |
+| 42 Reddit threads easter egg                 | The "Who This Is For" section references 42 Reddit threads — a deliberate Hitchhiker's Guide to the Galaxy reference. The ICP will catch it. It is a small signal that says: this person is one of us.                                                          |
+| "Since high school" anchor in About copy     | Using "since high school" instead of a specific age creates a more universal emotional anchor — most people have a clear memory of their high school body as a baseline, regardless of their current age.                                                       |
+| "Help me debug" as primary CTA               | Replacing "Book a Call" with "Help me debug" lowers the perceived commitment of the action. It frames the contact as a diagnostic request rather than a sales interaction, which is more aligned with how the analytical ICP prefers to initiate relationships. |
 
