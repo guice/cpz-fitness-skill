@@ -28,10 +28,10 @@ For specific tasks, install and use the purpose-built skill. Each one loads only
 
 | Task | Use This Skill |
 | :--- | :--- |
-| Writing copy, reviewing voice, calibrating tone | **brand-voice** |
-| Image generation prompts, graphic specs, carousel visuals | **brand-design** |
-| Skool classroom lessons, community posts, course strategy | **skool** |
-| Brainstorming post angles, content calendars, trend translation | **content-research** |
-| Instagram carousel production (slides + copy + image prompts) | **content-carousels** |
-| Reel and TikTok scripts, short-form video | **content-reels** |
-| Blog posts, newsletters, long-form LinkedIn articles | **content-longform** |
+| Writing copy, reviewing voice, calibrating tone | **cpz-voice** |
+| Image generation prompts, graphic specs, carousel visuals | **cpz-design** |
+| Skool classroom lessons, community posts, course strategy | **cpz-skool** |
+| Brainstorming post angles, content calendars, trend translation | **cpz-research** |
+| Instagram carousel production (slides + copy + image prompts) | **cpz-carousels** |
+| Reel and TikTok scripts, short-form video | **cpz-reels** |
+| Blog posts, newsletters, long-form LinkedIn articles | **cpz-longform** |

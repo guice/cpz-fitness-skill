@@ -1,5 +1,5 @@
 ---
-name: content-research
+name: cpz-research
 description: CPZ Fitness content brainstorming and angle development. Use for generating post angles, planning content calendars, translating trending topics into brand-aligned ideas, and mapping ideas to the 4 content pillars.
 ---
 

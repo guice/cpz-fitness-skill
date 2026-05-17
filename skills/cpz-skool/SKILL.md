@@ -1,5 +1,5 @@
 ---
-name: skool
+name: cpz-skool
 description: CPZ Fitness Skool community and classroom content. Use for writing Skool classroom lessons, community category posts, course structure, upsell CTAs, and Skool platform strategy.
 ---
 
@@ -14,7 +14,7 @@ description: CPZ Fitness Skool community and classroom content. Use for writing 
 | **Upsell CTA** | https://lnk.philipz.fit/free-system-audit |
 | **Voice Archetype** | The "Sarcastic Sage" |
 
-> Always load `brand-voice/references/brand.md` (or use the brand-voice skill) before writing any lesson or community content.
+> Always load `cpz-voice/references/brand.md` (or use the cpz-voice skill) before writing any lesson or community content.
 
 ## Reference Files
 
