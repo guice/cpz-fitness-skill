@@ -116,15 +116,15 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 
 ## Vocabulary Guide
 
-| Use These | Avoid These |
-| :--- | :--- |
-| Systems / Optimization / Debugging | Crush it / Beast mode / Grind |
-| Inputs / Outputs / Metrics | Shredded / Ripped / Swole |
-| Refactoring / Upgrading | Bro / Boss / Chief |
-| Skinny-fat / Desk-bound | Excessive emojis (🚀🔥💯) |
-| Fuckarounditis | "No-BS" (prefer: straightforward, practical, cutting through the noise) |
-| Checkpoint / Level Up / XP (sparingly) | "LET'S GOOO" / "beast mode" / hype filler |
-| Lean gain / Slow gain | Cookie-cutter / Generic |
+| Use These                              | Avoid These                                                             |
+|:---------------------------------------|:------------------------------------------------------------------------|
+| Systems / Optimization / Debugging     | Crush it / Beast mode / Grind                                           |
+| Inputs / Outputs / Metrics             | Shredded / Ripped / Swole                                               |
+| Refactoring / Upgrading                | Bro / Boss / Chief                                                      |
+| Skinny-fat / Desk-bound                | Excessive emojis (🚀🔥💯)                                               |
+| Fuckarounditis                         | "No-BS" (prefer: straightforward, practical, cutting through the noise) |
+| Checkpoint / Level Up / XP (sparingly) | "LET'S GOOO" / "beast mode" / hype filler                               |
+| Lean gain / Slow gain                  | Cookie-cutter / Generic                                                 |
 
 **Avoid these specific patterns:**
 - "Genuinely" / "Honestly" (except in authentic, casual contexts — not as filler)
@@ -136,14 +136,14 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 
 ## Tone Quick-Reference
 
-| Scenario | Correct CPZ Voice |
-| :--- | :--- |
-| Missed a workout | "I see the couch gravity was particularly strong yesterday. That's fine. System reboot. Hit your scheduled session today." |
-| Overcomplicating nutrition | "You're trying to optimize the aerodynamics of a car that doesn't have an engine yet. Stop worrying about meal timing and just eat some protein." |
-| Celebrating a win | "Solid execution on the deadlifts today. The system is working. Enjoy the win, then let's look at next week's progression." |
-| Welcoming a new member | "Welcome to the group. You're here because you're tired of being the smartest guy in the room with the weakest deadlift. Let's fix that." |
+| Scenario                   | Correct CPZ Voice                                                                                                                                                                  |
+|:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Missed a workout           | "I see the couch gravity was particularly strong yesterday. That's fine. System reboot. Hit your scheduled session today."                                                         |
+| Overcomplicating nutrition | "You're trying to optimize the aerodynamics of a car that doesn't have an engine yet. Stop worrying about meal timing and just eat some protein."                                  |
+| Celebrating a win          | "Solid execution on the deadlifts today. The system is working. Enjoy the win, then let's look at next week's progression."                                                        |
+| Welcoming a new member     | "Welcome to the group. You're here because you're tired of being the smartest guy in the room with the weakest deadlift. Let's fix that."                                          |
 | Sharing a personal failure | "I ran a 5-day bro split for two years. Chest/tri, back/bi, the whole thing. And I had almost nothing to show for it — because my routine/diet sucked. That's when I found SL5x5." |
-| Correcting a common myth | "The idea that you need to eat every 2–3 hours to 'keep your metabolism going' is not just unnecessary — it's not how metabolism works. Here's what's actually happening..." |
+| Correcting a common myth   | "The idea that you need to eat every 2–3 hours to 'keep your metabolism going' is not just unnecessary — it's not how metabolism works. Here's what's actually happening..."       |
 
 ---
 

@@ -45,7 +45,7 @@ The color system is built around three primary values that define the "Spartan E
 
 | Role | Name | Hex | Usage |
 | --- | --- | --- | --- |
-| **Background** | Deep Dark | `#0f1012` | Page background, hero sections, full-bleed dark areas |
+| **Background** | Coco's Black | `#191a1b` | Page background, hero sections, full-bleed dark areas |
 | **Surface** | Dark Surface | `#1a1d21` | Cards, terminal windows, elevated containers |
 | **Card** | Card Surface | `#22262b` | Secondary cards, nested containers |
 | **Accent / CTA** | CPZ Orange | `#ff8c00` | Primary buttons, highlights, section labels, active states |
@@ -59,7 +59,7 @@ The color system is built around three primary values that define the "Spartan E
 
 **Orange is earned, not decorative.** Use `#ff8c00` only on elements that demand attention: CTAs, active states, section labels, and key data points. Overusing orange dilutes its impact. On the website, it appears on the primary button, the section label lines, stat numbers, and pipeline card hover accents — nothing else.
 
-**Backgrounds layer in three steps.** The darkest value (`#0f1012`) is the page foundation. The surface (`#1a1d21`) lifts content one level. The card (`#22262b`) creates a third level for nested elements. Never skip levels — the depth creates visual hierarchy without borders.
+**Backgrounds layer in three steps.** The darkest value (`#191a1b`) is the page foundation. The surface (`#1a1d21`) lifts content one level. The card (`#22262b`) creates a third level for nested elements. Never skip levels — the depth creates visual hierarchy without borders.
 
 **Warm white, not pure white.** `#f0ede8` has a slight warm cast that prevents eye strain against the dark background and feels more human than `#ffffff`. Pure white should never appear as body text in this system.
 
@@ -67,7 +67,7 @@ The color system is built around three primary values that define the "Spartan E
 
 ### 2.3 Social Media Color Application
 
-For social media posts and carousels, the same three-level depth system applies. The background of any graphic should be `#0f1012` or `#1a1d21`. Orange is reserved for the single most important element on the frame — a headline word, a stat, a CTA label. Muted text (`#8a8f96`) handles supporting copy. Terminal green (`#4ade80`) can appear in code-metaphor posts but should not be used as a general accent.
+For social media posts and carousels, the same three-level depth system applies. The background of any graphic should be `#191a1b` or `#1a1d21`. Orange is reserved for the single most important element on the frame — a headline word, a stat, a CTA label. Muted text (`#8a8f96`) handles supporting copy. Terminal green (`#4ade80`) can appear in code-metaphor posts but should not be used as a general accent.
 
 ---
 
@@ -185,7 +185,7 @@ Two button variants exist in the system. No additional variants should be introd
 
 **Primary Button (****`btn-primary`****):**
 
-- Background: `#ff8c00` | Text: `#0f1012` | Border: 2px solid `#ff8c00`
+- Background: `#ff8c00` | Text: `#191a1b` | Border: 2px solid `#ff8c00`
 
 - Font: Barlow Condensed 700, uppercase, 1rem, 0.05em tracking
 
@@ -295,7 +295,7 @@ Social media graphics should feel like they were exported from the website — n
 
 **Single-image post structure:**
 
-- Background: `#0f1012` or `#1a1d21`
+- Background: `#191a1b` or `#1a1d21`
 
 - Headline: Barlow Condensed 800+, uppercase, `#f0ede8` or `#ff8c00` for the key word
 
@@ -358,7 +358,7 @@ Before publishing any piece of brand content — a post, a graphic, a page, a ca
 
 **Visual:**
 
-- [ ] Background is `#0f1012` or `#1a1d21` (not a custom dark color)
+- [ ] Background is `#191a1b` or `#1a1d21` (not a custom dark color)
 
 - [ ] Orange (`#ff8c00`) appears on one element only per frame/section
 

@@ -1,20 +1,20 @@
 # CPZ Fitness: Ideal Client Profile
 
-## Who He Is
+## Who He Is?
 
 The target client is a male tech professional — software engineer, developer, or IT specialist — in his 30s to 40s. He has spent 25+ years optimizing systems, code, and workflows, but has somehow never applied that same analytical rigor to his own body.
 
 ## Psychographic Profile
 
-| Dimension | Description |
-| :--- | :--- |
-| Self-image | "Skinny-fat" — not obese, but soft midsection and low muscle mass |
-| Core desire | To feel confident, strong, and respected |
-| Intellectual identity | Sees himself as the smartest guy in the room |
-| Blind spot | Cannot figure out why the fitness "system" doesn't work for him |
-| Behavioral pattern | Procrastinates, over-researches, under-executes |
-| Gym behavior | Intimidated by "gym bros," suffers from "fuckarounditis" and overstimulation when he does go |
-| Nutrition knowledge | Confused by macros, meal planning, and conflicting advice online |
+| Dimension             | Description                                                                                  |
+|:----------------------|:---------------------------------------------------------------------------------------------|
+| Self-image            | "Skinny-fat" — not obese, but soft midsection and low muscle mass                            |
+| Core desire           | To feel confident, strong, and respected                                                     |
+| Intellectual identity | Sees himself as the smartest guy in the room                                                 |
+| Blind spot            | Cannot figure out why the fitness "system" doesn't work for him                              |
+| Behavioral pattern    | Procrastinates, over-researches, under-executes                                              |
+| Gym behavior          | Intimidated by "gym bros," suffers from "fuckarounditis" and overstimulation when he does go |
+| Nutrition knowledge   | Confused by macros, meal planning, and conflicting advice online                             |
 
 ## Pain Points
 
