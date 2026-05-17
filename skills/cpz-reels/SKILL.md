@@ -1,5 +1,5 @@
 ---
-name: content-reels
+name: cpz-reels
 description: CPZ Fitness Reel and TikTok script writing. Use for short-form video scripts across all durations (15s, 30s, 60s, 90s), converting carousels to video format, and generating hook variants for spoken delivery.
 ---
 
@@ -21,7 +21,7 @@ description: CPZ Fitness Reel and TikTok script writing. Use for short-form vide
 | :--- | :--- |
 | `references/reel-formats.md` | Always — beat-by-beat script templates, hook patterns, pacing notes, B-roll suggestions |
 
-> Also reference `brand-voice/references/brand.md` (or use the brand-voice skill) to ensure Philip's written voice translates correctly into spoken delivery.
+> Also reference `cpz-voice/references/brand.md` (or use the cpz-voice skill) to ensure Philip's written voice translates correctly into spoken delivery.
 
 ---
 

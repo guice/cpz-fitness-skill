@@ -1,5 +1,5 @@
 ---
-name: content-carousels
+name: cpz-carousels
 description: "CPZ Fitness Instagram carousel production. Use for end-to-end carousel creation: slide structure, per-slide copy, image generation prompts, and platform captions. The primary content format for this brand."
 ---
 

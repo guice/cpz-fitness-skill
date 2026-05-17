@@ -1,5 +1,5 @@
 ---
-name: brand-voice
+name: cpz-voice
 description: CPZ Fitness brand voice, tone, and ICA reference. Use for any copy writing, voice review, tone calibration, caption writing, or messaging work. Always load before writing any content.
 ---
 
@@ -49,8 +49,8 @@ Before finalizing any content:
 
 ## When to Add Other Skills
 
-- Building visuals or image prompts → also use **brand-design**
-- Writing Skool lessons or community posts → also use **skool**
-- Building a full carousel → use **content-carousels** (includes brand voice context)
-- Writing a Reel script → use **content-reels**
-- Long-form blog/newsletter/lesson → use **content-longform**
+- Building visuals or image prompts → also use **cpz-design**
+- Writing Skool lessons or community posts → also use **cpz-skool**
+- Building a full carousel → use **cpz-carousels** (includes brand voice context)
+- Writing a Reel script → use **cpz-reels**
+- Long-form blog/newsletter/lesson → use **cpz-longform**

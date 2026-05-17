@@ -1,5 +1,5 @@
 ---
-name: content-longform
+name: cpz-longform
 description: CPZ Fitness long-form content writing. Use for blog posts, newsletters, LinkedIn articles, and full-length Skool classroom lessons. Loads brand voice and platform context.
 ---
 

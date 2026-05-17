@@ -1,6 +1,6 @@
 ---
-name: brand-design
-description: CPZ Fitness visual design system. Use for image generation prompts, carousel graphic specs, social media graphic design, Canva specs, or any visual output. Load alongside brand-voice for content that needs both.
+name: cpz-design
+description: CPZ Fitness visual design system. Use for image generation prompts, carousel graphic specs, social media graphic design, Canva specs, or any visual output. Load alongside cpz-voice for content that needs both.
 ---
 
 # CPZ Fitness — Brand Design Skill
