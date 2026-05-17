@@ -1,0 +1,98 @@
+{
+  "name": "cpz-fitness-skill",
+  "description": "CPZ Fitness / Geek 2 Greek skill marketplace",
+  "owner": {
+    "name": "Philip Z",
+    "email": "gp@gpcentre.net"
+  },
+  "plugins": [
+    {
+      "name": "cpz-fitness",
+      "description": "CPZ Fitness base skill — brand constants and routing guide to focused skill packages",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/guice/cpz-fitness-skill.git",
+        "path": "skills/cpz-fitness"
+      },
+      "homepage": "https://github.com/guice/cpz-fitness-skill"
+    },
+    {
+      "name": "cpz-voice",
+      "description": "CPZ Fitness brand voice, tone, and ICA reference. Use for any copy writing, voice review, or tone calibration.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/guice/cpz-fitness-skill.git",
+        "path": "skills/cpz-voice"
+      },
+      "homepage": "https://github.com/guice/cpz-fitness-skill"
+    },
+    {
+      "name": "cpz-design",
+      "description": "CPZ Fitness visual design system. Use for image generation prompts, carousel graphic specs, and social media visuals.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/guice/cpz-fitness-skill.git",
+        "path": "skills/cpz-design"
+      },
+      "homepage": "https://github.com/guice/cpz-fitness-skill"
+    },
+    {
+      "name": "cpz-skool",
+      "description": "CPZ Fitness Skool community and classroom content. Use for writing lessons, community posts, and course strategy.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/guice/cpz-fitness-skill.git",
+        "path": "skills/cpz-skool"
+      },
+      "homepage": "https://github.com/guice/cpz-fitness-skill"
+    },
+    {
+      "name": "cpz-research",
+      "description": "CPZ Fitness content brainstorming and angle development. Use for post angles, content calendars, and pillar mapping.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/guice/cpz-fitness-skill.git",
+        "path": "skills/cpz-research"
+      },
+      "homepage": "https://github.com/guice/cpz-fitness-skill"
+    },
+    {
+      "name": "cpz-carousels",
+      "description": "CPZ Fitness Instagram carousel production — slide structure, per-slide copy, image generation prompts, and captions.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/guice/cpz-fitness-skill.git",
+        "path": "skills/cpz-carousels"
+      },
+      "homepage": "https://github.com/guice/cpz-fitness-skill"
+    },
+    {
+      "name": "cpz-reels",
+      "description": "CPZ Fitness Reel and TikTok script writing — all durations (15s, 30s, 60s, 90s), hook variants, and spoken delivery notes.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/guice/cpz-fitness-skill.git",
+        "path": "skills/cpz-reels"
+      },
+      "homepage": "https://github.com/guice/cpz-fitness-skill"
+    },
+    {
+      "name": "cpz-longform",
+      "description": "CPZ Fitness long-form content — blog posts, newsletters, LinkedIn articles, and full-length Skool classroom lessons.",
+      "category": "productivity",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/guice/cpz-fitness-skill.git",
+        "path": "skills/cpz-longform"
+      },
+      "homepage": "https://github.com/guice/cpz-fitness-skill"
+    }
+  ]
+}
