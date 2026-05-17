@@ -15,7 +15,7 @@
 | Community Name | Geek 2 Greek Starter Zone |
 | Website | https://www.philipz.fit |
 | Social Handle | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky) |
-| Skool Community | [lnk.philipz.fit/skool-community](https://lnk.philipz.fit/skool) |
+| Skool Community | https://lnk.philipz.fit/skool |
 
 ### 1.2 Core Positioning
 
@@ -24,7 +24,7 @@ The brand occupies a precise niche: **fitness coaching for analytical, desk-boun
 | Element | Statement |
 | --- | --- |
 | **Tagline** | "From desk-bound to damn-strong." |
-| **Core Promise** | "Build the body that matches the brain." |
+| **Core Promise** | "Build the body that matches the mind." |
 | **Brand Metaphor** | Geek physique → Greek God physique (transformation of body, mind, *and* confidence) |
 | **Voice Archetype** | The "Sarcastic Sage" — dry humor + analytical framing + empathy + direct guidance |
 | **Primary CTA** | "Help me debug" (replaces all "Book a Call" / "Strategy Call" language) |
