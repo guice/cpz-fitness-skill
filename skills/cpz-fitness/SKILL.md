@@ -17,7 +17,7 @@ description: CPZ Fitness base skill and routing guide. Provides quick-reference 
 | **Primary Color** | #ff8c00 (CPZ Orange) |
 | **Logo** | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent) |
 | **Voice Archetype** | The "Sarcastic Sage" — dry humor + analytical framing + empathy + direct guidance |
-| **Core Promise** | "Build the body that matches the brain." |
+| **Core Promise** | "Build the body that matches the mind." |
 | **Tagline** | "From desk-bound to damn-strong." |
 | **Booking CTA** | https://im.philipz.fit/free-debug-session |
 
