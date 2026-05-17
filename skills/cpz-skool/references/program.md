@@ -86,6 +86,7 @@ In 16 weeks: eliminate chronic desk-related pain → build visible muscle in che
 | System Upgrade | The overall transformation; replacing old defaults with new ones |
 | Load Balancing | Managing stress between work and training without burning out either system |
 | Fuckarounditis | Chronic over-optimization of peripheral details while avoiding the core work |
+| Graceful Degradation Protocol | Week 6 strategy for maintaining nutrition adherence during high-stress sprint weeks or on-call rotations — minimum viable inputs that prevent full regression |
 
 ---
 

@@ -12,7 +12,7 @@
 | Social Media     | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky)                           |
 | Logo File        | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)                  |
 | Primary Color    | #ff8c00 (orange)                                                                       |
-| Background Color | #3c3f42 (slate grey)                                                                   |
+| Background Color | #191a1b (Coco's Black)                                                                 |
 | Tagline          | "From desk-bound to damn-strong."                                                      |
 | Core Promise     | "Build the body that matches the mind."                                                |
 | Brand Metaphor   | Geek/Nerd physique → Greek God physique (transformation of body, mind, AND confidence) |
