@@ -12,7 +12,8 @@ description: CPZ Fitness long-form content writing. Use for blog posts, newslett
 | **Website** | https://www.philipz.fit |
 | **Skool Community** | https://lnk.philipz.fit/skool |
 | **Handle** | @philipz.fit |
-| **Booking CTA** | https://im.philipz.fit/free-debug-session |
+| **Booking CTA** | https://lnk.philipz.fit/free-system-audit |
+| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit |
 | **Voice Archetype** | The "Sarcastic Sage" |
 
 ## Reference Files

@@ -15,9 +15,10 @@ description: CPZ Fitness brand voice, tone, and ICA reference. Use for any copy 
 | **Website** | https://www.philipz.fit |
 | **Skool Community** | Geek 2 Greek Starter Zone — https://lnk.philipz.fit/skool |
 | **Tagline** | "From desk-bound to damn-strong." |
-| **Core Promise** | "Build the body that matches the brain." |
+| **Core Promise** | "Build the body that matches the mind." |
 | **Voice Archetype** | The "Sarcastic Sage" |
-| **Booking CTA** | https://im.philipz.fit/free-debug-session |
+| **Booking CTA** | https://lnk.philipz.fit/free-system-audit |
+| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit |
 
 ## Reference Files
 

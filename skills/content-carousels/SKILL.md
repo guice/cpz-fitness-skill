@@ -1,6 +1,6 @@
 ---
 name: content-carousels
-description: CPZ Fitness Instagram carousel production. Use for end-to-end carousel creation: slide structure, per-slide copy, image generation prompts, and platform captions. The primary content format for this brand.
+description: "CPZ Fitness Instagram carousel production. Use for end-to-end carousel creation: slide structure, per-slide copy, image generation prompts, and platform captions. The primary content format for this brand."
 ---
 
 # CPZ Fitness — Content Carousels Skill
@@ -10,8 +10,8 @@ description: CPZ Fitness Instagram carousel production. Use for end-to-end carou
 | Field | Value |
 | :--- | :--- |
 | **Handle** | @philipz.fit |
-| **Booking CTA** | https://im.philipz.fit/free-debug-session |
-| **Free System Audit CTA** | https://lnk.philipz.fit/free-system-audit |
+| **Booking CTA** | https://lnk.philipz.fit/free-system-audit |
+| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit |
 | **Tagline** | "From desk-bound to damn-strong." |
 
 ## Reference Files
@@ -43,7 +43,8 @@ Load `references/carousel-structure.md` for full slide-by-slide blueprints.
 | "Drop your biggest gym obstacle in the comments." | Consistency/habit carousels |
 | "Save this for your next training day." | Workout carousels |
 | "Follow @philipz.fit for more system-level fitness." | Data/myth posts |
-| "Book a Free System Audit → link in bio" | Any carousel driving conversions |
+| "Free System Audit → link in bio" (`lnk.philipz.fit/free-system-audit`) | Any carousel driving coaching inquiries |
+| "Download the free PDF → link in bio" (`lnk.philipz.fit/pdf-system-audit`) | Lead magnet / PDF download carousels |
 
 ---
 
@@ -73,6 +74,39 @@ Work through these steps in order for every carousel:
 5. **Copy** — Write per-slide copy following the visual hierarchy from `carousel-structure.md`
 6. **Image prompts** — One image generation prompt per slide using the framework above
 7. **Caption** — Write the full caption using the platform caption structure from `carousel-structure.md`
+
+---
+
+## PNG Export Pipeline
+
+After carousel copy and HTML are reviewed and approved, use the scripts in `scripts/` to render final PNGs.
+
+**Requirements (one-time setup):**
+```bash
+pip install playwright
+playwright install chromium
+```
+
+**Step 1 — Write content** in `scripts/carousels/round_N.py` using the Python dict structure (ask Claude to generate this)
+
+**Step 2 — Generate HTML:**
+```bash
+cd scripts/
+python generate.py                              # all carousels
+python generate.py --round round_2              # one round only
+python generate.py --carousel c07_workday_boundary  # one carousel by ID
+```
+Open the HTML files in a browser to review before exporting.
+
+**Step 3 — Export PNGs (after approval):**
+```bash
+python export.py                                # all carousels
+python export.py --carousel c07_workday_boundary  # one carousel by ID
+```
+PNGs are written to `scripts/output/<carousel_id>/slide_1.png`, `slide_2.png`, etc.
+Output resolution: ~1080×1350px.
+
+**Adding a new carousel:** Add a new key to the appropriate `carousels/round_N.py` file. See `scripts/README.md` for the full content dict structure.
 
 ---
 

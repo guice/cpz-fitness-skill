@@ -11,7 +11,7 @@ description: CPZ Fitness Skool community and classroom content. Use for writing 
 | :--- | :--- |
 | **Community Name** | Geek 2 Greek Starter Zone |
 | **Skool URL** | https://lnk.philipz.fit/skool |
-| **Upsell CTA** | https://im.philipz.fit/free-debug-session |
+| **Upsell CTA** | https://lnk.philipz.fit/free-system-audit |
 | **Voice Archetype** | The "Sarcastic Sage" |
 
 > Always load `brand-voice/references/brand.md` (or use the brand-voice skill) before writing any lesson or community content.
@@ -76,6 +76,6 @@ Load `references/platform.md` for the full lesson-by-lesson status and module su
 ## Upsell CTAs
 
 All upsell lessons (Course 1 Module 4, Course 2 Module 4, Course 3 Module 6) drive to:
-**https://im.philipz.fit/free-debug-session**
+**https://lnk.philipz.fit/free-system-audit**
 
-Use "Free Debug Session" as the CTA label — never "Book a Call" or "Schedule Now."
+Use "Free System Audit" as the CTA label — never "Book a Call" or "Schedule Now."

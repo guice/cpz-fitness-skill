@@ -12,7 +12,8 @@ description: CPZ Fitness Reel and TikTok script writing. Use for short-form vide
 | **Handle** | @philipz.fit |
 | **Tagline** | "From desk-bound to damn-strong." |
 | **Voice Archetype** | The "Sarcastic Sage" |
-| **Booking CTA** | https://im.philipz.fit/free-debug-session |
+| **Booking CTA** | https://lnk.philipz.fit/free-system-audit |
+| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit |
 
 ## Reference File
 

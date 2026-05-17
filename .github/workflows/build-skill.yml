@@ -35,7 +35,7 @@ jobs:
 
       - name: Set version
         id: version
-        run: echo "tag=v$(date +'%Y%m%d%H%M%S')" >> "$GITHUB_OUTPUT"
+        run: echo "tag=v$(date +'%Y%m%d')-$(echo ${{ github.sha }} | cut -c1-7)" >> "$GITHUB_OUTPUT"
 
       - name: Build ${{ matrix.skill }}.skill
         run: |

@@ -9,10 +9,10 @@
 | **Program Name** | Geek 2 Greek Transformation |
 | **Investment** | $1,500 |
 | **Target Client** | Remote/hybrid male software engineers, developers, and IT specialists in their 30s–40s |
-| **Core Promise** | "Build the body that matches the brain" |
+| **Core Promise** | "Build the body that matches the mind." |
 | **Time Commitment** | 30-45 minutes, 3–4x per week |
 | **Delivery** | 1:1 coaching via Everfit |
-| **Discovery CTA** | [Free Debug Session](https://im.philipz.fit/free-debug-session) |
+| **Discovery CTA** | [Free System Audit](https://lnk.philipz.fit/free-system-audit) |
 
 ### Unique Selling Proposition
 
@@ -98,4 +98,4 @@ When writing content referencing or promoting the 16-Week program:
 3. Position Philip's 25+ years as an engineer as the credibility bridge — he's not a fitness outsider lecturing tech workers
 4. The "Greek" in Geek 2 Greek refers to physique *and* confidence — don't reduce it to aesthetics alone
 5. Phase names ("System Audit," "Deployment Phase") can be used in content to reinforce brand metaphor
-6. CTA for program inquiries always links to: https://im.philipz.fit/free-debug-session
+6. CTA for program inquiries always links to: https://lnk.philipz.fit/free-system-audit
