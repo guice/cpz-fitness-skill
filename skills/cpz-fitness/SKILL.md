@@ -111,21 +111,28 @@ Speak to him as a peer, not a trainer. Use systems and engineering analogies. Ac
 | Role             | Name           | Hex                   |
 |:-----------------|:---------------|:----------------------|
 | Background       | Coco’s Black   | `#191a1b`             |
-| Surface          | Dark Surface   | `#1a1d21`             |
-| Card             | Card Surface   | `#22262b`             |
+| Surface          | Dark Surface   | `#22262b`             |
+| Card             | Card Surface   | `#3c3f42`             |
 | **Accent / CTA** | **CPZ Orange** | **`#ff8c00`**         |
 | Text Primary     | Warm White     | `#f0ede8`             |
 | Text Muted       | Slate Muted    | `#8a8f96`             |
 | Code / Status    | Terminal Green | `#4ade80`             |
 | Border           | Orange Border  | `rgba(255,130,0,0.2)` |
 
+**Color usage rules:**
+- Background is always `#191a1b` or `#1a1d21` for dark/digital outputs
+- Warm Linen `#f2f0eb` is used for carousel light-mode backgrounds and print/PDF documents
+- Orange appears on **one focal element per frame** — never scattered
+
 ---
 
 ## Typography
 
-- **Barlow Condensed** — Headlines, CTAs, stats
-- **Space Grotesk** — Body copy
-- **JetBrains Mono** — Code, labels, data
+- **Barlow Condensed** — all display/headlines, UPPERCASE, 700–900 weight
+- **Space Grotesk** — body copy (web, print, email, slides)
+- **Open Sans** — social media graphic body text only (carousels)
+- **JetBrains Mono** — code, labels, data, section identifiers
+- **League Spartan** — logo wordmark only (not general use)
 
 > Full type specs (weights, usage rules, design application): `cpz-design/SKILL.md`
 
