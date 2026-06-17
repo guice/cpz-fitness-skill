@@ -74,7 +74,7 @@ Work through these steps in order for every carousel:
 2. **Type** — Which carousel type matches the content?
 3. **Slide count → Copy → Visual direction** — Run the **carousel-creator** skill. Pass the carousel type as tone context and supply the CPZ brand voice. See Skill Integration below for arc mapping and overrides.
 4. **Image prompts** — One image generation prompt per slide using the framework above. CPZ design specs from `references/html-rendering-spec.md` override carousel-creator's generic DESIGN SPECS block.
-5. **Captions** — Run the **caption-writer** skill for all 5 platforms: TikTok, Facebook, Instagram, Threads, BlueSky. Deliver as a single multi-platform block. Goal and flavor are driven by carousel type — see Skill Integration below.
+5. **Captions** — Run the **caption-writer** skill for all 6 platforms: TikTok, Facebook, Instagram, Threads, BlueSky, LinkedIn. Deliver as a single multi-platform block. Goal and flavor are driven by carousel type — see Skill Integration below.
 
 ---
 
@@ -100,7 +100,7 @@ Invoke carousel-creator for slide count, outline, per-slide copy, and visual dir
 
 ### caption-writer
 
-Invoke caption-writer for step 5. Generate captions for exactly these 5 platforms: **TikTok, Facebook, Instagram, Threads, BlueSky**.
+Invoke caption-writer for step 5. Generate captions for exactly these 6 platforms: **TikTok, Facebook, Instagram, Threads, BlueSky, LinkedIn**.
 
 **Default flavor by carousel type:**
 
@@ -115,7 +115,6 @@ Invoke caption-writer for step 5. Generate captions for exactly these 5 platform
 - Tone: Analytical with sarcasm on hooks — never motivational-poster voice
 - Platform specs from `references/carousel-structure.md` (Caption Structure by Platform table) override caption-writer defaults
 - BlueSky: hard 300-character limit — rewrite to fit, do not thread
-- No LinkedIn output
 
 ---
 

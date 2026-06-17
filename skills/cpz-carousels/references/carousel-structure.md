@@ -123,6 +123,7 @@ Choose one per carousel based on the content type and intended action:
 | Facebook  | 100–200 words | 1–2 context sentences → hook → carousel summary → question or CTA.             |
 | Threads   | 50–100 words  | Single punchy thought + CTA. Conversational, no hashtags.                       |
 | BlueSky   | ≤ 300 chars   | Clean and direct. Hook → insight → CTA. Must fit within 300 characters — rewrite if over, do not thread. |
+| LinkedIn  | 200–400 words | Professional framing → bridge to fitness → systems insight → CTA.              |
 
 **Caption rule:** First line must stand alone as a complete hook. Never start with "In this post..." or "Today I'm sharing..." Start with the point.
 
