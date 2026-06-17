@@ -18,10 +18,11 @@ description: "CPZ Fitness Instagram carousel production. Use for end-to-end caro
 
 ## Reference Files
 
-| File                               | Load When                                                               |
-|:-----------------------------------|:------------------------------------------------------------------------|
-| `references/carousel-structure.md` | Always — slide blueprints, design rules, CTA options, caption structure |
-| `references/design-guide.md`       | When writing image generation prompts or specifying visual design       |
+| File                                  | Load When                                                               |
+|:--------------------------------------|:------------------------------------------------------------------------|
+| `references/carousel-structure.md`    | Always — slide blueprints, design rules, CTA options, caption structure |
+| `references/design-guide.md`          | When writing image generation prompts or specifying visual design       |
+| `references/html-rendering-spec.md`   | When building HTML carousel slides — exact pixel specs, components, colors |
 
 ---
 
@@ -71,11 +72,49 @@ Work through these steps in order for every carousel:
 
 1. **Pillar** — Which of the 4 content pillars does this post belong to?
 2. **Type** — Which carousel type matches the content?
-3. **Slide count** — How many slides does the content need? (3–7 range)
-4. **Outline** — Assign a purpose to each slide before writing copy
-5. **Copy** — Write per-slide copy following the visual hierarchy from `carousel-structure.md`
-6. **Image prompts** — One image generation prompt per slide using the framework above
-7. **Caption** — Write the full caption using the platform caption structure from `carousel-structure.md`
+3. **Slide count → Copy → Visual direction** — Run the **carousel-creator** skill. Pass the carousel type as tone context and supply the CPZ brand voice. See Skill Integration below for arc mapping and overrides.
+4. **Image prompts** — One image generation prompt per slide using the framework above. CPZ design specs from `references/html-rendering-spec.md` override carousel-creator's generic DESIGN SPECS block.
+5. **Captions** — Run the **caption-writer** skill for all 6 platforms: TikTok, Facebook, Instagram, Threads, BlueSky, LinkedIn. Deliver as a single multi-platform block. Goal and flavor are driven by carousel type — see Skill Integration below.
+
+---
+
+## Skill Integration
+
+### carousel-creator
+
+Invoke carousel-creator for slide count, outline, per-slide copy, and visual direction.
+
+**CPZ overrides (these take precedence over carousel-creator defaults):**
+- Slide count: **3–7** (not 8–10)
+- Arc mapping by carousel type:
+
+| CPZ Type | carousel-creator Arc |
+|:---|:---|
+| Data / Myth Bust | HPASCTA |
+| Micro-Workout | LIST |
+| Nutrition / Protein | LIST or HPASCTA |
+| Consistency / Habit | HPASCTA or STORY |
+
+- Design specs come from `references/html-rendering-spec.md` — ignore carousel-creator's generic DESIGN SPECS output
+- Brand voice: Analytical with sarcasm on hooks. Orange on one word per slide. Max 30 words per internal slide.
+
+### caption-writer
+
+Invoke caption-writer for step 5. Generate captions for exactly these 6 platforms: **TikTok, Facebook, Instagram, Threads, BlueSky, LinkedIn**.
+
+**Default flavor by carousel type:**
+
+| CPZ Type | caption-writer Flavor |
+|:---|:---|
+| Data / Myth Bust | Value |
+| Micro-Workout | Straight-CTA |
+| Nutrition / Protein | Value |
+| Consistency / Habit | Story |
+
+**CPZ overrides:**
+- Tone: Analytical with sarcasm on hooks — never motivational-poster voice
+- Platform specs from `references/carousel-structure.md` (Caption Structure by Platform table) override caption-writer defaults
+- BlueSky: hard 300-character limit — rewrite to fit, do not thread
 
 ---
 
@@ -127,9 +166,15 @@ Carousels apply the 4 Voice Pillars in a specific visual rhythm:
 
 ## Quick Design Rules (Inline)
 
-- **Padding:** 48–64px on all sides — dark background needs breathing room
+- **Padding:** 64px on all sides — dark background needs breathing room
 - **Focal element:** One dominant element per slide. Never two competing focal points.
 - **Orange:** One element per slide maximum — a key word, a stat, or the section label
-- **Section label:** `— // slide.topic` in JetBrains Mono orange, top-left on body slides
-- **Logo watermark:** ZF mark at 24–32px, bottom-right, `#ff8c00` — on cover and CTA minimum
+- **Section label:** `— // slide.topic` in JetBrains Mono, top-left on body slides (orange on light, muted on dark)
+- **Logo badge:** ZF mark in dark circle + `@philipz.fit` handle, top-left — on cover and light slides
+- **Slide number watermark:** Oversized numeral (380px, Barlow 900) in top-right at ~4% opacity
+- **Light/dark alternation:** Slides alternate between `#191a1b` (dark) and `#f5f2ed` (light) for rhythm
+- **CTA slide:** Full orange gradient, centered layout, diagonal line texture, frosted glass card
+- **Headlines:** 104px minimum on body slides — text dominates the slide
 - **Text density:** Max 3–4 short lines of body copy per slide — split if more
+- **Info card:** Orange left-border card for explanations — `// LABEL` + body text
+- **Pill tags:** First pill orange-filled, rest outlined/muted — for muscle groups or key concepts
