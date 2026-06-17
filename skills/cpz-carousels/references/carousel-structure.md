@@ -116,11 +116,13 @@ Choose one per carousel based on the content type and intended action:
 
 ## Caption Structure by Platform
 
-| Platform  | Length        | Format                                                            |
-|:----------|:--------------|:------------------------------------------------------------------|
-| Instagram | 150–300 words | Hook line → diagnosis → fix → single CTA                          |
-| Facebook  | 100–200 words | 1–2 context sentences → hook → carousel summary → question or CTA |
-| LinkedIn  | 200–400 words | Professional framing → bridge to fitness → systems insight → CTA  |
+| Platform  | Length        | Format                                                                          |
+|:----------|:--------------|:--------------------------------------------------------------------------------|
+| Instagram | 150–300 words | Hook → diagnosis → fix → single CTA. Long-form, education-first.               |
+| TikTok    | 50–100 words  | Hook line → 1–2 punchy context lines → CTA. Short, informal, high energy.      |
+| Facebook  | 100–200 words | 1–2 context sentences → hook → carousel summary → question or CTA.             |
+| Threads   | 50–100 words  | Single punchy thought + CTA. Conversational, no hashtags.                       |
+| BlueSky   | ≤ 300 chars   | Clean and direct. Hook → insight → CTA. Must fit within 300 characters — rewrite if over, do not thread. |
 
 **Caption rule:** First line must stand alone as a complete hook. Never start with "In this post..." or "Today I'm sharing..." Start with the point.
 
