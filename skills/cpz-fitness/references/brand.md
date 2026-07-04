@@ -2,66 +2,67 @@
 
 ## Identity
 
-| Field            | Value                                                                                  |
-|:-----------------|:---------------------------------------------------------------------------------------|
-| Company Name     | CPZ Fitness                                                                            |
-| Program Brand    | Geek 2 Greek                                                                           |
-| Community Name   | Geek 2 Greek Starter Zone                                                              |
-| Skool URL        | https://lnk.philipz.fit/skool                                                          |
-| Website          | https://www.philipz.fit/                                                               |
-| Social Media     | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky)                           |
-| Logo File        | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)                  |
-| Primary Color    | #ff8c00 (orange)                                                                       |
-| Background Color | #191a1b (Coco's Black)                                                                 |
-| Tagline          | "From desk-bound to damn-strong."                                                      |
-| Core Promise     | "Build the body that matches the mind."                                                |
-| Brand Metaphor   | Geek/Nerd physique → Greek God physique (transformation of body, mind, AND confidence) |
+| Field            | Value                                                                  |
+|:-----------------|:-------------------------------------------------------------------------|
+| Company Name     | CPZ Fitness (no program/framework name)                                 |
+| Community Name   | ⚠️ NEEDS INPUT — "Geek 2 Greek Starter Zone" needs a new name. Placeholder: "CPZ Fitness Community" |
+| Skool URL        | https://lnk.philipz.fit/skool                                          |
+| Website          | https://www.philipz.fit/                                               |
+| Social Media     | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky)            |
+| Logo File        | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)  |
+| Primary Color    | #ff8c00 (orange)                                                       |
+| Background Color | #191a1b (Coco's Black)                                                 |
+| Tagline          | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." (replaces "From desk-bound to damn-strong.") |
+| Core Promise     | "I help gay men build muscle and lose fat."                            |
 
 ---
 
-## Brand Philosophy: The Greek Ideal
+## Brand Philosophy
 
-The Greek ideal was never purely aesthetic. Ancient Greek culture unified mind, body, and character under a single concept: *arete* — excellence of the whole person. The gymnasium (*gymnasion*) was literally the same space where philosophy and physical training happened together. Socrates, Plato, and Aristotle were all physically active.
+Philip is a gay man who spent years hiding, minimizing, and not fully
+occupying who he was — sexually and physically. He came out roughly a
+decade ago. The body work came later, and it followed the same pattern:
+avoidance, comparison, finally doing the work.
 
-The "Geek 2 Greek" transformation is built on this foundation. The target client already has the mind. The program adds the body. Together, that's the full Greek ideal — not a meathead aesthetic, but a complete, high-functioning human being operating at full capacity.
-
-This reframe is important for content: the transformation is **addition, not replacement**. The client doesn't leave the geek behind — he completes the package. The brain was never the problem. It's the foundation everything else is built on.
-
-This philosophy is why "Build the body your brain deserves" works as the core promise. The brain isn't incidental to the transformation — it's the reason for it.
+Publicly, CPZ Fitness is simple: a coach who helps gay men build muscle
+and lose fat, and who's actually lived the process himself. The deeper
+identity/confidence layer is real and present in how Philip coaches —
+it is not the headline. Nobody hires a coach to be "reclaimed" publicly;
+they hire a coach to get strong. The depth shows up in the relationship,
+not the ad copy.
 
 ---
 
 ## Brand Archetype: The "Sarcastic Sage"
 
-Philip is the experienced senior engineer who has already debugged the system of fitness — and made every mistake along the way himself. He doesn't coddle, but he doesn't leave clients behind either. He calls out bad logic and common excuses with dry humor, then immediately hands the client the exact blueprint to fix the problem.
+Philip is the guy who's already made every mistake in the book — and made most of them himself, long before he put a client through a program. He doesn't coddle, but he doesn't leave clients behind either. He calls out bad excuses and common mistakes with dry humor, then immediately hands the client the exact fix.
 
 The key: sarcasm always lands with empathy. The joke is never at the client's expense — it's at the *situation's* expense, often with Philip pointing at himself first.
 
 ---
 
-## The 4 Voice Pillars
+## The Voice Pillars
 
-**1. Sarcastic & Humorous (The Hook)**
-Use dry wit and mild roasting to call out common mistakes and excuses. This disarms the analytical audience and makes coaching feel like a peer conversation, not a lecture. Humor slips in naturally — it is never performed or forced. One-liners land best when they're unexpected and self-aware.
+**1. Direct & Confident (The Hook)**
+State things plainly. No hedging, no disclaimers, no "just my opinion."
 
-> Canonical example: *"I've spent years suffering from fuckarounditis in the gym, over-optimizing my whey protein isolate while forgetting to actually lift the weights."*
-> Tone quick-ref: "I see the couch gravity was particularly strong yesterday. That's fine. System reboot. Hit your scheduled session today."
+> Canonical example: *"Most guys don't need a new program. They need to stop restarting the same one every six weeks."*
 
-**2. Analytical & Systems-Driven (The Language)**
-Frame fitness in terms the tech audience understands: systems, optimization, debugging, inputs/outputs, refactoring. Remove emotion and replace it with logic. Precision matters — if a word has a specific meaning, use it correctly and call it out when others don't.
+**2. Dry & Self-Aware (The Humor)**
+Humor lands because Philip points at himself first, not the client. It disarms and makes coaching feel like a peer conversation, not a lecture. Never performed or forced — one-liners land best when they're unexpected and self-aware.
 
-> Canonical example: *"This 16-week program is the refactor you need. It's not a generic fitness plan; it's a structured, data-driven system..."*
-> Canonical example: *"We're high-performing problem solvers at work, but when it comes to our health, most of us are running legacy code."*
+> Canonical example: *"I spent three years perfecting my gym selfie lighting before I ever hit a real PR."*
+> Tone quick-ref: "I see the couch gravity was particularly strong yesterday. That's fine. Get back on the bench today."
 
-**3. Empathetic & Understanding (The Foundation)**
-Acknowledge the real struggles: long hours behind screens, gym intimidation, feeling skinny-fat, wanting to feel confident. Philip lived this — he gets it. Empathy does not mean softening hard truths. It means delivering them in a way the client can actually receive and act on.
+**3. Empathetic, Not Soft (The Foundation)**
+Acknowledge real struggles — gym intimidation, body comparison, cyclical motivation — without softening the truth about what it takes to fix them. Philip lived this — he gets it. Empathy does not mean softening hard truths. It means delivering them in a way the client can actually receive and act on.
 
-> Canonical example: *"I know exactly what it's like to treat life like a system to optimize while somehow letting your own hardware—your body—fall into a state of total technical debt."*
+> Canonical example: *"I know what it's like to avoid the pool because you don't want anyone to see you without a shirt on. I also know what it's like to not think about it anymore."*
 
-**4. Guiding & Direct (The Action)**
-Provide clear, actionable, no-nonsense direction. Cut through analysis paralysis with a single clear next step. State the position plainly and trust the reader to keep up — don't over-qualify or hedge after the point is made.
+**4. Clear & Actionable (The Close)**
+One next step. No hedging after the point is made. Cut through analysis paralysis and trust the reader to keep up — don't over-qualify or hedge after the point is made.
 
-> Canonical example: *"It's time to optimize your body as effectively as you optimize your code."*
+> Canonical example: *"Stop comparing your week 2 to someone else's year 3. Show up again tomorrow."*
 > Tone quick-ref: "Stop worrying about meal timing and just eat some protein."
 
 ---
@@ -116,15 +117,15 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 
 ## Vocabulary Guide
 
-| Use These                              | Avoid These                                                             |
-|:---------------------------------------|:------------------------------------------------------------------------|
-| Systems / Optimization / Debugging     | Crush it / Beast mode / Grind                                           |
-| Inputs / Outputs / Metrics             | Shredded / Ripped / Swole                                               |
-| Refactoring / Upgrading                | Bro / Boss / Chief                                                      |
-| Skinny-fat / Desk-bound                | Excessive emojis (🚀🔥💯)                                               |
-| Fuckarounditis                         | "No-BS" (prefer: straightforward, practical, cutting through the noise) |
-| Checkpoint / Level Up / XP (sparingly) | "LET'S GOOO" / "beast mode" / hype filler                               |
-| Lean gain / Slow gain                  | Cookie-cutter / Generic                                                 |
+| Use These                                    | Avoid These                                                       |
+|:----------------------------------------------|:-------------------------------------------------------------------|
+| Build / Strong / Consistent                   | Debugging / Refactoring / Legacy code / Technical debt / Optimize |
+| Show up / Stick with it                       | Systems / Inputs-outputs / Metrics (as metaphor)                  |
+| Confidence / Presence                         | Excessive emojis (🚀🔥💯)                                          |
+| Progress / Momentum                           | Bro / Boss / Chief                                                |
+| Straightforward / Practical                   | "No-BS"                                                           |
+| Lean gain / Slow gain                         | Cookie-cutter / Generic                                           |
+| Comparison (as something to name and reject)  | Shredded / Ripped / Swole as the *goal framing* (fine as casual vocabulary, not as the pitch) |
 
 **Avoid these specific patterns:**
 - "Genuinely" / "Honestly" (except in authentic, casual contexts — not as filler)
@@ -138,10 +139,10 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 
 | Scenario                   | Correct CPZ Voice                                                                                                                                                                  |
 |:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Missed a workout           | "I see the couch gravity was particularly strong yesterday. That's fine. System reboot. Hit your scheduled session today."                                                         |
-| Overcomplicating nutrition | "You're trying to optimize the aerodynamics of a car that doesn't have an engine yet. Stop worrying about meal timing and just eat some protein."                                  |
-| Celebrating a win          | "Solid execution on the deadlifts today. The system is working. Enjoy the win, then let's look at next week's progression."                                                        |
-| Welcoming a new member     | "Welcome to the group. You're here because you're tired of being the smartest guy in the room with the weakest deadlift. Let's fix that."                                          |
+| Missed a workout           | "I see the couch gravity was particularly strong yesterday. That's fine. Get back on the bench today."                                                                             |
+| Overcomplicating nutrition | "You're overthinking a meal plan for a body that just needs protein and consistency. Stop worrying about meal timing and just eat some protein."                                   |
+| Celebrating a win          | "Solid execution on the deadlifts today. Keep showing up like that and next week takes care of itself."                                                                            |
+| Welcoming a new member     | "Welcome to the group. You're here because you're tired of feeling invisible in a room full of guys who look like they have it figured out. Let's fix that."                       |
 | Sharing a personal failure | "I ran a 5-day bro split for two years. Chest/tri, back/bi, the whole thing. And I had almost nothing to show for it — because my routine/diet sucked. That's when I found SL5x5." |
 | Correcting a common myth   | "The idea that you need to eat every 2–3 hours to 'keep your metabolism going' is not just unnecessary — it's not how metabolism works. Here's what's actually happening..."       |
 
@@ -155,7 +156,7 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 3. State the fix directly — no hedging
 4. One clear next action
 
-**End every piece with a single, clear next action.** Not a question, not a reflection — an action. The analytical audience wants to know exactly what to do next.
+**End every piece with a single, clear next action.** Not a question, not a reflection — an action. The reader wants to know exactly what to do next.
 
 ---
 
@@ -163,7 +164,7 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 
 Before finalizing any content, verify:
 1. Is it clear and actionable?
-2. Does it speak to the analytical mindset?
+2. Does it speak to confidence and visibility, not comparison or shame?
 3. Is there a dry, sarcastic observation about a common mistake?
 4. Does it ultimately guide toward a solution with empathy?
 5. Are emojis used purposefully, not as punctuation?
@@ -171,3 +172,4 @@ Before finalizing any content, verify:
 7. Is the position stated once, plainly — without repeating or over-justifying?
 8. Is emphasis (italics/bold) used structurally, not decoratively?
 9. Is the failure context as specific as the win?
+10. Does this avoid feeding body comparison or perfectionism? (Important — this ICA carries elevated risk for disordered exercise/eating patterns. See ICA doc, Coaching System Requirements section.)

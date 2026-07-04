@@ -21,7 +21,7 @@ PHILIP: "Spoken dialogue exactly as delivered."
 
 **On-camera vs. voice-over:**
 - **On-camera** — Philip speaking directly to lens. Use for personal stories, myth-busts, and habit/psychology posts where his credibility and presence are the content.
-- **Voice-over** — Philip narrating while visuals or text carry the story. Use for workout demos, data breakdowns, or "here's the system" posts where showing beats telling.
+- **Voice-over** — Philip narrating while visuals or text carry the story. Use for workout demos, data breakdowns, or "here's what worked" posts where showing beats telling.
 
 ---
 
@@ -105,7 +105,7 @@ PHILIP: "[CTA — one action]"
 ### 90-Second — Full Story Arc
 
 **Structure:**
-- Hook (5s) → The failure story (20s) → The diagnosis (20s) → The turning point (15s) → The fix/system (20s) → CTA (10s)
+- Hook (5s) → The failure story (20s) → The diagnosis (20s) → The turning point (15s) → The fix (20s) → CTA (10s)
 
 **Beat template:**
 ```
@@ -115,11 +115,11 @@ PHILIP: "[Hook — the most specific and unexpected version of the failure]"
 PHILIP: "[The failure story — Philip's personal version, specific details. Failure context before the win.]"
 [PAUSE — let the credibility land]
 [B-ROLL or CUT if needed]
-PHILIP: "[The diagnosis — what was actually wrong, in analytical terms]"
+PHILIP: "[The diagnosis — what was actually wrong, stated plainly]"
 [CUT BACK]
 PHILIP: "[The turning point — the moment the reframe happened]"
 [PAUSE]
-PHILIP: "[The fix/system — what actually worked, step by step]"
+PHILIP: "[The fix — what actually worked, step by step]"
 [PAUSE]
 PHILIP: "[CTA — single action, delivered with conviction]"
 [TEXT ON SCREEN: CTA + @philipz.fit + link in bio]
@@ -142,14 +142,14 @@ PHILIP: "[CTA — single action, delivered with conviction]"
 - The permission hook: *"You don't need to go to the gym. Here's what you actually need."*
 
 ### Pillar 3: Nutrition & Protein Strategy
-- The number that triggers panic: *"You need about 160 grams of protein a day. Most engineers eat about 70."*
+- The number that triggers panic: *"You need about 160 grams of protein a day. Most guys eat about 70."*
 - The myth-bust opener: *"Eating every 2 hours to boost your metabolism is not how metabolism works."*
 - The permission reframe: *"You don't need a meal plan. You need a protein target and one rule."*
 
 ### Pillar 4: Consistency & Habit Systems
-- The accurate reframe: *"You're not lazy. Your system is broken. Different problem, different fix."*
+- The accurate reframe: *"You're not lazy. Your approach is broken. Different problem, different fix."*
 - The self-implication: *"I skipped 3 weeks in a row last year. Here's what I actually did to get back."*
-- The system insight: *"The reason you quit every January is the same reason your code has technical debt."*
+- The pattern insight: *"The reason you quit every January is the same reason your gym bag has been sitting by the door since October."*
 
 ---
 
@@ -160,13 +160,13 @@ PHILIP: "[CTA — single action, delivered with conviction]"
 | Data-Driven | Screen showing data, typing, phone with stats app, whiteboard with numbers |
 | Workout Tips | Exercise demo (no talking), equipment setup, gym or home gym walkthrough |
 | Nutrition | Food prep, protein source display, macro tracking app |
-| Consistency/Habit | Alarm going off, opening a gym bag, calendar/planner close-up, desk-to-gym transition |
+| Consistency/Habit | Alarm going off, opening a gym bag, calendar/planner close-up, after-work-to-gym transition |
 
 ---
 
 ## Pacing & Delivery Notes
 
-**Dry delivery is the brand:** Philip doesn't hype. He observes. The energy is confident and slightly deadpan — like a senior engineer explaining why something doesn't work, not a coach yelling at a client to push harder.
+**Dry delivery is the brand:** Philip doesn't hype. He observes. The energy is confident and slightly deadpan — like someone who's already made the mistake explaining why it doesn't work, not a coach yelling at a client to push harder.
 
 **Deliberate pauses are not dead air.** A 1–2 second pause after a punchline or an uncomfortable truth is intentional. It signals: "that one lands, sit with it."
 

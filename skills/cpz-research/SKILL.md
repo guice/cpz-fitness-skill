@@ -9,10 +9,10 @@ description: CPZ Fitness content brainstorming and angle development. Use for ge
 
 | Field               | Value                                                                                                          |
 |:--------------------|:---------------------------------------------------------------------------------------------------------------|
-| **Brand**           | CPZ Fitness / Geek 2 Greek                                                                                     |
+| **Brand**           | CPZ Fitness                                                                                     |
 | **Handle**          | @philipz.fit                                                                                                   |
-| **Tagline**         | "From desk-bound to damn-strong."                                                                              |
-| **ICA in one line** | Mid-30s to mid-40s software engineer — analytically brilliant, physically neglected, needs data not motivation |
+| **Tagline**         | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable."                                                                              |
+| **ICA in one line** | Gay man, roughly 25–50 — wants to build muscle, lose fat, and feel confident in his body and in gay social/dating spaces |
 
 ## Reference File
 
@@ -29,9 +29,9 @@ Every post maps to one of these:
 | Pillar                               | What It Does                                                           | Lead With                     |
 |:-------------------------------------|:-----------------------------------------------------------------------|:------------------------------|
 | **1. Data-Driven Insights**          | Reframes fitness thinking with numbers and research                    | The stat or the myth          |
-| **2. Workout Tips & Micro-Workouts** | Practical training for time-limited, desk-bound schedules              | The time/equipment constraint |
+| **2. Workout Tips & Micro-Workouts** | Practical training for time-limited schedules              | The time/equipment constraint |
 | **3. Nutrition & Protein Strategy**  | Macro education, protein-first, no rigid meal plans                    | The number or the myth        |
-| **4. Consistency & Habit Systems**   | Psychology of showing up — reframes gym avoidance as a systems problem | The relatable failure         |
+| **4. Consistency & Habit Systems**   | Psychology of showing up — reframes gym avoidance as a habit problem | The relatable failure         |
 
 Load `references/content-pillars.md` for hook formula patterns, 10+ example topics per pillar, and seasonal angle triggers.
 

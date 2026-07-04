@@ -14,7 +14,7 @@ description: "CPZ Fitness Instagram carousel production. Use for end-to-end caro
 | **Handle**        | @philipz.fit                              |
 | **Booking CTA**   | https://lnk.philipz.fit/free-system-audit |
 | **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit  |
-| **Tagline**       | "From desk-bound to damn-strong."         |
+| **Tagline**       | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." |
 
 ## Reference Files
 
@@ -45,8 +45,8 @@ Load `references/carousel-structure.md` for full slide-by-slide blueprints.
 |:---------------------------------------------------------------------------|:----------------------------------------|
 | "Drop your biggest gym obstacle in the comments."                          | Consistency/habit carousels             |
 | "Save this for your next training day."                                    | Workout carousels                       |
-| "Follow @philipz.fit for more system-level fitness."                       | Data/myth posts                         |
-| "Free System Audit → link in bio" (`lnk.philipz.fit/free-system-audit`)    | Any carousel driving coaching inquiries |
+| "Follow @philipz.fit for more straightforward fitness breakdowns."         | Data/myth posts                         |
+| ⚠️ "Free Consult Call → link in bio" (`lnk.philipz.fit/free-system-audit`) — label pending decision, was "Free System Audit" | Any carousel driving coaching inquiries |
 | "Download the free PDF → link in bio" (`lnk.philipz.fit/pdf-system-audit`) | Lead magnet / PDF download carousels    |
 
 ---
@@ -58,7 +58,7 @@ Every slide prompt should specify these 6 fields:
 ```
 Background: #191a1b (cover/CTA) or #1a1d21 (body slides)
 Text: #f0ede8 (body) / #ff8c00 (key word or stat)
-Typography: Barlow Condensed 800+ for headlines (uppercase), Space Grotesk for body, JetBrains Mono for labels/data
+Typography: Barlow Condensed 800+ for headlines (uppercase), Inter for body, Poppins for labels/data
 Slide type: cover | data slide | workout slide | nutrition slide | CTA slide
 Key text: [Headline] + [subtext if applicable]
 Elements: [Section label text] + [ZF logo watermark: bottom-right 24–32px] + [any icons/visuals]
@@ -96,7 +96,7 @@ Invoke carousel-creator for slide count, outline, per-slide copy, and visual dir
 | Consistency / Habit | HPASCTA or STORY |
 
 - Design specs come from `references/html-rendering-spec.md` — ignore carousel-creator's generic DESIGN SPECS output
-- Brand voice: Analytical with sarcasm on hooks. Orange on one word per slide. Max 30 words per internal slide.
+- Brand voice: Direct, with dry sarcasm on hooks. Orange on one word per slide. Max 30 words per internal slide.
 
 ### caption-writer
 
@@ -112,7 +112,7 @@ Invoke caption-writer for step 5. Generate captions for exactly these 6 platform
 | Consistency / Habit | Story |
 
 **CPZ overrides:**
-- Tone: Analytical with sarcasm on hooks — never motivational-poster voice
+- Tone: Direct, with dry sarcasm on hooks — never motivational-poster voice
 - Platform specs from `references/carousel-structure.md` (Caption Structure by Platform table) override caption-writer defaults
 - BlueSky: hard 300-character limit — rewrite to fit, do not thread
 
@@ -153,12 +153,12 @@ Output resolution: ~1080×1350px.
 
 ## Voice for Carousels
 
-Carousels apply the 4 Voice Pillars in a specific visual rhythm:
+Carousels apply the Voice Pillars in a specific visual rhythm:
 
-- **Slide copy = one claim + one proof.** Headline is the sarcastic or analytical observation. Body is 1–2 lines max — the data or logical proof that backs it.
-- **Cover slide:** Pillar 1 (Sarcastic/Humorous) leads — the hook must earn the swipe. Frame it as a bold, slightly provocative claim.
-- **Body slides:** Pillar 2 (Analytical) drives — stats and data over assertions. If you can quantify it, quantify it.
-- **CTA slide:** Pillar 4 (Direct) closes — one action, no options, no hedging.
+- **Slide copy = one claim + one proof.** Headline is the dry, sarcastic observation. Body is 1–2 lines max — the data or logic that backs it.
+- **Cover slide:** Dry & Self-Aware leads — the hook must earn the swipe. Frame it as a bold, slightly provocative claim.
+- **Body slides:** Direct & Confident drives — stats and specifics over vague assertions. If you can quantify it, quantify it.
+- **CTA slide:** Clear & Actionable closes — one action, no options, no hedging.
 - **No compound sentences in headlines.** One idea per slide, stated plainly.
 - **Orange is reserved for the single most important word or number per slide** — not decoration.
 
@@ -169,12 +169,12 @@ Carousels apply the 4 Voice Pillars in a specific visual rhythm:
 - **Padding:** 64px on all sides — dark background needs breathing room
 - **Focal element:** One dominant element per slide. Never two competing focal points.
 - **Orange:** One element per slide maximum — a key word, a stat, or the section label
-- **Section label:** `— // slide.topic` in JetBrains Mono, top-left on body slides (orange on light, muted on dark)
+- **Section label:** small-caps label text, Poppins Medium, top-left on body slides (orange on light, muted on dark)
 - **Logo badge:** ZF mark in dark circle + `@philipz.fit` handle, top-left — on cover and light slides
 - **Slide number watermark:** Oversized numeral (380px, Barlow 900) in top-right at ~4% opacity
 - **Light/dark alternation:** Slides alternate between `#191a1b` (dark) and `#f5f2ed` (light) for rhythm
 - **CTA slide:** Full orange gradient, centered layout, diagonal line texture, frosted glass card
 - **Headlines:** 104px minimum on body slides — text dominates the slide
 - **Text density:** Max 3–4 short lines of body copy per slide — split if more
-- **Info card:** Orange left-border card for explanations — `// LABEL` + body text
+- **Info card:** Orange left-border card for explanations — small-caps label + body text
 - **Pill tags:** First pill orange-filled, rest outlined/muted — for muscle groups or key concepts

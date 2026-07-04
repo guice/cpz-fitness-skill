@@ -2,7 +2,7 @@
 
 ## Core Philosophy
 
-Carousels are the highest-leverage content format for this brand. The analytical ICA consumes a structured argument like documentation — sequentially, with clear headings and payoffs per section. Each carousel should feel like a mini-report, not a listicle.
+Carousels are the highest-leverage content format for this brand. The ICA consumes a structured argument sequentially, with clear headings and payoffs per section. Each carousel should feel like a mini-report, not a listicle.
 
 **Adaptive structure:** Slide count and layout match the content, not a fixed template. Typical range: 3–7 slides depending on complexity. Never pad to reach a target count; never compress a full argument into too few slides.
 
@@ -24,10 +24,10 @@ Use when: Correcting a common belief with data, or presenting a surprising metri
 | Slide                | Content                                                                         | Visual Hierarchy                                                                                                                                  |
 |:---------------------|:--------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
 | Cover (1)            | Provocative stat or contrarian claim — one sentence, maximum size               | Barlow Condensed 900, orange on one key word. Section label top-left. No body copy.                                                               |
-| Body 1 (2)           | Why the common belief is wrong — data first, then explanation                   | Section label. Headline in Barlow. Body in Space Grotesk. One stat in Barlow 900 orange if available.                                             |
-| Body 2 (3-4)         | The correct reframe in systems terms                                            | Same layout. Orange on the key correction word or stat.                                                                                           |
+| Body 1 (2)           | Why the common belief is wrong — data first, then explanation                   | Section label. Headline in Barlow. Body in Inter. One stat in Barlow 900 orange if available.                                             |
+| Body 2 (3-4)         | The correct reframe, stated plainly                                            | Same layout. Orange on the key correction word or stat.                                                                                           |
 | Body 3 (5, optional) | Philip's personal connection to the problem — failure context before the lesson | Section label. More conversational tone. No stats required.                                                                                       |
-| CTA (final)          | Single clear next action                                                        | Full-bleed dark. CTA in Barlow Condensed orange. Section label: `// next.step`. Handle in JetBrains Mono muted. ZF logo centered or bottom-right. |
+| CTA (final)          | Single clear next action                                                        | Full-bleed dark. CTA in Barlow Condensed orange. Section label: small-caps "NEXT STEP". Handle in Poppins muted. ZF logo centered or bottom-right. |
 
 **Caption pairing:** Long-form (150–300 words on Instagram). Caption delivers the diagnosis; the carousel delivers the data. Do not repeat slide text verbatim in caption.
 
@@ -42,7 +42,7 @@ Use when: Delivering a complete, actionable workout routine the ICA can screensh
 | Slide                 | Content                                                                                         | Visual Hierarchy                                                                                                                                |
 |:----------------------|:------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
 | Cover (1)             | The promise: time, equipment constraint, outcome. "15 minutes. No equipment. Here's the stack." | Barlow Condensed 900. Time in orange. Minimal body copy.                                                                                        |
-| Exercise slides (2–5) | One exercise per slide — name, reps or duration, RPE cue                                        | Exercise name in Barlow 700 uppercase. Reps/duration in Barlow 900 orange. RPE in JetBrains Mono muted. Consider exercise illustration or icon. |
+| Exercise slides (2–5) | One exercise per slide — name, reps or duration, RPE cue                                        | Exercise name in Barlow 700 uppercase. Reps/duration in Barlow 900 orange. RPE in Poppins muted. Consider exercise illustration or icon. |
 | CTA (final)           | Save this. Follow for more. Link in bio.                                                        | Full-bleed dark. Barlow orange CTA. Handle and ZF logo.                                                                                         |
 
 **Caption pairing:** Short (50–100 words). The slides contain the workout — caption provides context and single CTA. Avoid restating the exercise list.
@@ -60,8 +60,8 @@ Use when: Teaching macro math, debunking nutrition myths, or showing the ICA how
 | Cover (1)                   | The number that triggers recognition — protein target, macro math, surprising calorie figure | Number in Barlow Condensed 900 orange, very large. Minimal supporting text.             |
 | Body 1 (2)                  | The breakdown — why this number matters, what it means in practice                           | Section label. Headline. Body copy. One supporting number in orange.                    |
 | Body 2 (3)                  | Practical application — how to actually hit it without rigid meal planning                   | Practical examples. Bullet format acceptable here for brevity.                          |
-| Body 3 (4)                  | Additional data or Philip's personal take — the systems framing                              | More conversational. Optionally use JetBrains Mono for a "code/config" style breakdown. |
-| Philip's take (5, optional) | The systems reframe — how an engineer would think about this                                 | Tone shifts slightly more personal. Orange on the key reframe phrase.                   |
+| Body 3 (4)                  | Additional data or Philip's personal take                              | More conversational. Optionally use a data-card style breakdown for the numbers. |
+| Philip's take (5, optional) | Philip's personal reframe — what actually worked for him                                 | Tone shifts slightly more personal. Orange on the key reframe phrase.                   |
 | CTA (final)                 | Link in bio, follow, comment                                                                 | Full-bleed dark. Standard CTA slide.                                                    |
 
 **Caption pairing:** Medium length (100–200 words). Provide context the slides don't have room for. End with clear action.
@@ -77,7 +77,7 @@ Use when: Addressing the psychological and mechanical reasons the ICA isn't show
 | Slide          | Content                                                                          | Visual Hierarchy                                                                     |
 |:---------------|:---------------------------------------------------------------------------------|:-------------------------------------------------------------------------------------|
 | Cover (1)      | The relatable failure — a specific thing the ICA does that's costing him results | Empathetic or sarcastic tone. One bold statement. Orange on the key pain point word. |
-| Body 1 (2)     | Why it's a systems problem, not a motivation problem — the diagnosis             | Section label. Headline: the reframe. Body: the explanation. No judgment.            |
+| Body 1 (2)     | Why it's a habit problem, not a motivation problem — the diagnosis             | Section label. Headline: the reframe. Body: the explanation. No judgment.            |
 | Body 2–3 (3–5) | The specific fix, step by step                                                   | Numbered steps or sequential slides. One fix per slide for clarity.                  |
 | CTA (final)    | Comment, follow, save                                                            | Standard CTA slide.                                                                  |
 
@@ -91,7 +91,7 @@ Use when: Addressing the psychological and mechanical reasons the ICA isn't show
 
 **Focal element rule:** One dominant element per slide. The eye should know immediately where to look. Never two competing focal points.
 
-**Section label placement:** Top-left on body slides. Use the brand signature pattern: `— // slide.topic` in JetBrains Mono orange.
+**Section label placement:** Top-left on body slides. Use a small-caps label in Poppins orange.
 
 **Orange usage:** One orange element per slide maximum. Either: a key word in the headline, a stat number, or the section label — not all three.
 
@@ -109,8 +109,8 @@ Choose one per carousel based on the content type and intended action:
 |:-----------------------------------------------------|:------------------------------------------------------|
 | "Drop your biggest gym obstacle in the comments."    | Consistency/habit carousels — drives engagement       |
 | "Save this for your next training day."              | Workout carousels — drives saves (algorithmic signal) |
-| "Follow @philipz.fit for more system-level fitness." | Data/myth posts — drives follows                      |
-| "Book a Free System Audit → link in bio"             | Any carousel — drives conversions                     |
+| "Follow @philipz.fit for more straightforward fitness breakdowns." | Data/myth posts — drives follows                      |
+| ⚠️ "Book a Free Consult Call → link in bio" — label pending decision, was "Free System Audit" | Any carousel — drives conversions                     |
 
 ---
 
@@ -123,7 +123,7 @@ Choose one per carousel based on the content type and intended action:
 | Facebook  | 100–200 words | 1–2 context sentences → hook → carousel summary → question or CTA.             |
 | Threads   | 50–100 words  | Single punchy thought + CTA. Conversational, no hashtags.                       |
 | BlueSky   | ≤ 300 chars   | Clean and direct. Hook → insight → CTA. Must fit within 300 characters — rewrite if over, do not thread. |
-| LinkedIn  | 200–400 words | Professional framing → bridge to fitness → systems insight → CTA.              |
+| LinkedIn  | 200–400 words | Professional framing → bridge to fitness → core insight → CTA.              |
 
 **Caption rule:** First line must stand alone as a complete hook. Never start with "In this post..." or "Today I'm sharing..." Start with the point.
 

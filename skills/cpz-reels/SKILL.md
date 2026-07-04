@@ -12,7 +12,7 @@ description: CPZ Fitness Reel and TikTok script writing. Use for short-form vide
 | Field               | Value                                     |
 |:--------------------|:------------------------------------------|
 | **Handle**          | @philipz.fit                              |
-| **Tagline**         | "From desk-bound to damn-strong."         |
+| **Tagline**         | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." |
 | **Voice Archetype** | The "Sarcastic Sage"                      |
 | **Booking CTA**     | https://lnk.philipz.fit/free-system-audit |
 | **PDF Asset CTA**   | https://lnk.philipz.fit/pdf-system-audit  |
@@ -56,14 +56,14 @@ PHILIP: "Spoken dialogue exactly as delivered."
 
 **On-camera vs. voice-over:**
 - **On-camera** — Personal stories, myth-busts, habit/psychology posts (credibility IS the content)
-- **Voice-over** — Workout demos, data breakdowns, system walkthroughs (showing beats telling)
+- **Voice-over** — Workout demos, data breakdowns, form/technique walkthroughs (showing beats telling)
 
 ---
 
 ## Visual Cue Notation
 
 Use bracketed stage directions for any visual instruction:
-- `[VISUAL: Philip at desk, looking at screen]`
+- `[VISUAL: Philip at the gym, setting up a lift]`
 - `[B-ROLL: dumbbells on floor, home gym setup]`
 - `[TEXT ON SCREEN: "160g protein/day"]`
 - `[PAUSE: 1.5 beats — let it land]`
@@ -73,10 +73,10 @@ Use bracketed stage directions for any visual instruction:
 
 ## Voice for Reels
 
-- **Dry delivery** — not hype, not urgent. Confident and slightly deadpan. Senior engineer explaining something, not a coach yelling.
+- **Dry delivery** — not hype, not urgent. Confident and slightly deadpan. Someone who's done the work explaining something, not a coach yelling.
 - **Deliberate pauses are intentional** — 1–2 second pause after a punchline or hard truth is the brand signature. Not dead air.
 - **No filler sounds** — no "um," no trailing off, no "so yeah." Edit these out in production notes.
-- **Normal conversational pace** — analytical ICA follows precise speech without needing it slowed down.
+- **Normal conversational pace** — the audience follows precise speech without needing it slowed down.
 
 ---
 

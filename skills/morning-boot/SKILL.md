@@ -6,9 +6,9 @@ description: Daily morning boot sequence for CPZ Fitness — runs at 6am, genera
 Run Philip's morning boot sequence. Today's date is determined by the system clock. Use skill /cpz-fitness
 
 ## Context
-- Owner: Philip, CPZ Fitness / Geek to Greek coaching program
-- ICA: Desk-bound male tech professionals, 30s–40s, want to build muscle and confidence, and relieve back pain from slouching in front of a computer all day
-- Brand voice: Sarcastic Sage — dry humor, analytical framing, empathy, direct guidance
+- Owner: Philip, CPZ Fitness (no program/framework name)
+- ICA: Gay men, roughly 25–50, who want to build muscle, lose fat, and feel confident in their bodies and in gay social/dating spaces
+- Brand voice: Sarcastic Sage — dry humor, empathy, direct guidance
 - Social: @philipz.fit on Instagram, TikTok, Threads, Facebook, BlueSky
 - Weekly training split: Push (Mon) / Pull (Tue) / Legs (Wed) / Rest (Thu) / Push (Fri) / Pull (Sat) / Rest (Sun)
 
