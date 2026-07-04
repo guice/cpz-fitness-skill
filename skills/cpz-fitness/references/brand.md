@@ -1,71 +1,6 @@
-# CPZ Fitness Brand Reference
+# CPZ Fitness Brand Reference — Deep Voice Guide
 
-## Identity
-
-| Field            | Value                                                                  |
-|:-----------------|:-------------------------------------------------------------------------|
-| Company Name     | CPZ Fitness (no program/framework name)                                 |
-| Community Name   | ⚠️ NEEDS INPUT — "Geek 2 Greek Starter Zone" needs a new name. Placeholder: "CPZ Fitness Community" |
-| Skool URL        | https://lnk.philipz.fit/skool                                          |
-| Website          | https://www.philipz.fit/                                               |
-| Social Media     | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky)            |
-| Logo File        | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)  |
-| Primary Color    | #ff8c00 (orange)                                                       |
-| Background Color | #191a1b (Coco's Black)                                                 |
-| Tagline          | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." (replaces "From desk-bound to damn-strong.") |
-| Core Promise     | "I help gay men build muscle and lose fat."                            |
-
----
-
-## Brand Philosophy
-
-Philip is a gay man who spent years hiding, minimizing, and not fully
-occupying who he was — sexually and physically. He came out roughly a
-decade ago. The body work came later, and it followed the same pattern:
-avoidance, comparison, finally doing the work.
-
-Publicly, CPZ Fitness is simple: a coach who helps gay men build muscle
-and lose fat, and who's actually lived the process himself. The deeper
-identity/confidence layer is real and present in how Philip coaches —
-it is not the headline. Nobody hires a coach to be "reclaimed" publicly;
-they hire a coach to get strong. The depth shows up in the relationship,
-not the ad copy.
-
----
-
-## Brand Archetype: The "Sarcastic Sage"
-
-Philip is the guy who's already made every mistake in the book — and made most of them himself, long before he put a client through a program. He doesn't coddle, but he doesn't leave clients behind either. He calls out bad excuses and common mistakes with dry humor, then immediately hands the client the exact fix.
-
-The key: sarcasm always lands with empathy. The joke is never at the client's expense — it's at the *situation's* expense, often with Philip pointing at himself first.
-
----
-
-## The Voice Pillars
-
-**1. Direct & Confident (The Hook)**
-State things plainly. No hedging, no disclaimers, no "just my opinion."
-
-> Canonical example: *"Most guys don't need a new program. They need to stop restarting the same one every six weeks."*
-
-**2. Dry & Self-Aware (The Humor)**
-Humor lands because Philip points at himself first, not the client. It disarms and makes coaching feel like a peer conversation, not a lecture. Never performed or forced — one-liners land best when they're unexpected and self-aware.
-
-> Canonical example: *"I spent three years perfecting my gym selfie lighting before I ever hit a real PR."*
-> Tone quick-ref: "I see the couch gravity was particularly strong yesterday. That's fine. Get back on the bench today."
-
-**3. Empathetic, Not Soft (The Foundation)**
-Acknowledge real struggles — gym intimidation, body comparison, cyclical motivation — without softening the truth about what it takes to fix them. Philip lived this — he gets it. Empathy does not mean softening hard truths. It means delivering them in a way the client can actually receive and act on.
-
-> Canonical example: *"I know what it's like to avoid the pool because you don't want anyone to see you without a shirt on. I also know what it's like to not think about it anymore."*
-
-**4. Clear & Actionable (The Close)**
-One next step. No hedging after the point is made. Cut through analysis paralysis and trust the reader to keep up — don't over-qualify or hedge after the point is made.
-
-> Canonical example: *"Stop comparing your week 2 to someone else's year 3. Show up again tomorrow."*
-> Tone quick-ref: "Stop worrying about meal timing and just eat some protein."
-
----
+> For Key Facts, Brand Philosophy, Brand Archetype, the Voice Pillars, the Vocabulary Guide, and the Writing Checklist, see `../SKILL.md` — that file is the canonical source. This file adds deeper behavioral voice patterns not covered there.
 
 ## Authentic Voice Patterns
 
@@ -115,23 +50,23 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 
 ---
 
-## Vocabulary Guide
+## The Inclusive "We" Principle
 
-| Use These                                    | Avoid These                                                       |
-|:----------------------------------------------|:-------------------------------------------------------------------|
-| Build / Strong / Consistent                   | Debugging / Refactoring / Legacy code / Technical debt / Optimize |
-| Show up / Stick with it                       | Systems / Inputs-outputs / Metrics (as metaphor)                  |
-| Confidence / Presence                         | Excessive emojis (🚀🔥💯)                                          |
-| Progress / Momentum                           | Bro / Boss / Chief                                                |
-| Straightforward / Practical                   | "No-BS"                                                           |
-| Lean gain / Slow gain                         | Cookie-cutter / Generic                                           |
-| Comparison (as something to name and reject)  | Shredded / Ripped / Swole as the *goal framing* (fine as casual vocabulary, not as the pitch) |
+Philip does not speak *to* his audience — he speaks *with* them. This is not a stylistic preference; it is a fundamental positioning decision. The coach-client hierarchy implies distance and authority. The peer relationship implies shared experience and mutual investment in the outcome. Philip has lived the exact struggle his ICA is in right now, and the language must reflect that.
 
-**Avoid these specific patterns:**
-- "Genuinely" / "Honestly" (except in authentic, casual contexts — not as filler)
-- Restarting after a point is made ("and let me just say again...")
-- Hedging after a direct claim ("...but of course, it depends on the person")
-- Trailing off instead of completing the thought
+The inclusive "we" applies across every community Philip belongs to and speaks from:
+
+| Community | How "We" Shows Up |
+| --- | --- |
+| **Gay men** | "We know what it's like to feel invisible in spaces that weren't built for us." "We've spent years performing confidence we didn't feel." |
+| **LGBT community broadly** | "We've had to build our own definitions of strength and confidence — the mainstream ones never quite fit." |
+| **Fitness beginners** | "We've all stood in the gym not knowing what we're supposed to be building." "We've started three times. Maybe six." |
+
+**The rule:** If Philip is part of the community being addressed, use "we." If he is speaking about a group he is not part of, use "they" or name the group directly. Never use "you" in a way that positions Philip as an outside observer of a struggle he has personally lived.
+
+**The test:** Before publishing any piece of content, ask: *"Does this sound like a teammate talking, or a coach lecturing?"* If it sounds like a lecture, rewrite it with "we."
+
+**What this is not:** The inclusive "we" is not false modesty or performed humility. Philip is further along the path — he has done the work and crossed the finish lines. The "we" acknowledges that the struggle is shared, not that the expertise is equal. He is the guy who already made every mistake, not someone reciting theory.
 
 ---
 
@@ -157,19 +92,3 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 4. One clear next action
 
 **End every piece with a single, clear next action.** Not a question, not a reflection — an action. The reader wants to know exactly what to do next.
-
----
-
-## Writing Checklist
-
-Before finalizing any content, verify:
-1. Is it clear and actionable?
-2. Does it speak to confidence and visibility, not comparison or shame?
-3. Is there a dry, sarcastic observation about a common mistake?
-4. Does it ultimately guide toward a solution with empathy?
-5. Are emojis used purposefully, not as punctuation?
-6. Does Philip implicate himself before coaching on the topic?
-7. Is the position stated once, plainly — without repeating or over-justifying?
-8. Is emphasis (italics/bold) used structurally, not decoratively?
-9. Is the failure context as specific as the win?
-10. Does this avoid feeding body comparison or perfectionism? (Important — this ICA carries elevated risk for disordered exercise/eating patterns. See ICA doc, Coaching System Requirements section.)

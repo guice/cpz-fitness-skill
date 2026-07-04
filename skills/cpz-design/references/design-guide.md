@@ -6,32 +6,11 @@
 
 ## 1. Brand Identity
 
-### 1.1 Names & Handles
+Full identity facts (company name, community name, tagline, core promise, CTAs, voice archetype) are owned by `cpz-fitness` — see `cpz-fitness/SKILL.md` Key Facts table. The one identity fact repeated here is the social handle, since it's rendered directly into exported designs (watermarks, slide footers, caption sign-offs):
 
 | Element | Value |
 | --- | --- |
-| Company Name | CPZ Fitness (no program/framework name) |
-| Community Name | ⚠️ NEEDS INPUT — "Geek 2 Greek Starter Zone" needs a new name. Placeholder: "CPZ Fitness Community" |
-| Website | https://www.philipz.fit |
-| Social Handle | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky) |
-| Skool Community | https://lnk.philipz.fit/skool |
-
-### 1.2 Core Positioning
-
-The brand occupies a precise niche: **fitness coaching for gay men who want to build muscle and lose fat** — men roughly 25–50 navigating body image, comparison culture, and confidence in gay social and dating spaces. The transformation is not just physical; it is a shift in confidence, identity, and self-perception.
-
-| Element | Statement |
-| --- | --- |
-| **Tagline** | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." (replaces "From desk-bound to damn-strong.") |
-| **Core Promise** | "I help gay men build muscle and lose fat." |
-| **Voice Archetype** | The "Sarcastic Sage" — dry humor + empathy + direct guidance |
-| **Primary CTA** | ⚠️ NEEDS INPUT — placeholder: "Free Consult Call" (replaces "Help me debug"; URL stays `/free-system-audit`) |
-| **Form Submission CTA** | ⚠️ NEEDS INPUT — placeholder: "Get Started" (replaces "Submit Debug Report") |
-| **Thank You Message** | "Got it. I'll review your situation and get back to you within 24 hours with next steps. Keep an eye on your inbox." |
-
-### 1.3 Brand Archetype: The Sarcastic Sage
-
-Philip is the guy who's already made every mistake in the book — and made most of them himself, long before he put a client through a program. He does not coddle, but he does not leave clients behind either. He calls out bad excuses and common mistakes with dry humor, then immediately hands the client the exact fix. The sarcasm always lands with empathy: the joke is never at the client's expense — it is at the *situation's* expense, often with Philip pointing at himself first.
+| Social Handle | @philipz.fit |
 
 ---
 
@@ -225,60 +204,7 @@ Use this pattern whenever content should feel elevated and set apart: callouts, 
 
 ## 7. Voice & Tone
 
-### 7.1 The Voice Pillars
-
-The brand voice is built on four pillars that must be present in all content, in this order of priority:
-
-**1. Direct & Confident (The Hook).** State things plainly. No hedging, no disclaimers, no "just my opinion."
-
-**2. Dry & Self-Aware (The Humor).** Humor lands because Philip points at himself first, not the client. It disarms and makes coaching feel like a peer conversation, not a lecture. Never performed or forced — one-liners land best when they are unexpected and self-aware.
-
-**3. Empathetic, Not Soft (The Foundation).** The real struggles are acknowledged: gym intimidation, body comparison, cyclical motivation. Philip lived this. Empathy does not mean softening hard truths — it means delivering them in a way the client can actually receive and act on.
-
-**4. Clear & Actionable (The Action).** Every piece of content ends with a single, clear next action. Not a question, not a reflection — an action. The reader wants to know exactly what to do next.
-
-### 7.2 Vocabulary Reference
-
-| Use These | Avoid These |
-| --- | --- |
-| Build / Strong / Consistent | Debugging / Refactoring / Legacy code / Technical debt / Optimize |
-| Show up / Stick with it | Systems / Inputs-outputs / Metrics (as metaphor) |
-| Confidence / Presence | Excessive emojis (🚀🔥💯) |
-| Progress / Momentum | Bro / Boss / Chief |
-| Straightforward / Practical | "No-BS" |
-| Lean gain / Slow gain | Cookie-cutter / Generic |
-| Comparison (as something to name and reject) | Shredded / Ripped / Swole as the *goal framing* (fine as casual vocabulary, not as the pitch) |
-| "we keep putting off" (inclusive) | "you keep putting off" (accusatory) |
-
-### 7.3 The Inclusive "We" Principle
-
-Philip does not speak *to* his audience — he speaks *with* them. This is not a stylistic preference; it is a fundamental positioning decision. The coach-client hierarchy implies distance and authority. The peer relationship implies shared experience and mutual investment in the outcome. Philip has lived the exact struggle his ICA is in right now, and the language must reflect that.
-
-The inclusive "we" applies across every community Philip belongs to and speaks from:
-
-| Community | How "We" Shows Up |
-| --- | --- |
-| **Gay men** | "We know what it's like to feel invisible in spaces that weren't built for us." "We've spent years performing confidence we didn't feel." |
-| **LGBT community broadly** | "We've had to build our own definitions of strength and confidence — the mainstream ones never quite fit." |
-| **Fitness beginners** | "We've all stood in the gym not knowing what we're supposed to be building." "We've started three times. Maybe six." |
-
-**The rule:** If Philip is part of the community being addressed, use "we." If he is speaking about a group he is not part of, use "they" or name the group directly. Never use "you" in a way that positions Philip as an outside observer of a struggle he has personally lived.
-
-**The test:** Before publishing any piece of content, ask: *"Does this sound like a teammate talking, or a coach lecturing?"* If it sounds like a lecture, rewrite it with "we."
-
-**What this is not:** The inclusive "we" is not false modesty or performed humility. Philip is further along the path — he has done the work and crossed the finish lines. The "we" acknowledges that the struggle is shared, not that the expertise is equal. He is the guy who already made every mistake, not someone reciting theory.
-
-### 7.4 Content Arc
-
-Every post, caption, carousel, or lesson defaults to this arc:
-
-1. **Name the failure** — the specific wrong belief or mistake, including Philip's own experience with it
-
-2. **Diagnose it** — explain why it happens, plainly
-
-3. **State the fix** — directly, without hedging
-
-4. **One clear next action** — a single thing to do, stated as a command
+Voice, vocabulary, and language rules are owned by `cpz-fitness` — this design guide only covers visual specs. See `cpz-fitness/SKILL.md` for the Voice Pillars, Vocabulary Guide, and content arc, and `cpz-fitness/references/brand.md` for the Inclusive "We" Principle, Authentic Voice Patterns, and Tone Quick-Reference.
 
 ---
 
@@ -371,21 +297,7 @@ Before publishing any piece of brand content — a post, a graphic, a page, a ca
 
 **Voice:**
 
-- [ ] The hook names a specific failure or wrong belief
-
-- [ ] Philip implicates himself before coaching on the topic
-
-- [ ] The fix is stated directly, without hedging
-
-- [ ] The piece ends with a single, clear next action
-
-- [ ] No hype language, excessive emojis, or motivational filler
-
-- [ ] Bold and italics are used structurally, not decoratively
-
-- [ ] The position is stated once — no repeating or over-justifying
-
-- [ ] Content avoids feeding body comparison or perfectionism (this ICA carries elevated risk for disordered exercise/eating patterns — see the ICA doc's Coaching System Requirements section)
+- [ ] Run the Writing Checklist in `cpz-fitness/SKILL.md` before publishing
 
 ---
 

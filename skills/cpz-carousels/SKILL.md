@@ -5,7 +5,7 @@ description: "CPZ Fitness Instagram carousel production. Use for end-to-end caro
 
 # CPZ Fitness — Content Carousels Skill
 
-> Builds on **cpz-fitness** for brand DNA, voice, ICA, and colors. Load cpz-fitness first.
+> Builds on **cpz-fitness** for brand DNA, voice, and ICA, and **cpz-design** for the full color/typography system. Load cpz-fitness first.
 
 ## Identity Quick Reference
 
@@ -21,7 +21,7 @@ description: "CPZ Fitness Instagram carousel production. Use for end-to-end caro
 | File                                  | Load When                                                               |
 |:--------------------------------------|:------------------------------------------------------------------------|
 | `references/carousel-structure.md`    | Always — slide blueprints, design rules, CTA options, caption structure |
-| `references/design-guide.md`          | When writing image generation prompts or specifying visual design       |
+| `../cpz-design/references/design-guide.md` | When writing image generation prompts or specifying visual design — owned by cpz-design, not duplicated here |
 | `references/html-rendering-spec.md`   | When building HTML carousel slides — exact pixel specs, components, colors |
 
 ---

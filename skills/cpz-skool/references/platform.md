@@ -48,6 +48,34 @@ Philip's initial model is **1:1 online coaching**. The 16-week program is the pr
 
 ---
 
+## Classroom Lesson Formats
+
+### Course 1 & 2 Format (4-Step Structure)
+
+All lessons in Course 1 (⚠️ name pending — placeholder "CPZ Fitness Starter Pack") and Course 2 (⚠️ name pending — placeholder "Training Foundations") follow this arc:
+
+1. **Opening hook** — a sarcastic or empathetic observation that names the problem
+2. **The diagnosis** — explain why the problem exists, plainly
+3. **The fix** — clear, actionable guidance broken into logical steps
+4. **The bridge** — a direct sentence pointing to the next lesson or action
+
+**Target length:** 400–700 words per lesson. Full paragraphs — avoid bullet-point-heavy formatting. Conversational and readable.
+
+### Course 3 Format — ⚠️ Name Pending (placeholder "The Consistency Blueprint")
+
+All lessons in Course 3 follow these additional standards:
+
+**Trigger Shift:** The opening sentence IS the H3 header. No "welcome back," no "in this lesson we'll cover." The first thing the reader sees is the point.
+
+**Active Reflection checkpoints:** Every lesson includes all three types, distributed across the lesson body:
+- `**Pause for a moment:**` — reflective checkpoint
+- `**Dig a little deeper:**` — reflective checkpoint
+- `**Take Action:**` — execution checkpoint
+
+**Key Takeaway:** Every lesson ends with a bolded Key Takeaway stated plainly — one sentence, no metaphor needed.
+
+**No module-level overview pages** — the course-wide intro covers orientation; individual modules dive straight into content.
+
 ## Classroom Course Library
 
 ### Course 1: ⚠️ "CPZ Fitness Starter Pack" (was "Geek to Greek Starter Pack") (Free — Orientation)

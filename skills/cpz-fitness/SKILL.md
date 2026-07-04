@@ -135,14 +135,14 @@ for any legacy engineer clients still active in coaching.
 
 ## Typography
 
-- **Barlow Condensed** — all display/headlines, UPPERCASE, 700–900 weight
-- **Inter** — body copy (web, print, email, slides)
-- **Poppins** — labels, data, section identifiers, and social media graphic body text (carousels)
-- **League Spartan** — logo wordmark only (not general use)
+- **Barlow Condensed** — headlines
+- **Inter** — body copy
+- **Poppins** — labels, data, carousel body
+- **League Spartan** — logo wordmark only
 
-⚠️ Known issue: the Barlow Condensed font file is currently missing from `cpz-carousels/fonts/` (it was removed when the font folder was swapped over to Inter/Poppins). Text and design specs still call for Barlow Condensed on headlines — the font file itself needs restoring in a separate design-focused pass.
+⚠️ Known issue: the Barlow Condensed font file is currently missing from `cpz-carousels/fonts/` — needs restoring in a separate design-focused pass.
 
-> Full type specs (weights, usage rules, design application): `cpz-design/SKILL.md`
+> Full type specs (weights, hierarchy, usage rules): `cpz-design/references/design-guide.md` §3. Full color system (extended palette, light-page colors): same doc, §2.
 
 ---
 
@@ -150,7 +150,7 @@ for any legacy engineer clients still active in coaching.
 
 | File                                                          | Load When                                                                                 |
 |:---------------------------------------------------------------|:------------------------------------------------------------------------------------------|
-| `references/brand.md`                                          | Deeper voice work — authentic voice patterns, tone quick-reference, content structure arc |
+| `references/brand.md`                                          | Deeper voice work — authentic voice patterns, the inclusive "we" principle, tone quick-reference, content structure arc |
 | `references/ICA-Master-Psychographics-v3-Reclaim-Yourself.md`  | Audience-facing copy, marketing, community content — current ICA                          |
 | `references/client-profile-v2-engineer-ARCHIVED.md`            | Legacy reference only — engineer-era clients still in active coaching                     |
 
