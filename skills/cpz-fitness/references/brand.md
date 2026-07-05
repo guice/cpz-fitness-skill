@@ -1,70 +1,6 @@
-# CPZ Fitness Brand Reference
+# CPZ Fitness Brand Reference — Deep Voice Guide
 
-## Identity
-
-| Field            | Value                                                                                  |
-|:-----------------|:---------------------------------------------------------------------------------------|
-| Company Name     | CPZ Fitness                                                                            |
-| Program Brand    | Geek 2 Greek                                                                           |
-| Community Name   | Geek 2 Greek Starter Zone                                                              |
-| Skool URL        | https://lnk.philipz.fit/skool                                                          |
-| Website          | https://www.philipz.fit/                                                               |
-| Social Media     | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky)                           |
-| Logo File        | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)                  |
-| Primary Color    | #ff8c00 (orange)                                                                       |
-| Background Color | #191a1b (Coco's Black)                                                                 |
-| Tagline          | "From desk-bound to damn-strong."                                                      |
-| Core Promise     | "Build the body that matches the mind."                                                |
-| Brand Metaphor   | Geek/Nerd physique → Greek God physique (transformation of body, mind, AND confidence) |
-
----
-
-## Brand Philosophy: The Greek Ideal
-
-The Greek ideal was never purely aesthetic. Ancient Greek culture unified mind, body, and character under a single concept: *arete* — excellence of the whole person. The gymnasium (*gymnasion*) was literally the same space where philosophy and physical training happened together. Socrates, Plato, and Aristotle were all physically active.
-
-The "Geek 2 Greek" transformation is built on this foundation. The target client already has the mind. The program adds the body. Together, that's the full Greek ideal — not a meathead aesthetic, but a complete, high-functioning human being operating at full capacity.
-
-This reframe is important for content: the transformation is **addition, not replacement**. The client doesn't leave the geek behind — he completes the package. The brain was never the problem. It's the foundation everything else is built on.
-
-This philosophy is why "Build the body your brain deserves" works as the core promise. The brain isn't incidental to the transformation — it's the reason for it.
-
----
-
-## Brand Archetype: The "Sarcastic Sage"
-
-Philip is the experienced senior engineer who has already debugged the system of fitness — and made every mistake along the way himself. He doesn't coddle, but he doesn't leave clients behind either. He calls out bad logic and common excuses with dry humor, then immediately hands the client the exact blueprint to fix the problem.
-
-The key: sarcasm always lands with empathy. The joke is never at the client's expense — it's at the *situation's* expense, often with Philip pointing at himself first.
-
----
-
-## The 4 Voice Pillars
-
-**1. Sarcastic & Humorous (The Hook)**
-Use dry wit and mild roasting to call out common mistakes and excuses. This disarms the analytical audience and makes coaching feel like a peer conversation, not a lecture. Humor slips in naturally — it is never performed or forced. One-liners land best when they're unexpected and self-aware.
-
-> Canonical example: *"I've spent years suffering from fuckarounditis in the gym, over-optimizing my whey protein isolate while forgetting to actually lift the weights."*
-> Tone quick-ref: "I see the couch gravity was particularly strong yesterday. That's fine. System reboot. Hit your scheduled session today."
-
-**2. Analytical & Systems-Driven (The Language)**
-Frame fitness in terms the tech audience understands: systems, optimization, debugging, inputs/outputs, refactoring. Remove emotion and replace it with logic. Precision matters — if a word has a specific meaning, use it correctly and call it out when others don't.
-
-> Canonical example: *"This 16-week program is the refactor you need. It's not a generic fitness plan; it's a structured, data-driven system..."*
-> Canonical example: *"We're high-performing problem solvers at work, but when it comes to our health, most of us are running legacy code."*
-
-**3. Empathetic & Understanding (The Foundation)**
-Acknowledge the real struggles: long hours behind screens, gym intimidation, feeling skinny-fat, wanting to feel confident. Philip lived this — he gets it. Empathy does not mean softening hard truths. It means delivering them in a way the client can actually receive and act on.
-
-> Canonical example: *"I know exactly what it's like to treat life like a system to optimize while somehow letting your own hardware—your body—fall into a state of total technical debt."*
-
-**4. Guiding & Direct (The Action)**
-Provide clear, actionable, no-nonsense direction. Cut through analysis paralysis with a single clear next step. State the position plainly and trust the reader to keep up — don't over-qualify or hedge after the point is made.
-
-> Canonical example: *"It's time to optimize your body as effectively as you optimize your code."*
-> Tone quick-ref: "Stop worrying about meal timing and just eat some protein."
-
----
+> For Key Facts, Brand Philosophy, Brand Archetype, the Voice Pillars, the Vocabulary Guide, and the Writing Checklist, see `../SKILL.md` — that file is the canonical source. This file adds deeper behavioral voice patterns not covered there.
 
 ## Authentic Voice Patterns
 
@@ -114,23 +50,23 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 
 ---
 
-## Vocabulary Guide
+## The Inclusive "We" Principle
 
-| Use These                              | Avoid These                                                             |
-|:---------------------------------------|:------------------------------------------------------------------------|
-| Systems / Optimization / Debugging     | Crush it / Beast mode / Grind                                           |
-| Inputs / Outputs / Metrics             | Shredded / Ripped / Swole                                               |
-| Refactoring / Upgrading                | Bro / Boss / Chief                                                      |
-| Skinny-fat / Desk-bound                | Excessive emojis (🚀🔥💯)                                               |
-| Fuckarounditis                         | "No-BS" (prefer: straightforward, practical, cutting through the noise) |
-| Checkpoint / Level Up / XP (sparingly) | "LET'S GOOO" / "beast mode" / hype filler                               |
-| Lean gain / Slow gain                  | Cookie-cutter / Generic                                                 |
+Philip does not speak *to* his audience — he speaks *with* them. This is not a stylistic preference; it is a fundamental positioning decision. The coach-client hierarchy implies distance and authority. The peer relationship implies shared experience and mutual investment in the outcome. Philip has lived the exact struggle his ICA is in right now, and the language must reflect that.
 
-**Avoid these specific patterns:**
-- "Genuinely" / "Honestly" (except in authentic, casual contexts — not as filler)
-- Restarting after a point is made ("and let me just say again...")
-- Hedging after a direct claim ("...but of course, it depends on the person")
-- Trailing off instead of completing the thought
+The inclusive "we" applies across every community Philip belongs to and speaks from:
+
+| Community | How "We" Shows Up |
+| --- | --- |
+| **Gay men** | "We know what it's like to feel invisible in spaces that weren't built for us." "We've spent years performing confidence we didn't feel." |
+| **LGBT community broadly** | "We've had to build our own definitions of strength and confidence — the mainstream ones never quite fit." |
+| **Fitness beginners** | "We've all stood in the gym not knowing what we're supposed to be building." "We've started three times. Maybe six." |
+
+**The rule:** If Philip is part of the community being addressed, use "we." If he is speaking about a group he is not part of, use "they" or name the group directly. Never use "you" in a way that positions Philip as an outside observer of a struggle he has personally lived.
+
+**The test:** Before publishing any piece of content, ask: *"Does this sound like a teammate talking, or a coach lecturing?"* If it sounds like a lecture, rewrite it with "we."
+
+**What this is not:** The inclusive "we" is not false modesty or performed humility. Philip is further along the path — he has done the work and crossed the finish lines. The "we" acknowledges that the struggle is shared, not that the expertise is equal. He is the guy who already made every mistake, not someone reciting theory.
 
 ---
 
@@ -138,10 +74,10 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 
 | Scenario                   | Correct CPZ Voice                                                                                                                                                                  |
 |:---------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Missed a workout           | "I see the couch gravity was particularly strong yesterday. That's fine. System reboot. Hit your scheduled session today."                                                         |
-| Overcomplicating nutrition | "You're trying to optimize the aerodynamics of a car that doesn't have an engine yet. Stop worrying about meal timing and just eat some protein."                                  |
-| Celebrating a win          | "Solid execution on the deadlifts today. The system is working. Enjoy the win, then let's look at next week's progression."                                                        |
-| Welcoming a new member     | "Welcome to the group. You're here because you're tired of being the smartest guy in the room with the weakest deadlift. Let's fix that."                                          |
+| Missed a workout           | "I see the couch gravity was particularly strong yesterday. That's fine. Get back on the bench today."                                                                             |
+| Overcomplicating nutrition | "You're overthinking a meal plan for a body that just needs protein and consistency. Stop worrying about meal timing and just eat some protein."                                   |
+| Celebrating a win          | "Solid execution on the deadlifts today. Keep showing up like that and next week takes care of itself."                                                                            |
+| Welcoming a new member     | "Welcome to the group. You're here because you're tired of feeling invisible in a room full of guys who look like they have it figured out. Let's fix that."                       |
 | Sharing a personal failure | "I ran a 5-day bro split for two years. Chest/tri, back/bi, the whole thing. And I had almost nothing to show for it — because my routine/diet sucked. That's when I found SL5x5." |
 | Correcting a common myth   | "The idea that you need to eat every 2–3 hours to 'keep your metabolism going' is not just unnecessary — it's not how metabolism works. Here's what's actually happening..."       |
 
@@ -155,19 +91,4 @@ Philip can tell someone something uncomfortable and still be empathetic — beca
 3. State the fix directly — no hedging
 4. One clear next action
 
-**End every piece with a single, clear next action.** Not a question, not a reflection — an action. The analytical audience wants to know exactly what to do next.
-
----
-
-## Writing Checklist
-
-Before finalizing any content, verify:
-1. Is it clear and actionable?
-2. Does it speak to the analytical mindset?
-3. Is there a dry, sarcastic observation about a common mistake?
-4. Does it ultimately guide toward a solution with empathy?
-5. Are emojis used purposefully, not as punctuation?
-6. Does Philip implicate himself before coaching on the topic?
-7. Is the position stated once, plainly — without repeating or over-justifying?
-8. Is emphasis (italics/bold) used structurally, not decoratively?
-9. Is the failure context as specific as the win?
+**End every piece with a single, clear next action.** Not a question, not a reflection — an action. The reader wants to know exactly what to do next.

@@ -22,7 +22,7 @@ Prospects join the free Skool community, consume foundational content in the Cla
 **Phase 2 — Onboarding (Everfit)**
 Converted clients are moved into Everfit. An automated Autoflow sequence handles the welcome message, intake questionnaire, and initial program setup.
 
-**Phase 3 — Program Execution (Everfit, 3 months)**
+**Phase 3 — Program Execution (Everfit, 16 weeks)**
 Daily workout delivery, weekly automated check-in forms, bi-weekly Zoom calls, and 1:1 in-app messaging. Programs are custom-built from pre-built templates.
 
 **Phase 4 — Graduation & Retention**
@@ -30,7 +30,7 @@ Daily workout delivery, weekly automated check-in forms, bi-weekly Zoom calls, a
 
 ## Coaching Model
 
-Philip's initial model is **1:1 online coaching**. The 4-month program is the primary offer. Nutrition guidance is provided as macro education and food direction — not prescribed meal plans (Philip is not currently certified as a nutritionist).
+Philip's initial model is **1:1 online coaching**. The 16-week program is the primary offer. Nutrition guidance is provided as macro education and food direction — not prescribed meal plans (Philip is not currently certified as a nutritionist).
 
 ## Skool Community Structure
 
@@ -39,31 +39,59 @@ Philip's initial model is **1:1 online coaching**. The 4-month program is the pr
 | # | Category | Purpose |
 | :--- | :--- | :--- |
 | 1 | 👋 Start Here | Introductions |
-| 2 | 📢 System Updates | Announcements — admin only |
+| 2 | 📢 Announcements | Announcements — admin only |
 | 3 | 💬 The Breakroom | General Chat |
-| 4 | 🏋️ Form Checks & Debugging | Video form reviews |
+| 4 | 🏋️ Form Checks & Feedback | Video form reviews |
 | 5 | 🥩 Fuel & Macros | Nutrition questions |
 | 6 | 🏆 Level Ups | Wins & Progress |
 | 7 | ❓ Q&A | Ask Philip |
 
 ---
 
+## Classroom Lesson Formats
+
+### Course 1 & 2 Format (4-Step Structure)
+
+All lessons in Course 1 (⚠️ name pending — placeholder "CPZ Fitness Starter Pack") and Course 2 (⚠️ name pending — placeholder "Training Foundations") follow this arc:
+
+1. **Opening hook** — a sarcastic or empathetic observation that names the problem
+2. **The diagnosis** — explain why the problem exists, plainly
+3. **The fix** — clear, actionable guidance broken into logical steps
+4. **The bridge** — a direct sentence pointing to the next lesson or action
+
+**Target length:** 400–700 words per lesson. Full paragraphs — avoid bullet-point-heavy formatting. Conversational and readable.
+
+### Course 3 Format — ⚠️ Name Pending (placeholder "The Consistency Blueprint")
+
+All lessons in Course 3 follow these additional standards:
+
+**Trigger Shift:** The opening sentence IS the H3 header. No "welcome back," no "in this lesson we'll cover." The first thing the reader sees is the point.
+
+**Active Reflection checkpoints:** Every lesson includes all three types, distributed across the lesson body:
+- `**Pause for a moment:**` — reflective checkpoint
+- `**Dig a little deeper:**` — reflective checkpoint
+- `**Take Action:**` — execution checkpoint
+
+**Key Takeaway:** Every lesson ends with a bolded Key Takeaway stated plainly — one sentence, no metaphor needed.
+
+**No module-level overview pages** — the course-wide intro covers orientation; individual modules dive straight into content.
+
 ## Classroom Course Library
 
-### Course 1: Geek to Greek Starter Pack (Free — Orientation)
+### Course 1: ⚠️ "CPZ Fitness Starter Pack" (was "Geek to Greek Starter Pack") (Free — Orientation)
 
-**Purpose:** Orientation and foundational education. Establishes trust and introduces the CPZ Fitness framework. Ends with first upsell.
+**Purpose:** Orientation and foundational education. Establishes trust and introduces CPZ Fitness. Ends with first upsell.
 
 | Module | Lessons | Status |
 | :--- | :--- | :--- |
-| Module 1 — System Initialization | 1.1 How to Use This Community; 1.2 The Skinny-Fat Problem Explained | ✅ Complete |
+| Module 1 — Getting Oriented | 1.1 How to Use This Community; 1.2 The Skinny-Fat Problem Explained | ✅ Complete |
 | Module 2 — Translating the Gym | 2.1 Gym Terminology 101; 2.2 Why Fuckarounditis is Killing Your Gains; 2.3 The Big 5 Lifts | ✅ Complete |
 | Module 3 — Fueling the Machine | 3.1 Macros Explained; 3.2 Why You Don't Need a Rigid Meal Plan; 3.3 The Protein Priority | ✅ Complete |
-| Module 4 — Upgrading Your Hardware | 4.1 Ready to Stop Guessing and Start Executing? (Upsell) | ✅ Complete |
+| Module 4 — The Next Level | 4.1 Ready to Stop Guessing and Start Executing? (Upsell) | ✅ Complete |
 
 ---
 
-### Course 2: The Training OS (Free — Execution)
+### Course 2: ⚠️ "Training Foundations" (was "The Training OS") (Free — Execution)
 
 **Purpose:** Teaches the 5 movement patterns, training week structure, progressive overload, and progress tracking. Ends with second upsell.
 
@@ -72,18 +100,20 @@ Philip's initial model is **1:1 online coaching**. The 4-month program is the pr
 | Module 1 — The 5 Movement Patterns | 1.1 The Hinge; 1.2 The Squat; 1.3 The Pull; 1.4 The Horizontal Push; 1.5 The Vertical Push | ✅ Complete |
 | Module 2 — Training Week Structure | 2.1 How to Structure a Training Week; 2.2 The Push/Pull/Legs Split; 2.3 Progressive Overload in Practice | ✅ Complete |
 | Module 3 — Progress Tracking | 3.1 How to Read Your Progress Data; 3.2 When to Deload; 3.3 How to Know If the Program Is Working | ✅ Complete |
-| Module 4 — The Final Variable | 4.1 The Final Variable (Upsell — bare-metal vs. managed hosting analogy) | ✅ Complete |
+| Module 4 — The Missing Piece | 4.1 The Missing Piece (Upsell — DIY vs. guided coaching analogy) | ✅ Complete |
 
 ---
 
-### Course 3: Deployment Blueprint (Free — Psychology & Habit Architecture)
+### Course 3: ⚠️ "The Consistency Blueprint" (was "Deployment Blueprint") (Free — Psychology & Habit Architecture)
 
-**Purpose:** Addresses the behavioral and psychological reasons clients don't execute. The master metaphor is a Kubernetes/Terraform deployment — the client writes their own `yourself.yaml`. Ends with third upsell.
+⚠️ **Flagged for a dedicated redesign session, not rewritten here.** This entire course's module and lesson architecture (below) is built on a Kubernetes/Terraform deployment metaphor — "The Real Bug," "Event-Driven Architecture," "Garbage Collection," "Building the OS," etc. — spanning all 21 lessons across 6 modules. Renaming the course title is a one-line fix; replacing the master metaphor and every lesson concept it's built on is a real curriculum-design decision that affects content that may already be recorded/published. Rather than silently inventing 21 new lesson concepts, this is left intact below and flagged for you to redesign directly (or confirm you want it regenerated).
 
-**Writing Standards (ALL lessons):**
+**Purpose:** Addresses the behavioral and psychological reasons clients don't execute. Ends with third upsell.
+
+**Writing Standards (ALL lessons) — pending the redesign above:**
 - Active Reflection checkpoints: "Pause for a moment:", "Dig a little deeper:", "Take Action:" — every lesson must include all three types across the module
 - Trigger Shift: Opening sentence is the H3 header — no "welcome back" filler
-- Key Takeaway: Every lesson ends with a bolded Key Takeaway in Deployment Blueprint vocabulary
+- Key Takeaway: Every lesson ends with a bolded Key Takeaway, stated plainly — no metaphor needed (currently still written in the old deployment vocabulary pending the redesign above)
 - No module-level overview pages — course-wide intro only
 
 | Module | Lessons | Status |

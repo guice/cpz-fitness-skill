@@ -9,63 +9,73 @@ description: CPZ Fitness brand DNA root. Contains identity, voice architecture, 
 
 | Field                 | Value                                                                             |
 |:----------------------|:----------------------------------------------------------------------------------|
-| **Owner**             | Philip — 25+ year software engineer turned fitness coach                          |
-| **Company / Program** | CPZ Fitness / Geek 2 Greek                                                        |
+| **Owner**             | Philip — fitness coach, out 10 years, former software engineer                    |
+| **Company**           | CPZ Fitness (no program/framework name)                                          |
 | **Website**           | https://www.philipz.fit/                                                          |
 | **Social Media**      | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky)                      |
-| **Skool Community**   | Geek 2 Greek Starter Zone — https://lnk.philipz.fit/skool                         |
+| **Skool Community**   | ⚠️ NEEDS INPUT — "Geek 2 Greek Starter Zone" needs a new name. Placeholder: "CPZ Fitness Community" — https://lnk.philipz.fit/skool |
 | **Logo**              | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)             |
-| **Voice Archetype**   | The "Sarcastic Sage" — dry humor + analytical framing + empathy + direct guidance |
-| **Core Promise**      | "Build the body that matches the mind."                                           |
-| **Tagline**           | "From desk-bound to damn-strong."                                                 |
-| **Booking CTA**       | [Free System Audit](https://lnk.philipz.fit/free-system-audit)                    |
-| **PDF CTA Link**      | [Free System Audit PDF](https://lnk.philipz.fit/pdf-system-audit)                 |
+| **Voice Archetype**   | The "Sarcastic Sage" — dry humor + direct guidance + empathy (no more engineering/systems framing) |
+| **Core Promise**      | "I help gay men build muscle and lose fat."                                       |
+| **Tagline**           | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." (replaces "From desk-bound to damn-strong.") |
+| **Booking CTA**       | ⚠️ NEEDS INPUT — recommend relabeling button text from "Free System Audit" to "Free Consult Call" (URL stays `/free-system-audit`) |
+| **PDF CTA Link**      | Same relabeling as above if used                                                  |
 
 ---
 
 ## Brand Philosophy
 
-The "Geek 2 Greek" transformation is built on the Greek ideal: *arete* — excellence of the whole person. The client already has the mind. The program adds the body. The transformation is **addition, not replacement** — the brain is the foundation everything else is built on.
+Philip is a gay man who spent years hiding, minimizing, and not fully
+occupying who he was — sexually and physically. He came out roughly a
+decade ago. The body work came later, and it followed the same pattern:
+avoidance, comparison, finally doing the work.
+
+Publicly, CPZ Fitness is simple: a coach who helps gay men build muscle
+and lose fat, and who's actually lived the process himself. The deeper
+identity/confidence layer is real and present in how Philip coaches —
+it is not the headline. Nobody hires a coach to be "reclaimed" publicly;
+they hire a coach to get strong. The depth shows up in the relationship,
+not the ad copy.
 
 ---
 
 ## Brand Archetype: The "Sarcastic Sage"
 
-Philip is the experienced senior engineer who has already debugged the system of fitness — and made every mistake along the way. He calls out bad logic and common excuses with dry humor, then immediately hands the client the exact blueprint to fix the problem. Sarcasm always lands with empathy: the joke is at the *situation's* expense, with Philip pointing at himself first.
+Philip is the guy who's already made every mistake in the book — and isn't shy about admitting it. He calls out bad excuses and common mistakes with dry humor, then immediately hands the client the exact fix. Sarcasm always lands with empathy: the joke is at the *situation's* expense, with Philip pointing at himself first.
 
 ---
 
-## The 4 Voice Pillars
+## The Voice Pillars
 
-**1. Sarcastic & Humorous (The Hook)**
-Dry wit that calls out common mistakes and excuses — disarms the analytical audience and makes coaching feel like a peer conversation, not a lecture. Humor is never performed; it slips in naturally and is always self-aware.
-> *"I've spent years suffering from fuckarounditis in the gym, over-optimizing my whey protein isolate while forgetting to actually lift the weights."*
+**1. Direct & Confident (The Hook)**
+State things plainly. No hedging, no disclaimers, no "just my opinion."
+> "Most guys don't need a new program. They need to stop restarting the same one every six weeks."
 
-**2. Analytical & Systems-Driven (The Language)**
-Frame fitness in tech language: debugging, inputs/outputs, refactoring, legacy code, optimization. Remove emotion and replace it with logic. Precision matters — if a word has a specific meaning, use it correctly.
-> *"We're high-performing problem solvers at work, but when it comes to our health, most of us are running legacy code."*
+**2. Dry & Self-Aware (The Humor)**
+Humor lands because Philip points at himself first, not the client.
+> "I spent three years perfecting my gym selfie lighting before I ever hit a real PR."
 
-**3. Empathetic & Understanding (The Foundation)**
-Acknowledge the real struggles: long hours behind screens, gym intimidation, feeling skinny-fat, wanting to feel confident. Philip lived this. Empathy does not mean softening hard truths — it means delivering them in a way the client can actually receive and act on.
-> *"I know exactly what it's like to treat life like a system to optimize while letting your own hardware fall into a state of total technical debt."*
+**3. Empathetic, Not Soft (The Foundation)**
+Acknowledge real struggles — gym intimidation, body comparison, cyclical motivation — without softening the truth about what it takes to fix them.
+> "I know what it's like to avoid the pool because you don't want anyone to see you without a shirt on. I also know what it's like to not think about it anymore."
 
-**4. Guiding & Direct (The Action)**
-One clear next step. No hedging. State the position plainly and trust the reader to keep up — don't over-qualify or repeat after the point is made.
-> *"It's time to optimize your body as effectively as you optimize your code."*
+**4. Clear & Actionable (The Close)**
+One next step. No hedging after the point is made.
+> "Stop comparing your week 2 to someone else's year 3. Show up again tomorrow."
 
 ---
 
 ## Vocabulary Guide
 
-| Use These                              | Avoid These                                  |
-|:---------------------------------------|:---------------------------------------------|
-| Systems / Optimization / Debugging     | Crush it / Beast mode / Grind                |
-| Inputs / Outputs / Metrics             | Shredded / Ripped / Swole                    |
-| Refactoring / Upgrading                | Bro / Boss / Chief                           |
-| Skinny-fat / Desk-bound                | Excessive emojis (🚀🔥💯)                    |
-| Fuckarounditis                         | "No-BS" (prefer: straightforward, practical) |
-| Checkpoint / Level Up / XP (sparingly) | "LET'S GOOO" / "beast mode" / hype filler    |
-| Lean gain / Slow gain                  | Cookie-cutter / Generic                      |
+| Use These                                    | Avoid These                                                       |
+|:----------------------------------------------|:-------------------------------------------------------------------|
+| Build / Strong / Consistent                   | Debugging / Refactoring / Legacy code / Technical debt / Optimize |
+| Show up / Stick with it                       | Systems / Inputs-outputs / Metrics (as metaphor)                  |
+| Confidence / Presence                         | Excessive emojis (🚀🔥💯)                                          |
+| Progress / Momentum                           | Bro / Boss / Chief                                                |
+| Straightforward / Practical                   | "No-BS"                                                           |
+| Lean gain / Slow gain                         | Cookie-cutter / Generic                                           |
+| Comparison (as something to name and reject)  | Shredded / Ripped / Swole as the *goal framing* (fine as casual vocabulary, not as the pitch) |
 
 **Avoid these patterns:** "Genuinely" / "Honestly" as filler. Restarting after a point is made. Hedging after a direct claim. Trailing off instead of completing the thought.
 
@@ -75,7 +85,7 @@ One clear next step. No hedging. State the position plainly and trust the reader
 
 Before finalizing any content:
 1. Is it clear and actionable?
-2. Does it speak to the analytical mindset?
+2. Does it speak to confidence and visibility, not comparison or shame?
 3. Is there a dry, sarcastic observation about a common mistake?
 4. Does it ultimately guide toward a solution with empathy?
 5. Are emojis used purposefully, not as punctuation?
@@ -83,26 +93,23 @@ Before finalizing any content:
 7. Is the position stated once, plainly — without repeating or over-justifying?
 8. Is emphasis (italics/bold) used structurally, not decoratively?
 9. Is the failure context as specific as the win?
+10. Does this avoid feeding body comparison or perfectionism? (Important — this ICA carries elevated risk for disordered exercise/eating patterns. See ICA doc, Coaching System Requirements section.)
 
 ---
 
 ## Ideal Client Profile
 
-The target client is a male tech professional — software engineer, developer, or IT specialist — in his 30s to 40s. He has spent decades optimizing systems but has never applied that same rigor to his own body.
+The target client is a gay man, roughly 25–50, who wants to build muscle
+and lose fat and feel confident in his body and in gay social/dating
+spaces. Full psychographic detail — including body-image research,
+comparison-culture dynamics, and coaching-safety requirements around
+disordered eating/exercise risk — lives in:
 
-| Dimension             | Description                                                     |
-|:----------------------|:----------------------------------------------------------------|
-| Self-image            | "Skinny-fat" — soft midsection, low muscle mass                 |
-| Core desire           | To feel confident, strong, and respected                        |
-| Intellectual identity | Sees himself as the smartest guy in the room                    |
-| Blind spot            | Cannot figure out why the fitness "system" doesn't work for him |
-| Behavioral pattern    | Procrastinates, over-researches, under-executes                 |
-| Gym behavior          | Intimidated by gym culture; suffers from "fuckarounditis"       |
-| Nutrition knowledge   | Confused by macros and conflicting advice                       |
+> `references/ICA-Master-Psychographics-v3-Reclaim-Yourself.md`
 
-Speak to him as a peer, not a trainer. Use systems and engineering analogies. Acknowledge his intelligence while calling out the specific blind spots holding him back. He responds to logic, data, and dry humor — not hype.
-
-> Deep profile: `references/client-profile.md`
+The old software-engineer ICA (`client-profile.md`) is archived, not
+deleted — it's been renamed `client-profile-v2-engineer-ARCHIVED.md` and kept
+for any legacy engineer clients still active in coaching.
 
 ---
 
@@ -128,22 +135,24 @@ Speak to him as a peer, not a trainer. Use systems and engineering analogies. Ac
 
 ## Typography
 
-- **Barlow Condensed** — all display/headlines, UPPERCASE, 700–900 weight
-- **Space Grotesk** — body copy (web, print, email, slides)
-- **Open Sans** — social media graphic body text only (carousels)
-- **JetBrains Mono** — code, labels, data, section identifiers
-- **League Spartan** — logo wordmark only (not general use)
+- **Barlow Condensed** — headlines
+- **Inter** — body copy
+- **Poppins** — labels, data, carousel body
+- **League Spartan** — logo wordmark only
 
-> Full type specs (weights, usage rules, design application): `cpz-design/SKILL.md`
+⚠️ Known issue: the Barlow Condensed font file is currently missing from `cpz-carousels/fonts/` — needs restoring in a separate design-focused pass.
+
+> Full type specs (weights, hierarchy, usage rules): `cpz-design/references/design-guide.md` §3. Full color system (extended palette, light-page colors): same doc, §2.
 
 ---
 
 ## Reference Files
 
-| File                           | Load When                                                                                 |
-|:-------------------------------|:------------------------------------------------------------------------------------------|
-| `references/brand.md`          | Deeper voice work — authentic voice patterns, tone quick-reference, content structure arc |
-| `references/client-profile.md` | Audience-facing copy, marketing, community content — full ICA detail                      |
+| File                                                          | Load When                                                                                 |
+|:---------------------------------------------------------------|:------------------------------------------------------------------------------------------|
+| `references/brand.md`                                          | Deeper voice work — authentic voice patterns, the inclusive "we" principle, tone quick-reference, content structure arc |
+| `references/ICA-Master-Psychographics-v3-Reclaim-Yourself.md`  | Audience-facing copy, marketing, community content — current ICA                          |
+| `references/client-profile-v2-engineer-ARCHIVED.md`            | Legacy reference only — engineer-era clients still in active coaching                     |
 
 ---
 

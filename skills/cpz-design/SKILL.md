@@ -23,8 +23,10 @@ description: CPZ Fitness visual design system. Use for image generation prompts,
 | Font                 | Role                               | Weights                            |
 |:---------------------|:-----------------------------------|:-----------------------------------|
 | **Barlow Condensed** | Headlines, CTAs, stats             | 700 / 800 / 900 — always uppercase |
-| **Space Grotesk**    | Body copy, descriptions            | 400 / 500                          |
-| **JetBrains Mono**   | Code, labels, data, section labels | 400                                |
+| **Inter**            | Body copy, descriptions            | 400 / 500                          |
+| **Poppins**          | Labels, data, section labels       | 400 / 500                          |
+
+⚠️ Known issue: the Barlow Condensed font file is currently missing from `cpz-carousels/fonts/` — text/design specs still call for it on headlines, but the file needs restoring in a separate design-focused pass.
 
 ### Logo & Assets
 - Logo file: `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)
@@ -32,7 +34,7 @@ description: CPZ Fitness visual design system. Use for image generation prompts,
 - Always use on dark backgrounds only
 
 ### Section Label Pattern (brand signature)
-`— // section.name` — 2rem orange horizontal rule + JetBrains Mono label in `#ff8c00`, uppercase, 0.1em letter-spacing
+Small-caps label (e.g. `SECTION NAME`) — 2rem orange horizontal rule + Poppins label in `#ff8c00`, uppercase, 0.1em letter-spacing
 
 ### Aspect Ratios
 | Platform                        | Ratio  | Pixels    |
@@ -93,10 +95,10 @@ description: CPZ Fitness visual design system. Use for image generation prompts,
 | `.h2`      | 44px    | Barlow Condensed | 900    |
 | `.h3`      | 24px    | Barlow Condensed | 800    |
 | `.h4`      | 15px    | Barlow Condensed | 800    |
-| `.body`    | 14px    | Space Grotesk    | 400    |
-| `.body.sm` | 12.5px  | Space Grotesk    | 400    |
-| `.body.xs` | 11px    | Space Grotesk    | 400    |
-| `.mono`    | 11px    | JetBrains Mono   | 400    |
+| `.body`    | 14px    | Inter            | 400    |
+| `.body.sm` | 12.5px  | Inter            | 400    |
+| `.body.xs` | 11px    | Inter            | 400    |
+| `.mono`    | 11px    | Poppins          | 400    |
 
 ### Card Types
 
@@ -119,12 +121,12 @@ The cover is the most important page. It sets tone and expectation. Always treat
 - **Gradient overlay** fading from near-transparent at top to solid dark (`#0f1012`) at the bottom ~75% mark — this preserves photo impact at top while creating a clean dark panel for text at the bottom
 - **Gradient formula:** `linear-gradient(to bottom, rgba(10,10,12,0.18) 0%, rgba(10,10,12,0.45) 38%, rgba(10,10,12,0.88) 58%, #0f1012 76%)`
 - **Logo** top-left, 52px, full colour
-- **Document tag** top-right, JetBrains Mono, muted warm white, small
+- **Document tag** top-right, Poppins, muted warm white, small
 - **Title block** bottom-left area: mono section label above, Barlow Condensed H1 in white + H1 in orange below it, 64px orange rule separator, short descriptor paragraph in `rgba(240,237,232,0.72)`
 - **Identity strip** at very bottom: name + handle left, "Prepared by" right, separated by a faint orange border-top
 
 ### Cover Photo Selection
-- Choose imagery that relates directly to the document subject (food for nutrition docs, athlete for training docs, desk/tech for desk-worker content)
+- Choose imagery that relates directly to the document subject (food for nutrition docs, athlete for training docs, lifestyle/confidence imagery for identity-focused content)
 - Portrait or square crops work better than landscape — the gradient needs vertical space to work
 - Subject should have weight in the upper portion of the frame so it's visible above the gradient transition
 - Avoid busy, high-contrast images — the overlay needs to blend smoothly
@@ -203,15 +205,15 @@ Before exporting any PDF document:
 - **PDF lead magnets:** `https://lnk.philipz.fit/pdf-system-audit`
 - **Workshop/audit booking:** `https://lnk.philipz.fit/free-system-audit`
 - Always wrap in `<a href="..." target="_blank">` — never a plain `<div>`
-- Style: `background: rgba(255,140,0,0.12)` pill, `border: 1px solid rgba(255,140,0,0.2)`, JetBrains Mono 13px
+- Style: `background: rgba(255,140,0,0.12)` pill, `border: 1px solid rgba(255,140,0,0.2)`, Poppins 13px
 
 ### CTA Page
 Always include two versions of the final page:
-* One for a lead magnet, intended for COLD traffic, with a CTA to book a free system audit with a QR code (see [pdf-link-qr-code.svg](references/pdf-link-qr-code.svg))
+* One for a lead magnet, intended for COLD traffic, with a ⚠️ CTA to book a call (label pending decision, was "free system audit") with a QR code (see [pdf-link-qr-code.svg](references/pdf-link-qr-code.svg))
 * One that does NOT use the CTA or QR Code intended for existing clients.
 
 ### Call Duration Standard
-- Free System Audit call = **15 minutes**
+- ⚠️ Consult call (label pending decision, was "Free System Audit") = **15 minutes**
 
 ---
 
@@ -229,8 +231,8 @@ Before finalizing any graphic:
 1. Background is `#191a1b` or `#1a1d21` (not a custom dark)
 2. Orange (`#ff8c00`) appears on **one element only** per frame
 3. Headlines use Barlow Condensed 700+ in **uppercase**
-4. Body copy uses Space Grotesk
-5. Code/system references use JetBrains Mono
+4. Body copy uses Inter
+5. Labels/data callouts use Poppins
 6. ZF logo mark is present as watermark or identifier
 7. No fourth typeface introduced
 8. No rounded corners beyond 4px on cards

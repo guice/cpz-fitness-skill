@@ -11,7 +11,7 @@ description: CPZ Fitness Skool community and classroom content. Use for writing 
 
 | Field               | Value                                     |
 |:--------------------|:------------------------------------------|
-| **Community Name**  | Geek 2 Greek Starter Zone                 |
+| **Community Name**  | ⚠️ NEEDS INPUT — placeholder: "CPZ Fitness Community" |
 | **Skool URL**       | https://lnk.philipz.fit/skool             |
 | **Upsell CTA**      | https://lnk.philipz.fit/free-system-audit |
 | **Voice Archetype** | The "Sarcastic Sage"                      |
@@ -20,7 +20,7 @@ description: CPZ Fitness Skool community and classroom content. Use for writing 
 
 | File                     | Load When                                                                 |
 |:-------------------------|:--------------------------------------------------------------------------|
-| `references/platform.md` | Always — for community structure, client journey, course library          |
+| `references/platform.md` | Always — for community structure, client journey, lesson formats, course library |
 | `references/program.md`  | When referencing the 16-week offer, program phases, or program vocabulary |
 
 ## Community Categories (7 total)
@@ -28,58 +28,36 @@ description: CPZ Fitness Skool community and classroom content. Use for writing 
 | # | Category                    | Purpose                    |
 |:--|:----------------------------|:---------------------------|
 | 1 | 👋 Start Here               | Introductions              |
-| 2 | 📢 System Updates           | Announcements — admin only |
+| 2 | 📢 Announcements            | Announcements — admin only |
 | 3 | 💬 The Breakroom            | General chat               |
-| 4 | 🏋️ Form Checks & Debugging | Video form reviews         |
+| 4 | 🏋️ Form Checks & Feedback  | Video form reviews         |
 | 5 | 🥩 Fuel & Macros            | Nutrition questions        |
 | 6 | 🏆 Level Ups                | Wins & progress            |
 | 7 | ❓ Q&A                       | Ask Philip                 |
 
 ## Classroom Lesson Formats
 
-### Course 1 & 2 Format (4-Step Structure)
-
-All lessons in Course 1 (Geek to Greek Starter Pack) and Course 2 (The Training OS) follow this arc:
-
-1. **Opening hook** — a sarcastic or empathetic observation that names the problem
-2. **The diagnosis** — explain why the problem exists in analytical terms
-3. **The fix** — clear, actionable guidance broken into logical steps
-4. **The bridge** — a direct sentence pointing to the next lesson or action
-
-**Target length:** 400–700 words per lesson. Full paragraphs — avoid bullet-point-heavy formatting. Conversational and readable.
-
-### Course 3 Format — Deployment Blueprint Standards
-
-All lessons in Course 3 (Deployment Blueprint) follow these additional standards:
-
-**Trigger Shift:** The opening sentence IS the H3 header. No "welcome back," no "in this lesson we'll cover." The first thing the reader sees is the point.
-
-**Active Reflection checkpoints:** Every lesson includes all three types, distributed across the lesson body:
-- `**Pause for a moment:**` — reflective checkpoint
-- `**Dig a little deeper:**` — analytical checkpoint
-- `**Take Action:**` — execution checkpoint
-
-**Key Takeaway:** Every lesson ends with a bolded Key Takeaway written in Deployment Blueprint vocabulary (Kubernetes/Terraform/deployment metaphors).
-
-**No module-level overview pages** — the course-wide intro covers orientation; individual modules dive straight into content.
+Full lesson-format rules (Course 1 & 2's 4-step arc, Course 3's Trigger Shift/Active Reflection/Key Takeaway standards) live in `references/platform.md` — load it before writing any classroom lesson.
 
 ## Course Library (Quick Reference)
 
-| Course                               | Purpose                                                     | Modules               |
-|:-------------------------------------|:------------------------------------------------------------|:----------------------|
-| Course 1: Geek to Greek Starter Pack | Orientation, foundational education, first upsell           | 4 modules, 9 lessons  |
-| Course 2: The Training OS            | Movement patterns, training structure, progressive overload | 4 modules, 11 lessons |
-| Course 3: Deployment Blueprint       | Psychology, habit architecture, behavioral execution        | 6 modules, 21 lessons |
+⚠️ All three course titles below use the retired "Geek to Greek" naming and code metaphors ("Training OS," "Deployment Blueprint") — placeholders shown, final names pending your decision.
+
+| Course                                                                     | Purpose                                                      | Modules               |
+|:----------------------------------------------------------------------------|:--------------------------------------------------------------|:-----------------------|
+| Course 1: ⚠️ "CPZ Fitness Starter Pack" (was "Geek to Greek Starter Pack") | Orientation, foundational education, first upsell            | 4 modules, 9 lessons  |
+| Course 2: ⚠️ "Training Foundations" (was "The Training OS")               | Movement patterns, training structure, progressive overload  | 4 modules, 11 lessons |
+| Course 3: ⚠️ "The Consistency Blueprint" (was "Deployment Blueprint")     | Psychology, habit architecture, behavioral execution          | 6 modules, 21 lessons |
 
 Load `references/platform.md` for the full lesson-by-lesson status and module summaries.
 
 ## Voice for Skool
 
-**Teaching tone:** Peer-to-peer, not instructor-to-student. Philip is the senior engineer who debugged the system — he's sharing what he found, not lecturing from a podium. The authority comes from lived experience, not credentials.
+**Teaching tone:** Peer-to-peer, not instructor-to-student. Philip is the Sarcastic Sage who's already made every mistake — he's sharing what he found, not lecturing from a podium. The authority comes from lived experience, not credentials.
 
-**Community posts:** Conversational and brief. Pillar 1 (Sarcastic/Humorous) is more prominent here — the community is a casual space. A well-timed dry observation earns more engagement than a polished post.
+**Community posts:** Conversational and brief. The Dry & Self-Aware pillar is more prominent here — the community is a casual space. A well-timed dry observation earns more engagement than a polished post.
 
-**Classroom lessons:** Pillar 2 (Analytical) leads the structure; Pillar 3 (Empathetic) carries the "why it's hard" context. Every lesson names what the client is struggling with before explaining what to do instead.
+**Classroom lessons:** Direct & Confident leads the structure; Empathetic, Not Soft carries the "why it's hard" context. Every lesson names what the client is struggling with before explaining what to do instead.
 
 **Course 3 Trigger Shift format** is the brand voice at its most direct: the first sentence IS the point. No warm-up, no orientation, no filler. The reader is already enrolled — they don't need to be sold, they need to be moved.
 
@@ -90,4 +68,4 @@ Load `references/platform.md` for the full lesson-by-lesson status and module su
 All upsell lessons (Course 1 Module 4, Course 2 Module 4, Course 3 Module 6) drive to:
 **https://lnk.philipz.fit/free-system-audit**
 
-Use "Free System Audit" as the CTA label — never "Book a Call" or "Schedule Now."
+⚠️ CTA label pending decision — placeholder "Free Consult Call" (was "Free System Audit"; URL unchanged).
