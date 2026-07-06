@@ -11,6 +11,8 @@ Carousels are the highest-leverage content format for this brand. The ICA consum
 2. A **body** that delivers the data or insight (1–5 slides)
 3. A **CTA slide** with a single clear next action
 
+⚠️ As of the July 2026 Brand Guide v1, Schibsted Grotesk replaces Barlow Condensed for all headline references below (weights 600/700, sentence case, not uppercase). Exact pixel sizing still needs a recalibration pass — see `references/html-rendering-spec.md`.
+
 ---
 
 ## The Four Carousel Types
@@ -23,11 +25,11 @@ Use when: Correcting a common belief with data, or presenting a surprising metri
 
 | Slide                | Content                                                                         | Visual Hierarchy                                                                                                                                  |
 |:---------------------|:--------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cover (1)            | Provocative stat or contrarian claim — one sentence, maximum size               | Barlow Condensed 900, orange on one key word. Section label top-left. No body copy.                                                               |
-| Body 1 (2)           | Why the common belief is wrong — data first, then explanation                   | Section label. Headline in Barlow. Body in Inter. One stat in Barlow 900 orange if available.                                             |
+| Cover (1)            | Provocative stat or contrarian claim — one sentence, maximum size               | Schibsted Grotesk 700, orange on one key word. Section label top-left. No body copy.                                                               |
+| Body 1 (2)           | Why the common belief is wrong — data first, then explanation                   | Section label. Headline in Schibsted Grotesk. Body in Inter. One stat in Schibsted Grotesk 700 orange if available.                                             |
 | Body 2 (3-4)         | The correct reframe, stated plainly                                            | Same layout. Orange on the key correction word or stat.                                                                                           |
 | Body 3 (5, optional) | Philip's personal connection to the problem — failure context before the lesson | Section label. More conversational tone. No stats required.                                                                                       |
-| CTA (final)          | Single clear next action                                                        | Full-bleed dark. CTA in Barlow Condensed orange. Section label: small-caps "NEXT STEP". Handle in Poppins muted. ZF logo centered or bottom-right. |
+| CTA (final)          | Single clear next action                                                        | Full-bleed dark. CTA in Schibsted Grotesk orange. Section label: small-caps "NEXT STEP". Handle in Poppins muted. ZF logo centered or bottom-right. |
 
 **Caption pairing:** Long-form (150–300 words on Instagram). Caption delivers the diagnosis; the carousel delivers the data. Do not repeat slide text verbatim in caption.
 
@@ -41,9 +43,9 @@ Use when: Delivering a complete, actionable workout routine the ICA can screensh
 
 | Slide                 | Content                                                                                         | Visual Hierarchy                                                                                                                                |
 |:----------------------|:------------------------------------------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cover (1)             | The promise: time, equipment constraint, outcome. "15 minutes. No equipment. Here's the stack." | Barlow Condensed 900. Time in orange. Minimal body copy.                                                                                        |
-| Exercise slides (2–5) | One exercise per slide — name, reps or duration, RPE cue                                        | Exercise name in Barlow 700 uppercase. Reps/duration in Barlow 900 orange. RPE in Poppins muted. Consider exercise illustration or icon. |
-| CTA (final)           | Save this. Follow for more. Link in bio.                                                        | Full-bleed dark. Barlow orange CTA. Handle and ZF logo.                                                                                         |
+| Cover (1)             | The promise: time, equipment constraint, outcome. "15 minutes. No equipment. Here's the stack." | Schibsted Grotesk 700. Time in orange. Minimal body copy.                                                                                        |
+| Exercise slides (2–5) | One exercise per slide — name, reps or duration, RPE cue                                        | Exercise name in Schibsted Grotesk 600. Reps/duration in Schibsted Grotesk 700 orange. RPE in Poppins muted. Consider exercise illustration or icon. |
+| CTA (final)           | Save this. Follow for more. Link in bio.                                                        | Full-bleed dark. Schibsted Grotesk orange CTA. Handle and ZF logo.                                                                                         |
 
 **Caption pairing:** Short (50–100 words). The slides contain the workout — caption provides context and single CTA. Avoid restating the exercise list.
 
@@ -57,7 +59,7 @@ Use when: Teaching macro math, debunking nutrition myths, or showing the ICA how
 
 | Slide                       | Content                                                                                      | Visual Hierarchy                                                                        |
 |:----------------------------|:---------------------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------|
-| Cover (1)                   | The number that triggers recognition — protein target, macro math, surprising calorie figure | Number in Barlow Condensed 900 orange, very large. Minimal supporting text.             |
+| Cover (1)                   | The number that triggers recognition — protein target, macro math, surprising calorie figure | Number in Schibsted Grotesk 700 orange, very large. Minimal supporting text.             |
 | Body 1 (2)                  | The breakdown — why this number matters, what it means in practice                           | Section label. Headline. Body copy. One supporting number in orange.                    |
 | Body 2 (3)                  | Practical application — how to actually hit it without rigid meal planning                   | Practical examples. Bullet format acceptable here for brevity.                          |
 | Body 3 (4)                  | Additional data or Philip's personal take                              | More conversational. Optionally use a data-card style breakdown for the numbers. |

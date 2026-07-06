@@ -2,6 +2,8 @@
 
 This document defines the exact visual patterns for rendering carousel slides as 1080×1350px HTML panels. It codifies the approved design language derived from production slides.
 
+⚠️ **Pending recalibration (July 2026 Brand Guide v1):** Font-family references below have been updated from Barlow Condensed to Schibsted Grotesk, and colors updated to the new palette (see `cpz-design/references/design-guide.md` §2–§3). But the **pixel sizes were tuned for Barlow Condensed's condensed proportions** — Schibsted Grotesk is a standard-width grotesk and will wrap/behave differently at the same sizes (e.g., a 104px headline will take up meaningfully more horizontal space). Treat every size value in this doc as provisional until a visual recalibration pass confirms it against real renders — this is deferred to the same "separate design-focused session" as the font-asset restoration work, not something to guess through blind substitution.
+
 ---
 
 ## Slide Canvas
@@ -22,10 +24,12 @@ Slides alternate between three background modes for visual rhythm. The standard 
 
 | Mode | Background | Text Color | Accent |
 |:-----|:-----------|:-----------|:-------|
-| **Dark** | `#191a1b` | `#f0ede8` | `#ff8c00` |
-| **Surface** | `#1a1d21` | `#f0ede8` | `#ff8c00` |
-| **Light** | `#f5f2ed` | `#191a1b` | `#ff8c00` |
+| **Dark** | `#1c1a17` | `#f2ece2` | `#ff8c00` |
+| **Surface** | `#2c2925` ⚠️ | `#f2ece2` | `#ff8c00` |
+| **Light** | `#f5f3ef` | `#1c1a17` | `#ff8c00` |
 | **CTA Gradient** | `linear-gradient(155deg, #cc7000 0%, #ff8c00 50%, #ffaa33 100%)` | `#ffffff` | N/A |
+
+⚠️ The dark palette collapsed from three tones to two in the July 2026 Brand Guide v1 (see design-guide.md §2.3) — "Surface" now maps to the same hex as the "Card" role (`#2c2925`), since the old middle "surface" tier no longer exists as its own value. It's still visually distinct from "Dark" (`#1c1a17`), so it can still serve its rhythm role for 6-slide carousels, but this mapping is a judgment call made here, not something stated explicitly in the new guide — confirm it holds up in the recalibration pass.
 
 ---
 
@@ -35,7 +39,7 @@ A massive oversized numeral positioned in the top-right corner as a background t
 
 | Property | Value |
 |:---------|:------|
-| Font | Barlow Condensed 900 |
+| Font | Schibsted Grotesk 700 |
 | Size | 380px |
 | Position | `top: -40px; right: -30px` |
 | Color (dark) | `rgba(255,255,255,0.04)` |
@@ -57,7 +61,7 @@ Positioned top-left on cover slides and light slides. Contains the ZF mark insid
 | Circle background | `#2a2a2a` (dark on light: `#333`) |
 | Logo size inside | 40×34px |
 | Handle font | Inter 500, 28px |
-| Handle color (dark) | `#8a8f96` |
+| Handle color (dark) | `#9b948a` |
 | Handle color (light) | `#555` |
 
 ---
@@ -68,14 +72,16 @@ Headlines are significantly larger than web usage to command attention at mobile
 
 | Element | Font | Size | Weight | Transform |
 |:--------|:-----|:-----|:-------|:----------|
-| Headline (body slides) | Barlow Condensed | 104px | 900 | Uppercase |
-| Headline (CTA slide) | Barlow Condensed | 100–120px | 900 | Uppercase |
-| Section label | Poppins | 28px | 400 | Uppercase, 0.12em tracking |
-| Sub-label (category) | Barlow Condensed | 32px | 700 | Uppercase, 0.08em tracking |
+| Headline (body slides) | Schibsted Grotesk | 104px ⚠️ | 700 | Sentence case |
+| Headline (CTA slide) | Schibsted Grotesk | 100–120px ⚠️ | 700 | Sentence case |
+| Section label | Poppins | 28px | 600 | Uppercase, 0.14–0.16em tracking |
+| Sub-label (category) | Schibsted Grotesk | 32px ⚠️ | 600 | Sentence case |
 | Body copy | Inter | 36px | 400 | None |
 | Info card label | Poppins | 22px | 500 | Uppercase, 0.1em tracking |
 | Info card body | Inter | 32px | 400 | None |
-| Pill tag | Poppins | 24px | 400 | None |
+| Pill tag | Poppins | 24px | 500 | None |
+
+⚠️ = size carried over unchanged from the Barlow Condensed spec — needs recalibration against Schibsted Grotesk's wider proportions (see the note at the top of this doc). The uppercase→sentence-case transform change follows §3.3 of the design guide, which is more likely to hold regardless of the pixel recalibration.
 
 ---
 
@@ -85,14 +91,14 @@ A small-caps label (e.g. `TOPIC NAME`) appears on every body slide.
 
 | Context | Color |
 |:--------|:------|
-| Dark slides | `#8a8f96` (muted) |
+| Dark slides | `#9b948a` (muted) |
 | Light slides | `#ff8c00` (orange) |
 
 ---
 
 ## Sub-Label
 
-An optional secondary label below the section label (e.g., exercise name, category). Always in orange (`#ff8c00`), Barlow Condensed 700, uppercase.
+An optional secondary label below the section label (e.g., exercise name, category). Always in orange (`#ff8c00`), Schibsted Grotesk 600, sentence case.
 
 ---
 
@@ -118,16 +124,18 @@ For presenting numerical data (calorie math, stats, comparisons).
 
 | Property | Value |
 |:---------|:------|
-| Background | `#22262b` |
+| Background | `#2c2925` |
 | Border | `1px solid rgba(255,140,0,0.2)` |
 | Border radius | 8px |
 | Padding | 36px |
 | Row separator | `1px solid rgba(255,255,255,0.06)` |
-| Label font | Poppins 26px, `#8a8f96` |
-| Value font | Barlow Condensed 800, 34px |
-| Positive value | `#4ade80` |
+| Label font | Poppins 26px, `#9b948a` |
+| Value font | Schibsted Grotesk 700, 34px |
+| Positive value | `#4ade80` ⚠️ |
 | Negative value | `#ff4444` |
 | Accent value | `#ff8c00` |
+
+⚠️ "Positive value" still uses the retired "Terminal Green" hex — the new guide doesn't specify a replacement for data-viz positive/negative indicators, so this is left as-is pending a decision rather than removed outright (removing it would break the pos/neg distinction with nothing to replace it).
 
 ---
 
@@ -138,13 +146,15 @@ A row of tags at the bottom of body slides indicating muscle groups, time commit
 | Property | Primary Pill | Muted Pill |
 |:---------|:-------------|:-----------|
 | Background | `#ff8c00` | transparent |
-| Text color | `#191a1b` | `#8a8f96` (dark) / `#666` (light) |
+| Text color | `#1c1a17` | `#9b948a` (dark) / `#666` (light) |
 | Border | none | `1px solid rgba(255,255,255,0.2)` (dark) / `rgba(0,0,0,0.15)` (light) |
-| Border radius | 6px | 6px |
+| Border radius | 20px ⚠️ | 20px ⚠️ |
 | Padding | 10px 20px | 10px 20px |
 | Font | Poppins 24px | Poppins 24px |
 
 The first pill is always primary (orange-filled). Subsequent pills are muted (outlined).
+
+⚠️ Border radius updated from 6px to 20px (fully rounded) per the new Status Pill component in `design-guide.md` §6.2 — this is a direct match to the new guide's spec, not a recalibration guess, so it's a firmer change than the ⚠️-flagged font sizes above.
 
 ---
 
@@ -197,8 +207,8 @@ The final slide uses a completely different visual treatment to signal the end o
 | Layout | Centered, flex-column |
 | Logo | 120×120px dark circle (`rgba(0,0,0,0.3)`) with white ZF mark (64×55px) |
 | Handle | Poppins 28px, `rgba(255,255,255,0.8)` |
-| Headline | Barlow Condensed 900, 100–120px, white, centered |
-| Glass card | `background: rgba(0,0,0,0.2); backdrop-filter: blur(12px); border-radius: 12px; padding: 36px 48px` |
+| Headline | Schibsted Grotesk 700, 100–120px ⚠️, white, sentence case |
+| Glass card | `background: rgba(0,0,0,0.2); backdrop-filter: blur(12px); border-radius: 16px; padding: 36px 48px` |
 | Glass card text | Inter 32px weight 500, white |
 | Glass card link | Poppins 24px, `rgba(255,255,255,0.6)` |
 | Website | Poppins 24px, `rgba(255,255,255,0.5)`, below glass card |
@@ -222,7 +232,7 @@ When used (typically cover slides and select body slides), images are dimmed to 
 ## Google Fonts Import
 
 ```
-https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Inter:wght@400;500&family=Poppins:wght@400;500&display=swap
+https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@600;700&family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600&display=swap
 ```
 
 ---

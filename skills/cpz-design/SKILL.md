@@ -10,31 +10,31 @@ description: CPZ Fitness visual design system. Use for image generation prompts,
 ### Colors
 | Role             | Name           | Hex                   |
 |:-----------------|:---------------|:----------------------|
-| Background       | Coco's Black   | `#191a1b`             |
-| Surface          | Dark Surface   | `#1a1d21`             |
-| Card             | Card Surface   | `#22262b`             |
+| Background       | Coco's Black   | `#1c1a17`             |
+| Card             | Card Surface   | `#2c2925`             |
 | **Accent / CTA** | **CPZ Orange** | **`#ff8c00`**         |
-| Text Primary     | Warm White     | `#f0ede8`             |
-| Text Muted       | Slate Muted    | `#8a8f96`             |
-| Code / Status    | Terminal Green | `#4ade80`             |
-| Border           | Orange Border  | `rgba(255,130,0,0.2)` |
+| Text Primary     | Warm White     | `#f2ece2`             |
+| Text Muted       | Warm Muted     | `#9b948a`              |
+| Border           | Orange Border  | `rgba(255,140,0,0.2)` |
+
+⚠️ "Terminal Green" (`#4ade80`) was retired as of the July 2026 Brand Guide v1 — see `references/design-guide.md` §2.1.
 
 ### Typography
-| Font                 | Role                               | Weights                            |
-|:---------------------|:-----------------------------------|:-----------------------------------|
-| **Barlow Condensed** | Headlines, CTAs, stats             | 700 / 800 / 900 — always uppercase |
-| **Inter**            | Body copy, descriptions            | 400 / 500                          |
-| **Poppins**          | Labels, data, section labels       | 400 / 500                          |
+| Font                    | Role                               | Weights   |
+|:------------------------|:-----------------------------------|:----------|
+| **Schibsted Grotesk**   | Headlines, display, section titles | 600 / 700 |
+| **Inter**               | Body copy, UI, buttons             | 400 / 500 / 600 / 700 |
+| **Poppins**             | Eyebrows, labels, data, tags       | 500 / 600 |
 
-⚠️ Known issue: the Barlow Condensed font file is currently missing from `cpz-carousels/fonts/` — text/design specs still call for it on headlines, but the file needs restoring in a separate design-focused pass.
+⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1, but the font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass.
 
 ### Logo & Assets
-- Logo file: `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)
+- Logo file: `templates/cpz-logo.svg` (ZF lettermark — the Z of "CPZ" and F of "Fitness" combined into one glyph, orange on transparent, no dedicated wordmark typeface)
 - Font files: `fonts/` directory
 - Always use on dark backgrounds only
 
 ### Section Label Pattern (brand signature)
-Small-caps label (e.g. `SECTION NAME`) — 2rem orange horizontal rule + Poppins label in `#ff8c00`, uppercase, 0.1em letter-spacing
+Poppins eyebrow label in `#ff8c00`, uppercase, 600 weight, 0.14–0.16em letter-spacing, placed directly above the headline — no rule line (e.g. `SECTION NAME`)
 
 ### Aspect Ratios
 | Platform                        | Ratio  | Pixels    |
@@ -70,13 +70,15 @@ Small-caps label (e.g. `SECTION NAME`) — 2rem orange horizontal rule + Poppins
 
 ### Extended Color Palette (light pages)
 
+Base tokens (surface/card/body/muted) are rebased onto the canonical Secondary/Light palette in `references/design-guide.md` §2.2. The rows below add print-only extras layered on top of that base.
+
 | Role           | Hex                    |
 |:---------------|:-----------------------|
-| Light surface  | `#f7f8fa`              |
-| Light card     | `#f0f2f5`              |
+| Light surface  | `#f5f3ef`              |
+| Light card     | `#ffffff`              |
 | Divider        | `#e2e5ea`              |
-| Body text      | `#1a1e26`              |
-| Muted text     | `#5a6478`              |
+| Body text      | `#17181a`              |
+| Muted text     | `#7a7f87`              |
 | Orange tint bg | `#fff5e6`              |
 | Orange border  | `rgba(255,140,0,0.35)` |
 | Dark border    | `rgba(255,140,0,0.2)`  |
@@ -89,16 +91,16 @@ Small-caps label (e.g. `SECTION NAME`) — 2rem orange horizontal rule + Poppins
 
 ### Type Scale
 
-| Element    | Size    | Font             | Weight |
-|:-----------|:--------|:-----------------|:-------|
-| `.h1`      | 72px+   | Barlow Condensed | 900    |
-| `.h2`      | 44px    | Barlow Condensed | 900    |
-| `.h3`      | 24px    | Barlow Condensed | 800    |
-| `.h4`      | 15px    | Barlow Condensed | 800    |
-| `.body`    | 14px    | Inter            | 400    |
-| `.body.sm` | 12.5px  | Inter            | 400    |
-| `.body.xs` | 11px    | Inter            | 400    |
-| `.mono`    | 11px    | Poppins          | 400    |
+| Element    | Size    | Font              | Weight |
+|:-----------|:--------|:------------------|:-------|
+| `.h1`      | 72px+   | Schibsted Grotesk | 700    |
+| `.h2`      | 44px    | Schibsted Grotesk | 700    |
+| `.h3`      | 24px    | Schibsted Grotesk | 600    |
+| `.h4`      | 15px    | Schibsted Grotesk | 600    |
+| `.body`    | 14px    | Inter             | 400    |
+| `.body.sm` | 12.5px  | Inter             | 400    |
+| `.body.xs` | 11px    | Inter             | 400    |
+| `.mono`    | 11px    | Poppins           | 400    |
 
 ### Card Types
 
@@ -107,7 +109,7 @@ Small-caps label (e.g. `SECTION NAME`) — 2rem orange horizontal rule + Poppins
 | `.card`                  | `#f7f8fa` bg, 1px `#e2e5ea` border, 3px radius, 18px 20px padding |
 | `.card.accent`           | Left border 3px `#ff8c00`, radius 0 3 3 0                         |
 | `.card.callout`          | `#fff5e6` bg, orange border — used for tips and notes             |
-| `.card.dark-card`        | `#1a1d21` bg, dark border                                         |
+| `.card.dark-card`        | `#2c2925` bg, dark border                                         |
 | `.card.dark-card.accent` | Dark bg + left orange border                                      |
 
 ---
@@ -122,7 +124,7 @@ The cover is the most important page. It sets tone and expectation. Always treat
 - **Gradient formula:** `linear-gradient(to bottom, rgba(10,10,12,0.18) 0%, rgba(10,10,12,0.45) 38%, rgba(10,10,12,0.88) 58%, #0f1012 76%)`
 - **Logo** top-left, 52px, full colour
 - **Document tag** top-right, Poppins, muted warm white, small
-- **Title block** bottom-left area: mono section label above, Barlow Condensed H1 in white + H1 in orange below it, 64px orange rule separator, short descriptor paragraph in `rgba(240,237,232,0.72)`
+- **Title block** bottom-left area: mono section label above, Schibsted Grotesk H1 in white + H1 in orange below it, 64px orange rule separator, short descriptor paragraph in `rgba(240,237,232,0.72)`
 - **Identity strip** at very bottom: name + handle left, "Prepared by" right, separated by a faint orange border-top
 
 ### Cover Photo Selection
@@ -146,10 +148,10 @@ Full-width photo band bleeding edge-to-edge at the top of a light page, 180–23
 A vertical photo occupying one column of a two-column grid layout, typically 240–285px wide. Used alongside text content. Gives the page a magazine-editorial quality. Always pair with a callout card below the photo in the same column to fill the space and add value. Height should be fixed in px (not `height:100%`) for cross-browser rendering.
 
 **3. Card-Top Photo**
-Small photos (130–160px tall) sitting above a content card, forming a single unit. Image on top, card text below, together inside a bordered container with `overflow:hidden`. Used for metric grids, feature lists, or tip collections where each item benefits from a visual anchor. Label the image with a gradient overlay + Barlow Condensed text at the bottom of the photo.
+Small photos (130–160px tall) sitting above a content card, forming a single unit. Image on top, card text below, together inside a bordered container with `overflow:hidden`. Used for metric grids, feature lists, or tip collections where each item benefits from a visual anchor. Label the image with a gradient overlay + Schibsted Grotesk text at the bottom of the photo.
 
 **4. Dark Split Layout (photo left / content right)**
-A full-height photo occupying a fixed-width left column (220–230px), with content in the right panel on a dark background. The photo bleeds top to bottom. A right-edge fade gradient on the photo column creates a seamless transition into the dark content panel. Use for high-impact section pages — timelines, phase breakdowns, key concepts. Vertical ghost text (large Barlow Condensed, rotated -90°, `rgba(255,255,255,0.16)`, `bottom:175px`) labels the page content within the photo column.
+A full-height photo occupying a fixed-width left column (220–230px), with content in the right panel on a dark background. The photo bleeds top to bottom. A right-edge fade gradient on the photo column creates a seamless transition into the dark content panel. Use for high-impact section pages — timelines, phase breakdowns, key concepts. Vertical ghost text (large Schibsted Grotesk, rotated -90°, `rgba(255,255,255,0.16)`, `bottom:175px`) labels the page content within the photo column.
 
 ### Photo Usage Rules
 - **Data/diagram pages** — no photos. Let the diagram breathe. Faint radial gradient wash as background texture is sufficient.
@@ -228,22 +230,22 @@ Always include two versions of the final page:
 
 Before finalizing any graphic:
 
-1. Background is `#191a1b` or `#1a1d21` (not a custom dark)
+1. Background is `#1c1a17` or `#2c2925` (not a custom dark)
 2. Orange (`#ff8c00`) appears on **one element only** per frame
-3. Headlines use Barlow Condensed 700+ in **uppercase**
+3. Headlines use Schibsted Grotesk 700, sentence case
 4. Body copy uses Inter
 5. Labels/data callouts use Poppins
 6. ZF logo mark is present as watermark or identifier
 7. No fourth typeface introduced
-8. No rounded corners beyond 4px on cards
+8. Buttons use 14px radius; status pills/tags may be fully rounded (~20px); structural cards stay at 4px
 9. Padding 48–64px on social graphics
 10. One focal element per slide — eye knows immediately where to look
 
 ## Image Generation Prompt Framework
 
 When building prompts for carousel slides or social graphics, specify:
-- **Background:** Coco's Black `#191a1b` or `#1a1d21`
-- **Text:** Warm White `#f0ede8` for body; CPZ Orange `#ff8c00` for key stats/callouts
+- **Background:** Coco's Black `#1c1a17` or `#2c2925`
+- **Text:** Warm White `#f2ece2` for body; CPZ Orange `#ff8c00` for key stats/callouts
 - **Typography feel:** Clean, sharp, minimal — no decorative flourishes
 - **Slide type:** cover / data slide / action slide / CTA slide
 - **Key text:** Headline + subtext if applicable
