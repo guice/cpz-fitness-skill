@@ -177,6 +177,6 @@ Carousels apply the Voice Pillars in a specific visual rhythm:
 - **Headlines:** 104px ⚠️ minimum on body slides — text dominates the slide
 - **Text density:** Max 3–4 short lines of body copy per slide — split if more
 - **Info card:** Orange left-border card for explanations — small-caps label + body text
-- **Pill tags:** Fully rounded (20px radius), first pill orange-filled, rest outlined/muted — for muscle groups or key concepts
+- **Pill tags:** 14px radius, first pill orange-filled, rest outlined/muted — for muscle groups or key concepts
 
 ⚠️ = pixel size carried over from the retired Barlow Condensed spec, pending recalibration for Schibsted Grotesk — see `references/html-rendering-spec.md`.

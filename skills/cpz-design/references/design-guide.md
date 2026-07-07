@@ -68,17 +68,18 @@ For social media posts and carousels, the same two-level depth system applies. T
 
 ### 3.1 Font Stack
 
-Three typefaces form the complete typographic system, each assigned a specific semantic role:
+Four typefaces form the complete typographic system, each assigned a specific semantic role:
 
 | Font | Role | Weights Used | Source |
 | --- | --- | --- | --- |
 | **Schibsted Grotesk** | Display, headlines, section titles | 600 (SemiBold), 700 (Bold) | Google Fonts |
 | **Inter** | Body copy, UI, buttons | 400 (Regular), 500 (Medium), 600 (SemiBold), 700 (Bold) | Google Fonts |
 | **Poppins** | Eyebrows, section labels, data callouts, tags | 500 (Medium), 600 (SemiBold) | Google Fonts |
+| **League Spartan** | Logo wordmark only — the "CPZ Fitness" name, not general use | Variable | Already in `fonts/` |
 
-⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1, but the font files themselves haven't been sourced yet — they need to be added to `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. This is the same deferred-asset category the Barlow Condensed gap was already in; that gap is now moot since Barlow Condensed is retired.
+⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1, but the font files themselves haven't been sourced yet — they need to be added to `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. League Spartan is unaffected by this change and its font file is already present.
 
-The logo is the ZF lettermark, with no dedicated wordmark typeface — see §4. League Spartan, previously reserved for the "CPZ Fitness" name when set beside the mark, is retired along with Barlow Condensed.
+See §4 for how the ZF lettermark (the icon-only shorthand) relates to the full "CPZ Fitness" wordmark.
 
 ### 3.2 Typographic Hierarchy
 
@@ -116,7 +117,7 @@ On social media graphics and carousels, the same three-font system applies. The 
 
 The logo is the **ZF lettermark** — a vectorized mark in `#ff8c00` orange on a transparent background. It isn't a generic icon: the full brand logotype is "CPZ Fitness," and the lettermark IS the seam of that word — the **Z** (end of "CPZ") and the **F** (start of "Fitness") are combined into one custom glyph, read in context as "CP[ZF]itness."
 
-As of the July 2026 Brand Guide v1, the mark stands alone with **no dedicated wordmark typeface** paired alongside it. Previously, the "CPZ Fitness" name was set in League Spartan when it appeared next to the mark; League Spartan is now retired (see §3.1), and when the brand name appears alongside the mark (nav bars, social post headers), it's set in Schibsted Grotesk like other UI text — not a special wordmark face.
+The ZF lettermark is the **icon-only shorthand** for the logo — used on its own wherever a compact mark is more appropriate than the full name (watermarks, favicons, small spaces, social profile photos). It is not a replacement for the full wordmark. The full "CPZ Fitness" logotype is still set in **League Spartan** — that typeface is unchanged by the July 2026 Brand Guide v1 and remains reserved exclusively for the logo, not general use (see §3.1).
 
 **Clearspace:** equal to the height of the mark on every side. Never let text or imagery cross that line.
 
@@ -393,4 +394,4 @@ This section documents the reasoning behind key design decisions made during the
 | Inclusive "we" in hero copy | The hero subheadline uses "we keep putting off" instead of "they keep putting off" — Philip includes himself in the struggle, which builds immediate trust and signals that this is a peer relationship, not a coach-client hierarchy. |
 | "Since high school" anchor in About copy | Using "since high school" instead of a specific age creates a more universal emotional anchor — most people have a clear memory of their high school body as a baseline, regardless of their current age. |
 | Rebrand from software-engineer ICA to gay-men ICA (July 2026) | The brand repositioned from software-engineer clients to "I help gay men build muscle and lose fat." Terminal cards, code-comment section labels, monospace-as-signal, and debug-themed CTAs were retired as they no longer reflect the audience or positioning. The "Sarcastic Sage" voice archetype carries forward unchanged — it was never engineering-specific, it's just Philip's actual personality. |
-| Brand Guide v1 refresh (July 2026) | A new internal brand guide deck refined the visual system: Schibsted Grotesk replaces Barlow Condensed for display/headlines, set in sentence case rather than uppercase. League Spartan is retired as the logo font since the mark now stands alone with no wordmark. "Terminal Green" is retired as unused. Buttons move from a 2px near-square radius to a 14px rounded radius, and a new fully-rounded status-pill component is introduced — both superseding the earlier "no pill buttons, no soft UI" rule. The three-level dark palette (background/surface/card) collapses to two levels (background/card). A formal Secondary/Light palette (`#f5f3ef` / `#ffffff` / `#17181a` / `#7a7f87`) replaces the ad hoc "Warm Linen" reference. The Tagline and primary CTA label remain unresolved — the guide's example copy ("Strong. Confident. Undeniable.", "Book a free consult") is illustrative, not finalized. |
+| Brand Guide v1 refresh (July 2026) | A new internal brand guide deck refined the visual system: Schibsted Grotesk replaces Barlow Condensed for display/headlines, set in sentence case rather than uppercase. League Spartan is unaffected — it remains the typeface for the full "CPZ Fitness" logo wordmark; the ZF lettermark is the separate icon-only shorthand version. "Terminal Green" is retired as unused. Buttons move from a 2px near-square radius to a 14px rounded radius, and a new fully-rounded status-pill component is introduced — both superseding the earlier "no pill buttons, no soft UI" rule. The three-level dark palette (background/surface/card) collapses to two levels (background/card). A formal Secondary/Light palette (`#f5f3ef` / `#ffffff` / `#17181a` / `#7a7f87`) replaces the ad hoc "Warm Linen" reference. The Tagline and primary CTA label remain unresolved — the guide's example copy ("Strong. Confident. Undeniable.", "Book a free consult") is illustrative, not finalized. |

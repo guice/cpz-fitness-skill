@@ -136,8 +136,9 @@ for any legacy engineer clients still active in coaching.
 - **Schibsted Grotesk** — headlines, display
 - **Inter** — body copy, UI
 - **Poppins** — labels, data, carousel body
+- **League Spartan** — logo wordmark only ("CPZ Fitness"), not general use
 
-⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1 (League Spartan is also retired as the logo font — the logo is now a pure mark). The Schibsted Grotesk font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass.
+⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1. The Schibsted Grotesk font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. League Spartan is unaffected by this change and its font file is already present.
 
 > Full type specs (weights, hierarchy, usage rules): `cpz-design/references/design-guide.md` §3. Full color system (extended palette, light-page colors): same doc, §2.
 

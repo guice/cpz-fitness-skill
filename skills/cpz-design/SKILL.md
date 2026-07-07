@@ -20,16 +20,17 @@ description: CPZ Fitness visual design system. Use for image generation prompts,
 ⚠️ "Terminal Green" (`#4ade80`) was retired as of the July 2026 Brand Guide v1 — see `references/design-guide.md` §2.1.
 
 ### Typography
-| Font                    | Role                               | Weights   |
-|:------------------------|:-----------------------------------|:----------|
-| **Schibsted Grotesk**   | Headlines, display, section titles | 600 / 700 |
-| **Inter**               | Body copy, UI, buttons             | 400 / 500 / 600 / 700 |
-| **Poppins**             | Eyebrows, labels, data, tags       | 500 / 600 |
+| Font                    | Role                                        | Weights   |
+|:------------------------|:---------------------------------------------|:----------|
+| **Schibsted Grotesk**   | Headlines, display, section titles          | 600 / 700 |
+| **Inter**               | Body copy, UI, buttons                      | 400 / 500 / 600 / 700 |
+| **Poppins**             | Eyebrows, labels, data, tags                | 500 / 600 |
+| **League Spartan**      | Logo wordmark only ("CPZ Fitness"), not general use | Variable |
 
-⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1, but the font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass.
+⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1, but the font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. League Spartan is unaffected and its font file is already present.
 
 ### Logo & Assets
-- Logo file: `templates/cpz-logo.svg` (ZF lettermark — the Z of "CPZ" and F of "Fitness" combined into one glyph, orange on transparent, no dedicated wordmark typeface)
+- Logo file: `templates/cpz-logo.svg` (ZF lettermark — the Z of "CPZ" and F of "Fitness" combined into one glyph, orange on transparent; the icon-only shorthand for the full "CPZ Fitness" logo, which is set in League Spartan)
 - Font files: `fonts/` directory
 - Always use on dark backgrounds only
 

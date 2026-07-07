@@ -131,11 +131,11 @@ For presenting numerical data (calorie math, stats, comparisons).
 | Row separator | `1px solid rgba(255,255,255,0.06)` |
 | Label font | Poppins 26px, `#9b948a` |
 | Value font | Schibsted Grotesk 700, 34px |
-| Positive value | `#4ade80` ⚠️ |
+| Positive value | `#4ade80` |
 | Negative value | `#ff4444` |
 | Accent value | `#ff8c00` |
 
-⚠️ "Positive value" still uses the retired "Terminal Green" hex — the new guide doesn't specify a replacement for data-viz positive/negative indicators, so this is left as-is pending a decision rather than removed outright (removing it would break the pos/neg distinction with nothing to replace it).
+Positive/negative values are functional data-viz colors (green/red for any positive-or-negative inference — gains vs. losses, checkmarks vs. warnings), independent of the brand palette. They aren't tied to the retired "Terminal Green" brand color and don't change with it.
 
 ---
 
@@ -148,13 +148,11 @@ A row of tags at the bottom of body slides indicating muscle groups, time commit
 | Background | `#ff8c00` | transparent |
 | Text color | `#1c1a17` | `#9b948a` (dark) / `#666` (light) |
 | Border | none | `1px solid rgba(255,255,255,0.2)` (dark) / `rgba(0,0,0,0.15)` (light) |
-| Border radius | 20px ⚠️ | 20px ⚠️ |
+| Border radius | 14px | 14px |
 | Padding | 10px 20px | 10px 20px |
 | Font | Poppins 24px | Poppins 24px |
 
 The first pill is always primary (orange-filled). Subsequent pills are muted (outlined).
-
-⚠️ Border radius updated from 6px to 20px (fully rounded) per the new Status Pill component in `design-guide.md` §6.2 — this is a direct match to the new guide's spec, not a recalibration guess, so it's a firmer change than the ⚠️-flagged font sizes above.
 
 ---
 
