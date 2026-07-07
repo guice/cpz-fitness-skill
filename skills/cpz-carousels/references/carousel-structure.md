@@ -133,7 +133,7 @@ Choose one per carousel based on the content type and intended action:
 
 ## Production Workflow
 
-1. **Pillar** → Identify which of the 4 content pillars the post belongs to
+1. **Pillar** → Identify which of the 5 content pillars the post belongs to
 2. **Type** → Select the carousel type (Data, Workout, Nutrition, Habit)
 3. **Slide count** → Decide the right number based on content complexity
 4. **Outline** → Assign a purpose to each slide before writing copy

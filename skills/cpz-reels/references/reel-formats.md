@@ -98,7 +98,7 @@ PHILIP: "[CTA — one action]"
 [TEXT ON SCREEN: CTA text + @philipz.fit]
 ```
 
-**Use for:** Full pillar content (any of the 4). The carousel equivalent in video. Best format for repurposing carousel content into a Reel.
+**Use for:** Full pillar content (any of the 5). The carousel equivalent in video. Best format for repurposing carousel content into a Reel.
 
 ---
 
@@ -151,6 +151,13 @@ PHILIP: "[CTA — single action, delivered with conviction]"
 - The self-implication: *"I skipped 3 weeks in a row last year. Here's what I actually did to get back."*
 - The pattern insight: *"The reason you quit every January is the same reason your gym bag has been sitting by the door since October."*
 
+### Pillar 5: Body Image, Confidence & Gay Culture
+- The self-implication opener: *"I avoided pools for years because I didn't want anyone to see me without a shirt. The fix wasn't abs."*
+- The honest post-transformation hook: *"Getting leaner didn't fix my confidence. Here's what actually did."*
+- The ambivalence hook: *"We all feel the pressure. Almost nobody says it out loud."*
+
+This pillar leads with Philip's own avoidance or insecurity, non-negotiably — see `cpz-research/references/content-pillars.md` Pillar 5 for the full core stance and platform explicitness guide before scripting.
+
 ---
 
 ## B-Roll Suggestions by Pillar
@@ -161,6 +168,7 @@ PHILIP: "[CTA — single action, delivered with conviction]"
 | Workout Tips | Exercise demo (no talking), equipment setup, gym or home gym walkthrough |
 | Nutrition | Food prep, protein source display, macro tracking app |
 | Consistency/Habit | Alarm going off, opening a gym bag, calendar/planner close-up, after-work-to-gym transition |
+| Body Image/Confidence | ⚠️ Needs dedicated thought, not a quick guess — obvious options (mirror moments, dating app screens) risk visually reinforcing the exact checking/comparison behaviors the Content Safety Rules flag as red flags. Decide deliberately before shooting. |
 
 ---
 

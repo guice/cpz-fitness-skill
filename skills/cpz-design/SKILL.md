@@ -251,3 +251,4 @@ When building prompts for carousel slides or social graphics, specify:
 - **Slide type:** cover / data slide / action slide / CTA slide
 - **Key text:** Headline + subtext if applicable
 - **Elements:** Section label, logo watermark position, any icons
+- **Bodies shown:** Default to real, varied gay male bodies — not exclusively stage-lean physiques (Content Safety Rules, `cpz-fitness/SKILL.md`)

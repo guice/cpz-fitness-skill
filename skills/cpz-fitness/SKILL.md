@@ -93,7 +93,38 @@ Before finalizing any content:
 7. Is the position stated once, plainly — without repeating or over-justifying?
 8. Is emphasis (italics/bold) used structurally, not decoratively?
 9. Is the failure context as specific as the win?
-10. Does this avoid feeding body comparison or perfectionism? (Important — this ICA carries elevated risk for disordered exercise/eating patterns. See ICA doc, Coaching System Requirements section.)
+10. Does this pass the Content Safety Rules? (Worth-conditional framing, moralized food/exercise language, comparison material, peak-photo transformations — see Content Safety Rules below.)
+
+---
+
+## Content Safety Rules
+
+This ICA carries documented elevated risk for body dysmorphia, muscle dysmorphia, and disordered eating/exercise patterns (see ICA doc, Coaching System Requirements section). These rules apply to **all** content, in every pillar and every format — and they matter *more*, not less, now that the brand leans into desirability and confidence topics.
+
+**The operating principle: Confidence over compliance.** CPZ Fitness content helps a man pursue the body he wants while refusing the premise that he's worth less until he has it. Self-worth work and physical work run in parallel — the physique is never positioned as the prerequisite for the life.
+
+**Hard rules — never do these:**
+1. **No worth-conditional framing.** Never imply a body standard is the entry requirement for love, sex, belonging, or respect. "Finally feel confident" is fine; "finally be worth choosing" is not.
+2. **No moralized food language.** No "earn your food," "burn it off," "cheat meal," "guilt-free," "clean vs. dirty." Food is fuel and pleasure, not a ledger of sins.
+3. **No punishment framing for exercise.** No "punish legs," no post-indulgence penance workouts, no glorifying training through pain or exhaustion. Rest is part of the program, said plainly.
+4. **No peak-condition before/afters.** No dehydrated, pumped, peak-week, or lighting-engineered comparison photos. Any transformation content includes honest timeframe, honest context, and the failure context first (Writing Checklist item 9 doubles as a safety rule here).
+5. **No aggressive prescriptions in public content.** Protein targets and training structure: yes. Rapid-loss timelines, steep deficits, body-fat-percentage goals, or "get shredded by [date]" content: no. Those conversations belong in 1:1 coaching with context.
+6. **No fresh comparison material.** Never rank body types, define "the ideal physique," or catalog what's desirable. Name comparison as a pattern; don't feed it.
+
+**Always do these:**
+7. **Land on agency.** Every post that names a painful pattern ends with one thing the reader can do or reframe — the "one clear next action" rule (Writing Checklist item 1) doubles as a safety rule here.
+8. **Show attainable bodies.** In imagery and examples, default to real, varied gay male bodies — not exclusively stage-lean physiques. (See `cpz-design/SKILL.md` and `cpz-carousels/SKILL.md` image-prompt frameworks.)
+9. **Normalize help.** Periodically and matter-of-factly reference that therapy and coaching are teammates, not rivals. No drama, no disclaimers on every post — just an established norm.
+
+**Scope line — dysmorphia and disordered eating.** Body dysmorphic disorder, muscle dysmorphia, and eating disorders are clinical conditions. Content and coaching can avoid feeding them and can build self-worth that reduces their fuel — **but they are not treatment, and confidence content does not resolve a clinical condition.**
+
+**Red flags** (in comments, DMs, check-ins, or community posts): training through injury compulsively; food rules that keep tightening; body checking that dominates the day; distress wildly out of proportion to any visible "flaw"; panic when a workout is missed.
+
+**Response protocol:** Acknowledge without judgment. Don't diagnose. Don't coach the symptom. Recommend a licensed therapist experienced with body image and eating concerns, and point to:
+- **National Alliance for Eating Disorders Helpline:** 866-662-1235 (licensed therapists, M–F 9am–7pm ET — not 24/7)
+- **24/7 crisis support:** call or text **988**, or text **"ALLIANCE" to 741741** (Crisis Text Line)
+
+Keep the coaching relationship warm and keep its scope honest.
 
 ---
 

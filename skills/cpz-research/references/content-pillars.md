@@ -1,6 +1,6 @@
 # CPZ Fitness — Content Pillars Reference
 
-All CPZ Fitness social content maps to one of these four pillars. Every pillar has a defined ICA trigger, hook formula patterns, and a bank of example topics.
+All CPZ Fitness social content maps to one of these five pillars. Every pillar has a defined ICA trigger, hook formula patterns, and a bank of example topics.
 
 ---
 
@@ -144,14 +144,70 @@ All CPZ Fitness social content maps to one of these four pillars. Every pillar h
 
 ---
 
+## Pillar 5: Body Image, Confidence & Gay Culture
+
+**What it does:** Addresses the reason this ICA follows Philip instead of a generic coach: body image pressure inside gay culture — comparison, apps, aging, shirtless dread, and the ambivalent relationship with a community that provides belonging *and* relentless appearance judgment. This pillar's job is **decoupling self-worth from the ideal body** — the goal is to stop the ideal from owning you, not to finally comply with it. Confidence is built alongside the physical work, not awarded at the end of it.
+
+**Lead with:** Philip's own avoidance or insecurity first — self-implication is non-negotiable in this pillar. The ICA needs to see someone who's been in the exact spot, not someone diagnosing him from across the room.
+
+**The pillar's core stance (bake into every post):**
+1. The body you want is a *want*, not a worthiness threshold. You're allowed to pursue it without agreeing that you're less until you get it.
+2. Physical change is real and worth doing — but it doesn't fix the internal story by itself. Philip says this from experience.
+3. Comparison is named as the pattern it is. This pillar never supplies new comparison material (no body rankings, no "ideal physique" breakdowns).
+
+**Hook formula patterns:**
+- `I avoided [gay space/situation] for [timeframe] because of [body belief]. Here's what actually changed.` → "I avoided pools for years because I didn't want anyone to see me without a shirt. The fix wasn't abs."
+- `Getting [fitter/leaner] didn't fix [insecurity]. Here's what did.` → The honest post-transformation hook. High trust, high shares.
+- `Half of what you call a body problem is a [comparison/measuring] problem.` → Reframe without invalidating.
+- `[Community pressure stated plainly]. We all feel it. Almost nobody says it out loud.` → The ambivalence hook — loving the community, resenting the pressure.
+- `The [app/party/pool] isn't judging you as hard as you are.` → Dry, direct, lands with relief.
+- `"I'll [date/go/post the photo] when I'm in shape" is how you lose a decade.` → The postponed-life pattern.
+
+**Example topics (12+):**
+1. Shirtless season dread — the pool-avoidance loop and why hiding keeps you stuck (Philip's own story, the flagship post)
+2. The profile photo problem — dating app anxiety, and what confidence on the apps actually looks like
+3. "I'll start dating when I'm in shape" — the postponed-life pattern and its real cost
+4. Pride in the body you have *now* — attending the event instead of auditing yourself at it
+5. Where the "fit but not huge" gay ideal came from — and why it's a moving target you can't win
+6. Gay gym intimidation — feeling silently judged and how to train anyway
+7. Aging and invisibility — the fear of disappearing after 40, and building a body for your 40s instead of chasing your 20s
+8. Getting lean didn't fix my confidence — what body change does and doesn't do (the honesty post)
+9. The checking loop — mirror, scale, photos, repeat — and how to loosen its grip
+10. Body shame in the bedroom — avoiding intimacy until you "fix" yourself, and why the fix never feels done
+11. Community ambivalence — you can love gay community and resent its appearance pressure at the same time; both are true
+12. Your fitter friend group — handling envy without turning it into self-punishment
+13. What influencer physiques don't show — lighting, angles, timing, and pharmacology (state facts, no witch hunts)
+
+**Platform fit:** Strongest on Instagram (Reels — this pillar is Philip's on-camera credibility at full strength — and carousels), Threads/BlueSky (raw confessional one-liners), TikTok (60–90s story formats). Facebook good fit. LinkedIn: use sparingly, and only the aging/confidence angles.
+
+**Platform explicitness guide (lean-in boundaries):**
+- **Naming apps, sex, intimacy, desirability directly:** yes, everywhere. Plain language, never coy.
+- **Explicit sexual detail:** no platform. The post is about the *shame pattern*, not the act. "Body shame during sex" is sayable on every platform; anatomy lessons are not needed to say it.
+- **Instagram/Facebook:** watch reach-throttling on sexual-wellness phrasing; "confidence in the bedroom" travels further than clinical or graphic terms.
+- **Threads/BlueSky:** most latitude; the confessional one-liner version of these topics lives here first.
+
+**Seasonal angle triggers:**
+- Pride month (June): community ambivalence, attending as-is, comparison culture at events
+- Early summer (May): shirtless season dread — the pillar's highest-recognition window
+- New Year: the "new year, new body, then I'll be lovable" trap — worth vs. want framing
+- Fall: "cuffing season" and the postponed-dating pattern
+
+**Pillar-specific safety rules (in addition to the root Content Safety Rules in `cpz-fitness/SKILL.md`):**
+- Never frame a physique as the entry fee to belonging, sex, or love — even implicitly, even in a hook.
+- Never post content that supplies fresh comparison material (physique tier lists, "what guys want" body breakdowns).
+- Every post in this pillar lands on **agency** — something the reader can do or reframe today — never on the problem alone. Naming the pain without the exit is just more pain.
+
+---
+
 ## Platform-Pillar Fit Matrix
 
-| Pillar                        | Instagram | Facebook | LinkedIn | Threads/BlueSky |
-|:------------------------------|:---------:|:--------:|:--------:|:---------------:|
-| Data-Driven Insights          |    ★★★    |    ★★    |   ★★★    |       ★★★       |
-| Workout Tips & Micro-Workouts |    ★★★    |   ★★★    |    ★     |       ★★        |
-| Nutrition & Protein Strategy  |    ★★★    |   ★★★    |    ★★    |       ★★        |
-| Consistency & Habit Systems   |    ★★★    |   ★★★    |   ★★★    |       ★★★       |
+| Pillar                              | Instagram | Facebook | LinkedIn | Threads/BlueSky |
+|:-------------------------------------|:---------:|:--------:|:--------:|:---------------:|
+| Data-Driven Insights                |    ★★★    |    ★★    |   ★★★    |       ★★★       |
+| Workout Tips & Micro-Workouts       |    ★★★    |   ★★★    |    ★     |       ★★        |
+| Nutrition & Protein Strategy        |    ★★★    |   ★★★    |    ★★    |       ★★        |
+| Consistency & Habit Systems         |    ★★★    |   ★★★    |   ★★★    |       ★★★       |
+| Body Image, Confidence & Gay Culture |    ★★★    |    ★★    |    ★     |       ★★★       |
 
 ★★★ = High fit | ★★ = Good fit | ★ = Use sparingly
 
@@ -160,7 +216,7 @@ All CPZ Fitness social content maps to one of these four pillars. Every pillar h
 When brainstorming content angles from a raw idea:
 
 1. **State the raw input** — a topic, a data point, a thing you observed
-2. **Map it to a pillar** — which of the 4 pillars does it belong to?
+2. **Map it to a pillar** — which of the 5 pillars does it belong to?
 3. **Generate 3–5 angle variants** using the hook formulas for that pillar
 4. **Platform-match each angle** — which platform does each angle perform best on?
 5. **Select the lead angle** — which triggers the most recognition for the ICA?

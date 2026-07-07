@@ -62,6 +62,7 @@ Typography: Schibsted Grotesk 700 for headlines (sentence case), Inter for body,
 Slide type: cover | data slide | workout slide | nutrition slide | CTA slide
 Key text: [Headline] + [subtext if applicable]
 Elements: [Section label text] + [ZF logo watermark: bottom-right 24–32px] + [any icons/visuals]
+Bodies: real, varied gay male bodies — not exclusively stage-lean physiques (Content Safety Rules, cpz-fitness/SKILL.md)
 ```
 
 ---
@@ -70,7 +71,7 @@ Elements: [Section label text] + [ZF logo watermark: bottom-right 24–32px] + [
 
 Work through these steps in order for every carousel:
 
-1. **Pillar** — Which of the 4 content pillars does this post belong to?
+1. **Pillar** — Which of the 5 content pillars does this post belong to?
 2. **Type** — Which carousel type matches the content?
 3. **Slide count → Copy → Visual direction** — Run the **carousel-creator** skill. Pass the carousel type as tone context and supply the CPZ brand voice. See Skill Integration below for arc mapping and overrides.
 4. **Image prompts** — One image generation prompt per slide using the framework above. CPZ design specs from `references/html-rendering-spec.md` override carousel-creator's generic DESIGN SPECS block.

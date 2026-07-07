@@ -1,6 +1,6 @@
 ---
 name: cpz-research
-description: CPZ Fitness content brainstorming and angle development. Use for generating post angles, planning content calendars, translating trending topics into brand-aligned ideas, and mapping ideas to the 4 content pillars.
+description: CPZ Fitness content brainstorming and angle development. Use for generating post angles, planning content calendars, translating trending topics into brand-aligned ideas, and mapping ideas to the 5 content pillars.
 ---
 
 # CPZ Fitness — Content Research Skill
@@ -22,7 +22,7 @@ description: CPZ Fitness content brainstorming and angle development. Use for ge
 
 ---
 
-## The 4 Content Pillars (Quick Reference)
+## The 5 Content Pillars (Quick Reference)
 
 Every post maps to one of these:
 
@@ -32,19 +32,21 @@ Every post maps to one of these:
 | **2. Workout Tips & Micro-Workouts** | Practical training for time-limited schedules              | The time/equipment constraint |
 | **3. Nutrition & Protein Strategy**  | Macro education, protein-first, no rigid meal plans                    | The number or the myth        |
 | **4. Consistency & Habit Systems**   | Psychology of showing up — reframes gym avoidance as a habit problem | The relatable failure         |
+| **5. Body Image, Confidence & Gay Culture** | Decouples self-worth from the ideal body — comparison, apps, aging, gay culture pressure | Philip's own avoidance or insecurity first |
 
-Load `references/content-pillars.md` for hook formula patterns, 10+ example topics per pillar, and seasonal angle triggers.
+Load `references/content-pillars.md` for hook formula patterns, 10+ example topics per pillar, and seasonal angle triggers. Pillar 5 also carries pillar-specific safety rules and a platform explicitness guide — see the reference file, and the root Content Safety Rules in `cpz-fitness/SKILL.md`.
 
 ---
 
 ## Platform-Pillar Fit Matrix
 
-| Pillar                        | Instagram | Facebook | LinkedIn | Threads/BlueSky |
-|:------------------------------|:---------:|:--------:|:--------:|:---------------:|
-| Data-Driven Insights          |    ★★★    |    ★★    |   ★★★    |       ★★★       |
-| Workout Tips & Micro-Workouts |    ★★★    |   ★★★    |    ★     |       ★★        |
-| Nutrition & Protein Strategy  |    ★★★    |   ★★★    |    ★★    |       ★★        |
-| Consistency & Habit Systems   |    ★★★    |   ★★★    |   ★★★    |       ★★★       |
+| Pillar                              | Instagram | Facebook | LinkedIn | Threads/BlueSky |
+|:-------------------------------------|:---------:|:--------:|:--------:|:---------------:|
+| Data-Driven Insights                |    ★★★    |    ★★    |   ★★★    |       ★★★       |
+| Workout Tips & Micro-Workouts       |    ★★★    |   ★★★    |    ★     |       ★★        |
+| Nutrition & Protein Strategy        |    ★★★    |   ★★★    |    ★★    |       ★★        |
+| Consistency & Habit Systems         |    ★★★    |   ★★★    |   ★★★    |       ★★★       |
+| Body Image, Confidence & Gay Culture |    ★★★    |    ★★    |    ★     |       ★★★       |
 
 ★★★ High fit | ★★ Good fit | ★ Use sparingly
 
@@ -55,7 +57,7 @@ Load `references/content-pillars.md` for hook formula patterns, 10+ example topi
 Use this process when starting from a raw idea:
 
 1. **State the raw input** — a topic, a data point, something observed in the community
-2. **Map it to a pillar** — which of the 4 does it belong to?
+2. **Map it to a pillar** — which of the 5 does it belong to?
 3. **Generate 3–5 angle variants** — use the hook formulas from `content-pillars.md` for that pillar
 4. **Platform-match each angle** — which platform does each angle perform best on?
 5. **Select the lead angle** — which triggers the most recognition for the ICA?
@@ -78,7 +80,7 @@ Best fit: [Angle + platform]
 
 When building a weekly or bi-weekly content calendar:
 
-- **Instagram:** 3x/week minimum — rotate across all 4 pillars, lead with strongest hook
+- **Instagram:** 3x/week minimum — rotate across all 5 pillars, lead with strongest hook
 - **Facebook:** 2–3x/week — can repurpose Instagram content with minor tone adjustment
 - **LinkedIn:** 2x/week — Data pillar and Consistency/Habit pillar perform strongest
 - **Threads/BlueSky:** Ad hoc — repurpose the sharpest single line from longer content
@@ -87,5 +89,6 @@ When building a weekly or bi-weekly content calendar:
 - Day 1: Data-Driven (Instagram carousel)
 - Day 2: Consistency/Habit (LinkedIn text post)
 - Day 3: Workout/Micro-workout (Instagram Reel or carousel)
+- Day 4: Body Image/Confidence (Instagram Reel — this pillar's strongest format)
 - Day 5: Nutrition/Protein (Instagram carousel or Facebook)
 - Day 7: Data-Driven or Consistency (Threads one-liner + Instagram static)
