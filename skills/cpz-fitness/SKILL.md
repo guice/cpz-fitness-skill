@@ -13,13 +13,13 @@ description: CPZ Fitness brand DNA root. Contains identity, voice architecture, 
 | **Company**           | CPZ Fitness (no program/framework name)                                          |
 | **Website**           | https://www.philipz.fit/                                                          |
 | **Social Media**      | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky)                      |
-| **Skool Community**   | ⚠️ NEEDS INPUT — "Geek 2 Greek Starter Zone" needs a new name. Placeholder: "CPZ Fitness Community" — https://lnk.philipz.fit/skool |
+| **Skool Community**   | Closed for now (was "Geek 2 Greek Starter Zone"). Placeholder URL reserved for future relaunch: https://lnk.philipz.fit/community — not live yet, doesn't point anywhere |
 | **Logo**              | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)             |
 | **Voice Archetype**   | The "Sarcastic Sage" — dry humor + direct guidance + empathy (no more engineering/systems framing) |
 | **Core Promise**      | "I help gay men build muscle and lose fat."                                       |
-| **Tagline**           | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." (replaces "From desk-bound to damn-strong.") |
-| **Booking CTA**       | ⚠️ NEEDS INPUT — recommend relabeling button text from "Free System Audit" to "Free Consult Call" (URL stays `/free-system-audit`) |
-| **PDF CTA Link**      | Same relabeling as above if used                                                  |
+| **Tagline**           | "Lifting to be seen." (replaces "From desk-bound to damn-strong.")               |
+| **Booking CTA**       | Button text: "Free Consultation" — URL: https://lnk.philipz.fit/free-consult   |
+| **PDF CTAs**          | URL: https://lnk.philipz.fit/pdf-consult                                          |
 
 ---
 
@@ -93,7 +93,38 @@ Before finalizing any content:
 7. Is the position stated once, plainly — without repeating or over-justifying?
 8. Is emphasis (italics/bold) used structurally, not decoratively?
 9. Is the failure context as specific as the win?
-10. Does this avoid feeding body comparison or perfectionism? (Important — this ICA carries elevated risk for disordered exercise/eating patterns. See ICA doc, Coaching System Requirements section.)
+10. Does this pass the Content Safety Rules? (Worth-conditional framing, moralized food/exercise language, comparison material, peak-photo transformations — see Content Safety Rules below.)
+
+---
+
+## Content Safety Rules
+
+This ICA carries documented elevated risk for body dysmorphia, muscle dysmorphia, and disordered eating/exercise patterns (see ICA doc, Coaching System Requirements section). These rules apply to **all** content, in every pillar and every format — and they matter *more*, not less, now that the brand leans into desirability and confidence topics.
+
+**The operating principle: Confidence over compliance.** CPZ Fitness content helps a man pursue the body he wants while refusing the premise that he's worth less until he has it. Self-worth work and physical work run in parallel — the physique is never positioned as the prerequisite for the life.
+
+**Hard rules — never do these:**
+1. **No worth-conditional framing.** Never imply a body standard is the entry requirement for love, sex, belonging, or respect. "Finally feel confident" is fine; "finally be worth choosing" is not.
+2. **No moralized food language.** No "earn your food," "burn it off," "cheat meal," "guilt-free," "clean vs. dirty." Food is fuel and pleasure, not a ledger of sins.
+3. **No punishment framing for exercise.** No "punish legs," no post-indulgence penance workouts, no glorifying training through pain or exhaustion. Rest is part of the program, said plainly.
+4. **No peak-condition before/afters.** No dehydrated, pumped, peak-week, or lighting-engineered comparison photos. Any transformation content includes honest timeframe, honest context, and the failure context first (Writing Checklist item 9 doubles as a safety rule here).
+5. **No aggressive prescriptions in public content.** Protein targets and training structure: yes. Rapid-loss timelines, steep deficits, body-fat-percentage goals, or "get shredded by [date]" content: no. Those conversations belong in 1:1 coaching with context.
+6. **No fresh comparison material.** Never rank body types, define "the ideal physique," or catalog what's desirable. Name comparison as a pattern; don't feed it.
+
+**Always do these:**
+7. **Land on agency.** Every post that names a painful pattern ends with one thing the reader can do or reframe — the "one clear next action" rule (Writing Checklist item 1) doubles as a safety rule here.
+8. **Show attainable bodies.** In imagery and examples, default to real, varied gay male bodies — not exclusively stage-lean physiques. (See `cpz-design/SKILL.md` and `cpz-carousels/SKILL.md` image-prompt frameworks.)
+9. **Normalize help.** Periodically and matter-of-factly reference that therapy and coaching are teammates, not rivals. No drama, no disclaimers on every post — just an established norm.
+
+**Scope line — dysmorphia and disordered eating.** Body dysmorphic disorder, muscle dysmorphia, and eating disorders are clinical conditions. Content and coaching can avoid feeding them and can build self-worth that reduces their fuel — **but they are not treatment, and confidence content does not resolve a clinical condition.**
+
+**Red flags** (in comments, DMs, check-ins, or community posts): training through injury compulsively; food rules that keep tightening; body checking that dominates the day; distress wildly out of proportion to any visible "flaw"; panic when a workout is missed.
+
+**Response protocol:** Acknowledge without judgment. Don't diagnose. Don't coach the symptom. Recommend a licensed therapist experienced with body image and eating concerns, and point to:
+- **National Alliance for Eating Disorders Helpline:** 866-662-1235 (licensed therapists, M–F 9am–7pm ET — not 24/7)
+- **24/7 crisis support:** call or text **988**, or text **"ALLIANCE" to 741741** (Crisis Text Line)
+
+Keep the coaching relationship warm and keep its scope honest.
 
 ---
 
@@ -138,7 +169,7 @@ for any legacy engineer clients still active in coaching.
 - **Poppins** — labels, data, carousel body
 - **League Spartan** — logo wordmark only ("CPZ Fitness"), not general use
 
-⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1. The Schibsted Grotesk font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. League Spartan is unaffected by this change and its font file is already present.
+Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1. The font file is now present in both `cpz-design/fonts/` and `cpz-carousels/fonts/`. League Spartan is unaffected and its font file is already present in both.
 
 > Full type specs (weights, hierarchy, usage rules): `cpz-design/references/design-guide.md` §3. Full color system (extended palette, light-page colors): same doc, §2.
 
@@ -159,7 +190,8 @@ for any legacy engineer clients still active in coaching.
 | Task                                         | Use This Skill    |
 |:---------------------------------------------|:------------------|
 | Image prompts, graphic specs, visual design  | **cpz-design**    |
-| Skool classroom lessons, community posts     | **cpz-skool**     |
+| Skool classroom lessons, community posts (⚠️ deprecated — community closed for now) | **cpz-skool** |
+| 16-week paid 1:1 program details (still active) | **cpz-skool**'s `references/program.md` directly |
 | Brainstorming post angles, content calendars | **cpz-research**  |
 | Instagram carousel production end-to-end     | **cpz-carousels** |
 | Reel and TikTok scripts, short-form video    | **cpz-reels**     |

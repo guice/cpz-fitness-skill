@@ -27,7 +27,7 @@ description: CPZ Fitness visual design system. Use for image generation prompts,
 | **Poppins**             | Eyebrows, labels, data, tags                | 500 / 600 |
 | **League Spartan**      | Logo wordmark only ("CPZ Fitness"), not general use | Variable |
 
-⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1, but the font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. League Spartan is unaffected and its font file is already present.
+Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1. The font file is now present in both `cpz-design/fonts/` and `cpz-carousels/fonts/`. League Spartan is unaffected and its font file is already present in both.
 
 ### Logo & Assets
 - Logo file: `templates/cpz-logo.svg` (ZF lettermark — the Z of "CPZ" and F of "Fitness" combined into one glyph, orange on transparent; the icon-only shorthand for the full "CPZ Fitness" logo, which is set in League Spartan)
@@ -205,18 +205,18 @@ Before exporting any PDF document:
 ---
 
 ### CTA Link Standard (PDF documents)
-- **PDF lead magnets:** `https://lnk.philipz.fit/pdf-system-audit`
-- **Workshop/audit booking:** `https://lnk.philipz.fit/free-system-audit`
+- **PDF lead magnets:** `https://lnk.philipz.fit/pdf-consult`
+- **Consultation booking:** `https://lnk.philipz.fit/free-consult`
 - Always wrap in `<a href="..." target="_blank">` — never a plain `<div>`
 - Style: `background: rgba(255,140,0,0.12)` pill, `border: 1px solid rgba(255,140,0,0.2)`, Poppins 13px
 
 ### CTA Page
 Always include two versions of the final page:
-* One for a lead magnet, intended for COLD traffic, with a ⚠️ CTA to book a call (label pending decision, was "free system audit") with a QR code (see [pdf-link-qr-code.svg](references/pdf-link-qr-code.svg))
+* One for a lead magnet, intended for COLD traffic, with a "Free Consultation" CTA to book a call, with a QR code (see [pdf-link-qr-code.svg](references/pdf-link-qr-code.svg))
 * One that does NOT use the CTA or QR Code intended for existing clients.
 
 ### Call Duration Standard
-- ⚠️ Consult call (label pending decision, was "Free System Audit") = **15 minutes**
+- Free Consultation call = **15 minutes**
 
 ---
 
@@ -251,3 +251,4 @@ When building prompts for carousel slides or social graphics, specify:
 - **Slide type:** cover / data slide / action slide / CTA slide
 - **Key text:** Headline + subtext if applicable
 - **Elements:** Section label, logo watermark position, any icons
+- **Bodies shown:** Default to real, varied gay male bodies — not exclusively stage-lean physiques (Content Safety Rules, `cpz-fitness/SKILL.md`)

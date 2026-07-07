@@ -12,10 +12,10 @@ description: CPZ Fitness Reel and TikTok script writing. Use for short-form vide
 | Field               | Value                                     |
 |:--------------------|:------------------------------------------|
 | **Handle**          | @philipz.fit                              |
-| **Tagline**         | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." |
+| **Tagline**         | "Lifting to be seen."                     |
 | **Voice Archetype** | The "Sarcastic Sage"                      |
-| **Booking CTA**     | https://lnk.philipz.fit/free-system-audit |
-| **PDF Asset CTA**   | https://lnk.philipz.fit/pdf-system-audit  |
+| **Booking CTA**     | https://lnk.philipz.fit/free-consult      |
+| **PDF Asset CTA**   | https://lnk.philipz.fit/pdf-consult       |
 
 ## Reference File
 

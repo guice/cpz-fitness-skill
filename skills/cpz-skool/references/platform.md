@@ -1,5 +1,7 @@
 # CPZ Fitness: Platform Architecture
 
+> ⚠️ **DEPRECATED — DO NOT USE for current content.** The Skool community is closed for now, not accepting members, no live URL (see `cpz-fitness/SKILL.md` Key Facts). Everything below describes the prepared/intended structure for whenever it relaunches — treat it as historical/reference material, not a live spec. This does not apply to the Everfit-delivered 1:1 program (`references/program.md`), which is a separate, still-active offer.
+
 ## Overview
 
 The platform runs on two engines working in tandem: Skool as the free community and lead-nurturing hub, and Everfit as the premium 1:1 coaching delivery engine.

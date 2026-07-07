@@ -1,9 +1,13 @@
 ---
 name: cpz-skool
-description: CPZ Fitness Skool community and classroom content. Use for writing Skool classroom lessons, community category posts, course structure, upsell CTAs, and Skool platform strategy. Extends cpz-fitness root — load cpz-fitness first.
+description: DEPRECATED — the Skool community is closed for now. Do NOT use this skill for active content creation; it's kept only as reference for a future relaunch. (Historical scope was Skool classroom lessons, community posts, course structure, and upsell CTAs.) For the still-active 16-week paid 1:1 program, use references/program.md directly — that content is unaffected by the community closure.
 ---
 
 # CPZ Fitness — Skool Skill
+
+> ⚠️ **DEPRECATED — DO NOT USE.** The Skool community is closed for now (see `cpz-fitness/SKILL.md` Key Facts). Everything below this point describes the free community and classroom — ignore it for any current content work. It's kept as reference for whenever the community relaunches, not a live spec.
+>
+> The one exception: `references/program.md` (the 16-week paid 1:1 coaching offer, delivered via Everfit) is a **separate, still-active** business line unaffected by the Skool closure. Load that file directly for program-related work — don't route through the rest of this skill to get there.
 
 > Builds on **cpz-fitness** for brand DNA, voice, ICA, and colors. Load cpz-fitness first.
 
@@ -11,9 +15,9 @@ description: CPZ Fitness Skool community and classroom content. Use for writing 
 
 | Field               | Value                                     |
 |:--------------------|:------------------------------------------|
-| **Community Name**  | ⚠️ NEEDS INPUT — placeholder: "CPZ Fitness Community" |
-| **Skool URL**       | https://lnk.philipz.fit/skool             |
-| **Upsell CTA**      | https://lnk.philipz.fit/free-system-audit |
+| **Community Name**  | Closed for now (was "Geek 2 Greek Starter Zone") |
+| **Skool URL**       | https://lnk.philipz.fit/community — placeholder, not live yet, reserved for future relaunch |
+| **Upsell CTA**      | https://lnk.philipz.fit/free-consult      |
 | **Voice Archetype** | The "Sarcastic Sage"                      |
 
 ## Reference Files
@@ -66,6 +70,6 @@ Load `references/platform.md` for the full lesson-by-lesson status and module su
 ## Upsell CTAs
 
 All upsell lessons (Course 1 Module 4, Course 2 Module 4, Course 3 Module 6) drive to:
-**https://lnk.philipz.fit/free-system-audit**
+**https://lnk.philipz.fit/free-consult**
 
-⚠️ CTA label pending decision — placeholder "Free Consult Call" (was "Free System Audit"; URL unchanged).
+CTA button text: "Free Consultation" (was "Free System Audit").

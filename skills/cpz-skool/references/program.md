@@ -12,7 +12,7 @@
 | **Core Promise** | "I help gay men build muscle and lose fat." |
 | **Time Commitment** | 30-45 minutes, 3–4x per week |
 | **Delivery** | Premium 1:1 asynchronous coaching via Everfit (see Delivery section below) |
-| **Discovery CTA** | ⚠️ "Free Consult Call" (was "Free System Audit") → [lnk.philipz.fit/free-system-audit](https://lnk.philipz.fit/free-system-audit) |
+| **Discovery CTA** | "Free Consultation" → [lnk.philipz.fit/free-consult](https://lnk.philipz.fit/free-consult) |
 
 ---
 
@@ -99,7 +99,7 @@ This is not a generic PDF plan. This is a deep, personalized identity and physic
 - **The Core 16-Week Custom Program:** Tailored training and nutrition via EverFit.
 - **The "Social Survival" Asset Pack:** Guides on navigating menus, managing alcohol, and traveling without losing progress.
 - **The Mindset & Identity Masterclass:** Resources addressing body dysmorphia, overcoming the all-or-nothing mindset, and building self-compassion.
-- **The Results Guarantee:** ⚠️ NEEDS INPUT — specific guarantee not yet finalized. Draft direction: *"If you follow the plan and don't see visible changes in your physique and confidence by week 16, I will coach you for free until you do."*
+- **The Results Guarantee — "The Confidence Guarantee":** Hit at least 80% of your workout logs and weekly check-ins across the 16 weeks. If you do that and don't feel more confident in your own skin, I'll coach you free for another 8 weeks — no questions asked.
 
 **The ROI:** You are investing in the reclamation of your self-worth — the confidence to take your shirt off without hesitation, the energy to thrive in your career and relationships, and freedom from obsessive body shame.
 
@@ -133,4 +133,4 @@ When writing content referencing or promoting the 16-Week program:
 3. Position Philip's lived experience as a gay man who's done this work himself as the credibility bridge — he's not an outside observer coaching from theory
 4. Use the phase names ("Foundation & Form," "Peak & Polish," etc.) in content to reinforce the journey — they describe the physical process, not a brand metaphor
 5. Lead with empowerment and self-compassion framing, never shame — this program is explicitly positioned as the antidote to comparison-driven fitness culture, not another dose of it
-6. CTA for program inquiries always links to: https://lnk.philipz.fit/free-system-audit
+6. CTA for program inquiries always links to: https://lnk.philipz.fit/free-consult
