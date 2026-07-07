@@ -169,7 +169,7 @@ for any legacy engineer clients still active in coaching.
 - **Poppins** — labels, data, carousel body
 - **League Spartan** — logo wordmark only ("CPZ Fitness"), not general use
 
-⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1. The Schibsted Grotesk font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. League Spartan is unaffected by this change and its font file is already present.
+Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1. The font file is now present in both `cpz-design/fonts/` and `cpz-carousels/fonts/`. League Spartan is unaffected and its font file is already present in both.
 
 > Full type specs (weights, hierarchy, usage rules): `cpz-design/references/design-guide.md` §3. Full color system (extended palette, light-page colors): same doc, §2.
 
@@ -190,7 +190,8 @@ for any legacy engineer clients still active in coaching.
 | Task                                         | Use This Skill    |
 |:---------------------------------------------|:------------------|
 | Image prompts, graphic specs, visual design  | **cpz-design**    |
-| Skool classroom lessons, community posts     | **cpz-skool**     |
+| Skool classroom lessons, community posts (⚠️ deprecated — community closed for now) | **cpz-skool** |
+| 16-week paid 1:1 program details (still active) | **cpz-skool**'s `references/program.md` directly |
 | Brainstorming post angles, content calendars | **cpz-research**  |
 | Instagram carousel production end-to-end     | **cpz-carousels** |
 | Reel and TikTok scripts, short-form video    | **cpz-reels**     |

@@ -77,7 +77,9 @@ Four typefaces form the complete typographic system, each assigned a specific se
 | **Poppins** | Eyebrows, section labels, data callouts, tags | 500 (Medium), 600 (SemiBold) | Google Fonts |
 | **League Spartan** | Logo wordmark only — the "CPZ Fitness" name, not general use | Variable | Already in `fonts/` |
 
-⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1, but the font files themselves haven't been sourced yet — they need to be added to `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. League Spartan is unaffected by this change and its font file is already present.
+Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1. The font file (variable + italic) is now present in both `cpz-design/fonts/` and `cpz-carousels/fonts/`. League Spartan is unaffected by this change and its font file is already present in both directories.
+
+⚠️ Having the `.ttf` files on disk doesn't automatically fix the PNG export pipeline: `cpz-carousels/scripts/fonts_b64.py` and `template.py` still hardcode Bebas Neue as the base64-embedded headline font (see `cpz-carousels/SKILL.md` PNG Export Pipeline section) — someone needs to re-encode and wire in Schibsted Grotesk there before rendered PNGs will actually reflect it. That's a separate step from font sourcing.
 
 See §4 for how the ZF lettermark (the icon-only shorthand) relates to the full "CPZ Fitness" wordmark.
 

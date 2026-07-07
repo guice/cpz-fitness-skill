@@ -99,7 +99,7 @@ This is not a generic PDF plan. This is a deep, personalized identity and physic
 - **The Core 16-Week Custom Program:** Tailored training and nutrition via EverFit.
 - **The "Social Survival" Asset Pack:** Guides on navigating menus, managing alcohol, and traveling without losing progress.
 - **The Mindset & Identity Masterclass:** Resources addressing body dysmorphia, overcoming the all-or-nothing mindset, and building self-compassion.
-- **The Results Guarantee:** ⚠️ NEEDS INPUT — specific guarantee not yet finalized. Draft direction: *"If you follow the plan and don't see visible changes in your physique and confidence by week 16, I will coach you for free until you do."*
+- **The Results Guarantee — "The Confidence Guarantee":** Hit at least 80% of your workout logs and weekly check-ins across the 16 weeks. If you do that and don't feel more confident in your own skin, I'll coach you free for another 8 weeks — no questions asked.
 
 **The ROI:** You are investing in the reclamation of your self-worth — the confidence to take your shirt off without hesitation, the energy to thrive in your career and relationships, and freedom from obsessive body shame.
 
