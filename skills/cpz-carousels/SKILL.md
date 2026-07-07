@@ -56,9 +56,9 @@ Load `references/carousel-structure.md` for full slide-by-slide blueprints.
 Every slide prompt should specify these 6 fields:
 
 ```
-Background: #191a1b (cover/CTA) or #1a1d21 (body slides)
-Text: #f0ede8 (body) / #ff8c00 (key word or stat)
-Typography: Barlow Condensed 800+ for headlines (uppercase), Inter for body, Poppins for labels/data
+Background: #1c1a17 (cover/CTA) or #2c2925 (body slides)
+Text: #f2ece2 (body) / #ff8c00 (key word or stat)
+Typography: Schibsted Grotesk 700 for headlines (sentence case), Inter for body, Poppins for labels/data
 Slide type: cover | data slide | workout slide | nutrition slide | CTA slide
 Key text: [Headline] + [subtext if applicable]
 Elements: [Section label text] + [ZF logo watermark: bottom-right 24–32px] + [any icons/visuals]
@@ -171,10 +171,12 @@ Carousels apply the Voice Pillars in a specific visual rhythm:
 - **Orange:** One element per slide maximum — a key word, a stat, or the section label
 - **Section label:** small-caps label text, Poppins Medium, top-left on body slides (orange on light, muted on dark)
 - **Logo badge:** ZF mark in dark circle + `@philipz.fit` handle, top-left — on cover and light slides
-- **Slide number watermark:** Oversized numeral (380px, Barlow 900) in top-right at ~4% opacity
-- **Light/dark alternation:** Slides alternate between `#191a1b` (dark) and `#f5f2ed` (light) for rhythm
+- **Slide number watermark:** Oversized numeral (380px ⚠️, Schibsted Grotesk 700) in top-right at ~4% opacity
+- **Light/dark alternation:** Slides alternate between `#1c1a17` (dark) and `#f5f3ef` (light) for rhythm
 - **CTA slide:** Full orange gradient, centered layout, diagonal line texture, frosted glass card
-- **Headlines:** 104px minimum on body slides — text dominates the slide
+- **Headlines:** 104px ⚠️ minimum on body slides — text dominates the slide
 - **Text density:** Max 3–4 short lines of body copy per slide — split if more
 - **Info card:** Orange left-border card for explanations — small-caps label + body text
-- **Pill tags:** First pill orange-filled, rest outlined/muted — for muscle groups or key concepts
+- **Pill tags:** 14px radius, first pill orange-filled, rest outlined/muted — for muscle groups or key concepts
+
+⚠️ = pixel size carried over from the retired Barlow Condensed spec, pending recalibration for Schibsted Grotesk — see `references/html-rendering-spec.md`.

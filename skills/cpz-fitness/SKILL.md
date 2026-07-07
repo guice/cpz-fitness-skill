@@ -117,30 +117,28 @@ for any legacy engineer clients still active in coaching.
 
 | Role             | Name           | Hex                   |
 |:-----------------|:---------------|:----------------------|
-| Background       | Coco’s Black   | `#191a1b`             |
-| Surface          | Dark Surface   | `#22262b`             |
-| Card             | Card Surface   | `#3c3f42`             |
+| Background       | Coco’s Black   | `#1c1a17`             |
+| Card             | Card Surface   | `#2c2925`             |
 | **Accent / CTA** | **CPZ Orange** | **`#ff8c00`**         |
-| Text Primary     | Warm White     | `#f0ede8`             |
-| Text Muted       | Slate Muted    | `#8a8f96`             |
-| Code / Status    | Terminal Green | `#4ade80`             |
-| Border           | Orange Border  | `rgba(255,130,0,0.2)` |
+| Text Primary     | Warm White     | `#f2ece2`             |
+| Text Muted       | Warm Muted     | `#9b948a`              |
+| Border           | Orange Border  | `rgba(255,140,0,0.2)` |
 
 **Color usage rules:**
-- Background is always `#191a1b` or `#1a1d21` for dark/digital outputs
-- Warm Linen `#f2f0eb` is used for carousel light-mode backgrounds and print/PDF documents
+- Background is always `#1c1a17`, layered one level up to `#2c2925` for cards, for dark/digital outputs
 - Orange appears on **one focal element per frame** — never scattered
+- Full Secondary/Light palette (replaces the old "Warm Linen" reference): `cpz-design/references/design-guide.md` §2.2
 
 ---
 
 ## Typography
 
-- **Barlow Condensed** — headlines
-- **Inter** — body copy
+- **Schibsted Grotesk** — headlines, display
+- **Inter** — body copy, UI
 - **Poppins** — labels, data, carousel body
-- **League Spartan** — logo wordmark only
+- **League Spartan** — logo wordmark only ("CPZ Fitness"), not general use
 
-⚠️ Known issue: the Barlow Condensed font file is currently missing from `cpz-carousels/fonts/` — needs restoring in a separate design-focused pass.
+⚠️ Font-asset action item: Schibsted Grotesk replaces Barlow Condensed as of the July 2026 Brand Guide v1. The Schibsted Grotesk font files still need sourcing into `cpz-design/fonts/` and `cpz-carousels/fonts/` in a separate design-focused pass. League Spartan is unaffected by this change and its font file is already present.
 
 > Full type specs (weights, hierarchy, usage rules): `cpz-design/references/design-guide.md` §3. Full color system (extended palette, light-page colors): same doc, §2.
 
