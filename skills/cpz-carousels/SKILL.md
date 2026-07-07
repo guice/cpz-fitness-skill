@@ -12,9 +12,9 @@ description: "CPZ Fitness Instagram carousel production. Use for end-to-end caro
 | Field             | Value                                     |
 |:------------------|:------------------------------------------|
 | **Handle**        | @philipz.fit                              |
-| **Booking CTA**   | https://lnk.philipz.fit/free-system-audit |
-| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-system-audit  |
-| **Tagline**       | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." |
+| **Booking CTA**   | https://lnk.philipz.fit/free-consult      |
+| **PDF Asset CTA** | https://lnk.philipz.fit/pdf-consult       |
+| **Tagline**       | "Lifting to be seen."                     |
 
 ## Reference Files
 
@@ -46,8 +46,8 @@ Load `references/carousel-structure.md` for full slide-by-slide blueprints.
 | "Drop your biggest gym obstacle in the comments."                          | Consistency/habit carousels             |
 | "Save this for your next training day."                                    | Workout carousels                       |
 | "Follow @philipz.fit for more straightforward fitness breakdowns."         | Data/myth posts                         |
-| ⚠️ "Free Consult Call → link in bio" (`lnk.philipz.fit/free-system-audit`) — label pending decision, was "Free System Audit" | Any carousel driving coaching inquiries |
-| "Download the free PDF → link in bio" (`lnk.philipz.fit/pdf-system-audit`) | Lead magnet / PDF download carousels    |
+| "Free Consultation → link in bio" (`lnk.philipz.fit/free-consult`)        | Any carousel driving coaching inquiries |
+| "Download the free PDF → link in bio" (`lnk.philipz.fit/pdf-consult`)     | Lead magnet / PDF download carousels    |
 
 ---
 

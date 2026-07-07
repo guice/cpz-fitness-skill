@@ -12,7 +12,7 @@
 | **Core Promise** | "I help gay men build muscle and lose fat." |
 | **Time Commitment** | 30-45 minutes, 3–4x per week |
 | **Delivery** | Premium 1:1 asynchronous coaching via Everfit (see Delivery section below) |
-| **Discovery CTA** | ⚠️ "Free Consult Call" (was "Free System Audit") → [lnk.philipz.fit/free-system-audit](https://lnk.philipz.fit/free-system-audit) |
+| **Discovery CTA** | "Free Consultation" → [lnk.philipz.fit/free-consult](https://lnk.philipz.fit/free-consult) |
 
 ---
 
@@ -133,4 +133,4 @@ When writing content referencing or promoting the 16-Week program:
 3. Position Philip's lived experience as a gay man who's done this work himself as the credibility bridge — he's not an outside observer coaching from theory
 4. Use the phase names ("Foundation & Form," "Peak & Polish," etc.) in content to reinforce the journey — they describe the physical process, not a brand metaphor
 5. Lead with empowerment and self-compassion framing, never shame — this program is explicitly positioned as the antidote to comparison-driven fitness culture, not another dose of it
-6. CTA for program inquiries always links to: https://lnk.philipz.fit/free-system-audit
+6. CTA for program inquiries always links to: https://lnk.philipz.fit/free-consult

@@ -11,7 +11,7 @@ description: CPZ Fitness content brainstorming and angle development. Use for ge
 |:--------------------|:---------------------------------------------------------------------------------------------------------------|
 | **Brand**           | CPZ Fitness                                                                                     |
 | **Handle**          | @philipz.fit                                                                                                   |
-| **Tagline**         | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable."                                                                              |
+| **Tagline**         | "Lifting to be seen."                                                                                                                        |
 | **ICA in one line** | Gay man, roughly 25–50 — wants to build muscle, lose fat, and feel confident in his body and in gay social/dating spaces |
 
 ## Reference File

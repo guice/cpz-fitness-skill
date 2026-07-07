@@ -205,18 +205,18 @@ Before exporting any PDF document:
 ---
 
 ### CTA Link Standard (PDF documents)
-- **PDF lead magnets:** `https://lnk.philipz.fit/pdf-system-audit`
-- **Workshop/audit booking:** `https://lnk.philipz.fit/free-system-audit`
+- **PDF lead magnets:** `https://lnk.philipz.fit/pdf-consult`
+- **Consultation booking:** `https://lnk.philipz.fit/free-consult`
 - Always wrap in `<a href="..." target="_blank">` — never a plain `<div>`
 - Style: `background: rgba(255,140,0,0.12)` pill, `border: 1px solid rgba(255,140,0,0.2)`, Poppins 13px
 
 ### CTA Page
 Always include two versions of the final page:
-* One for a lead magnet, intended for COLD traffic, with a ⚠️ CTA to book a call (label pending decision, was "free system audit") with a QR code (see [pdf-link-qr-code.svg](references/pdf-link-qr-code.svg))
+* One for a lead magnet, intended for COLD traffic, with a "Free Consultation" CTA to book a call, with a QR code (see [pdf-link-qr-code.svg](references/pdf-link-qr-code.svg))
 * One that does NOT use the CTA or QR Code intended for existing clients.
 
 ### Call Duration Standard
-- ⚠️ Consult call (label pending decision, was "Free System Audit") = **15 minutes**
+- Free Consultation call = **15 minutes**
 
 ---
 

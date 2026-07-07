@@ -13,13 +13,13 @@ description: CPZ Fitness brand DNA root. Contains identity, voice architecture, 
 | **Company**           | CPZ Fitness (no program/framework name)                                          |
 | **Website**           | https://www.philipz.fit/                                                          |
 | **Social Media**      | @philipz.fit (Instagram, TikTok, Facebook, Threads, Bluesky)                      |
-| **Skool Community**   | ⚠️ NEEDS INPUT — "Geek 2 Greek Starter Zone" needs a new name. Placeholder: "CPZ Fitness Community" — https://lnk.philipz.fit/skool |
+| **Skool Community**   | Closed for now (was "Geek 2 Greek Starter Zone"). Placeholder URL reserved for future relaunch: https://lnk.philipz.fit/community — not live yet, doesn't point anywhere |
 | **Logo**              | `templates/cpz-logo.svg` (ZF vectorized mark — orange on transparent)             |
 | **Voice Archetype**   | The "Sarcastic Sage" — dry humor + direct guidance + empathy (no more engineering/systems framing) |
 | **Core Promise**      | "I help gay men build muscle and lose fat."                                       |
-| **Tagline**           | ⚠️ NEEDS INPUT — placeholder: "Strong. Confident. Undeniable." (replaces "From desk-bound to damn-strong.") |
-| **Booking CTA**       | ⚠️ NEEDS INPUT — recommend relabeling button text from "Free System Audit" to "Free Consult Call" (URL stays `/free-system-audit`) |
-| **PDF CTA Link**      | Same relabeling as above if used                                                  |
+| **Tagline**           | "Lifting to be seen." (replaces "From desk-bound to damn-strong.")               |
+| **Booking CTA**       | Button text: "Free Consultation" — URL: https://lnk.philipz.fit/free-consult   |
+| **PDF CTAs**          | URL: https://lnk.philipz.fit/pdf-consult                                          |
 
 ---
 

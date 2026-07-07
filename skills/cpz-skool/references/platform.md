@@ -4,6 +4,8 @@
 
 The platform runs on two engines working in tandem: Skool as the free community and lead-nurturing hub, and Everfit as the premium 1:1 coaching delivery engine.
 
+⚠️ The Skool community is currently **closed** — not accepting members, no live URL. Everything below describes the prepared/intended structure for when it relaunches, not a currently-active community. See `cpz-fitness/SKILL.md` Key Facts.
+
 ## Platform Stack
 
 | Platform | Role | Notes |

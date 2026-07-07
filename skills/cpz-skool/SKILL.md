@@ -11,9 +11,9 @@ description: CPZ Fitness Skool community and classroom content. Use for writing 
 
 | Field               | Value                                     |
 |:--------------------|:------------------------------------------|
-| **Community Name**  | ⚠️ NEEDS INPUT — placeholder: "CPZ Fitness Community" |
-| **Skool URL**       | https://lnk.philipz.fit/skool             |
-| **Upsell CTA**      | https://lnk.philipz.fit/free-system-audit |
+| **Community Name**  | Closed for now (was "Geek 2 Greek Starter Zone") |
+| **Skool URL**       | https://lnk.philipz.fit/community — placeholder, not live yet, reserved for future relaunch |
+| **Upsell CTA**      | https://lnk.philipz.fit/free-consult      |
 | **Voice Archetype** | The "Sarcastic Sage"                      |
 
 ## Reference Files
@@ -66,6 +66,6 @@ Load `references/platform.md` for the full lesson-by-lesson status and module su
 ## Upsell CTAs
 
 All upsell lessons (Course 1 Module 4, Course 2 Module 4, Course 3 Module 6) drive to:
-**https://lnk.philipz.fit/free-system-audit**
+**https://lnk.philipz.fit/free-consult**
 
-⚠️ CTA label pending decision — placeholder "Free Consult Call" (was "Free System Audit"; URL unchanged).
+CTA button text: "Free Consultation" (was "Free System Audit").
