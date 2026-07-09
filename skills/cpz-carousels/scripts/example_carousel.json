@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "id": "example_carousel",
+    "handle": "@philipz.fit",
+    "brand": "CPZ Fitness",
+    "caption": "Example caption text — this is what ships in the actual Instagram post, separate from the slide copy itself."
+  },
+  "slides": [
+    {
+      "bg": "dark",
+      "layout": "bottom",
+      "is_hook": true,
+      "tag": "Pillar Name",
+      "heading": "The hook slide.\nSentence case,\nnot uppercase.",
+      "subhead": "One or two lines of supporting context for the hook."
+    },
+    {
+      "bg": "light",
+      "tag": "The Fix",
+      "sub_label": "Optional secondary label",
+      "heading": "Content slide\nwith an info card.",
+      "body": "Optional body paragraph above the info card, bullets, data card, or pills below.",
+      "info_card": {
+        "label": "Optional label",
+        "body": "The info card body text — used for explanations, reframes, or 'what it fixes' callouts."
+      },
+      "pills": ["First pill is filled", "Rest are outlined", "Third pill"]
+    },
+    {
+      "bg": "gradient",
+      "is_cta": true,
+      "heading": "The CTA slide.",
+      "subhead": "One clear next action.",
+      "cta_text": "Follow @philipz.fit",
+      "glass_text": "Optional line inside the frosted glass card below the button."
+    }
+  ]
+}
