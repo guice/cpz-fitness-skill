@@ -2,6 +2,8 @@
 
 Generates self-contained HTML carousel files and exports each slide to PNG using headless Chromium.
 
+Fully dynamic — there is no pre-registered carousel list to edit. Content is authored as JSON at runtime (by hand, or by an autonomous agent) and passed directly to `generate.py`.
+
 ## Requirements
 
 ```bash
@@ -11,69 +13,67 @@ playwright install chromium
 
 ## Workflow
 
-### Step 1 — Write or update carousel content
+### Step 1 — Write carousel content as JSON
 
-Carousel content lives in `carousels/`:
-- `round_1.py` — Hook carousels (awareness, problem framing)
-- `round_2.py` — Trust-building carousels (practical, specific, useful)
-- `round_3.py` — Conversion carousels (objection handling, closes toward a free consultation)
+See `example_carousel.json` for a worked example, and `template.py`'s module docstring for the full slide/meta key reference (fonts, colors, and components are already handled — you're just supplying content).
 
-Each file defines a `CAROUSELS` dict. Each carousel is a key → dict with `meta` and `slides`. Ask Claude to write new carousel content in this format using the `content-carousels` skill.
+JSON shape — either a single carousel:
+```json
+{"meta": {...}, "slides": [...]}
+```
+or multiple carousels keyed by id:
+```json
+{"carousel_id_1": {"meta": {...}, "slides": [...]}, "carousel_id_2": {...}}
+```
+
+Ask Claude to write the carousel content in this format using the `cpz-carousels` skill.
 
 ### Step 2 — Generate HTML
 
 ```bash
-# All carousels
-python generate.py
+# One file (single or multi-carousel JSON)
+python generate.py my_carousel.json
 
-# One round only
-python generate.py --round round_2
+# Multiple JSON files at once
+python generate.py carousel_a.json carousel_b.json
 
-# Specific carousel(s) by ID
-python generate.py --carousel c07_big_5_lifts
+# Custom output directory (default: html/)
+python generate.py my_carousel.json --out /path/to/html/
 ```
 
-HTML files are written to `html/`. Open in a browser to review.
+HTML files are written one per carousel, named `<id>.html`. Open in a browser to review.
 
 ### Step 3 — Review and approve
 
-Open each `html/<carousel_id>.html` in a browser. Swipe through the slides. Approve before exporting.
+Open the generated HTML in a browser. Swipe through the slides. Approve before exporting.
 
 ### Step 4 — Export to PNG
 
 ```bash
-# All approved carousels
-python export.py
+# A single HTML file
+python export.py html/my_carousel.html
 
-# Specific carousel(s) only
-python export.py --carousel c07_big_5_lifts c09_habit_stacking
+# Multiple files
+python export.py html/carousel_a.html html/carousel_b.html
 
-# Custom HTML directory
-python export.py --html-dir /path/to/html/
+# Every HTML file in a directory
+python export.py html/
+
+# Custom output directory (default: output/)
+python export.py html/ --out /path/to/output/
 ```
 
 PNGs are written to `output/<carousel_id>/slide_1.png`, `slide_2.png`, etc.
 Output resolution: ~1080×1350px (420×525 viewport at 2.57× device scale).
 
-## Adding a New Carousel
-
-1. Open the appropriate round file in `carousels/` (or create a new one)
-2. Add a new key to the `CAROUSELS` dict following the existing structure
-3. If creating a new round file:
-   - Name it `round_N.py`
-   - Add it to `ALL_ROUNDS` in `generate.py`
-4. Run `python generate.py --carousel <new_carousel_id>` to preview
-
 ## File Map
 
 | File | Purpose |
 |---|---|
-| `generate.py` | Builds HTML from content dicts |
-| `export.py` | Renders HTML → PNG via Playwright |
+| `generate.py` | Builds HTML from a JSON content spec — takes direct file path(s) |
+| `export.py` | Renders HTML → PNG via Playwright — takes direct file/directory path(s) |
 | `template.py` | HTML/CSS template engine — rebuilt against `html-rendering-spec.md`; update it when the design system changes, don't let it drift stale again |
 | `fonts_b64.py` | Base64-encoded font data, generated from the real files in `cpz-carousels/fonts/` — regenerate (don't hand-edit the blobs) if those font files change |
-| `carousels/round_1.py` | Hook carousels (c3, c5, c6) |
-| `carousels/round_2.py` | Trust-building carousels (c07–c12) |
-| `carousels/round_3.py` | Conversion carousels (c13–c18) |
+| `example_carousel.json` | Worked example of the content JSON schema |
 | `html/` | Generated HTML files (gitignored) |
 | `output/` | Exported PNG files (gitignored) |

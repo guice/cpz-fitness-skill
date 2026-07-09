@@ -129,26 +129,25 @@ pip install playwright
 playwright install chromium
 ```
 
-**Step 1 — Write content** in `scripts/carousels/round_N.py` using the Python dict structure (ask Claude to generate this)
+Fully dynamic — there's no pre-registered carousel list to edit. Write content as JSON and pass it directly.
+
+**Step 1 — Write content** as a JSON file — either `{"meta": {...}, "slides": [...]}` for one carousel, or `{"id": {"meta":..., "slides":...}, ...}` for several. See `scripts/example_carousel.json` for a worked example and `scripts/template.py`'s module docstring for the full key reference.
 
 **Step 2 — Generate HTML:**
 ```bash
 cd scripts/
-python generate.py                              # all carousels
-python generate.py --round round_2              # one round only
-python generate.py --carousel c07_workday_boundary  # one carousel by ID
+python generate.py my_carousel.json              # -> html/<id>.html
+python generate.py a.json b.json --out /path/to/html/
 ```
 Open the HTML files in a browser to review before exporting.
 
 **Step 3 — Export PNGs (after approval):**
 ```bash
-python export.py                                # all carousels
-python export.py --carousel c07_workday_boundary  # one carousel by ID
+python export.py html/my_carousel.html           # one file
+python export.py html/                           # every .html in a directory
 ```
 PNGs are written to `scripts/output/<carousel_id>/slide_1.png`, `slide_2.png`, etc.
 Output resolution: ~1080×1350px.
-
-**Adding a new carousel:** Add a new key to the appropriate `carousels/round_N.py` file. See `scripts/README.md` for the full content dict structure.
 
 ---
 

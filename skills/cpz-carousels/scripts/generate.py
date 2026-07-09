@@ -1,61 +1,68 @@
 #!/usr/bin/env python3
-"""Generate carousel HTML files from content definitions.
+"""Generate carousel HTML files from a JSON content spec.
+
+Fully dynamic — there is no pre-registered carousel list. Content is
+authored as JSON at runtime (by hand, or by an autonomous agent) and
+passed directly to this script. See example_carousel.json for the schema,
+and template.py's module docstring for the full slide/meta key reference.
+
+JSON shape — either a single carousel:
+    {"meta": {...}, "slides": [...]}
+or multiple carousels keyed by id:
+    {"carousel_id_1": {"meta": {...}, "slides": [...]}, "carousel_id_2": {...}}
 
 Usage:
-  python generate.py                              # all rounds, all carousels
-  python generate.py --round round_1              # one round only
-  python generate.py --round round_2 round_3      # multiple rounds
-  python generate.py --carousel c07_big_5_lifts c09_habit_stacking  # specific carousels by ID
+  python generate.py my_carousel.json                    # -> html/<id>.html
+  python generate.py carousel_a.json carousel_b.json      # multiple files
+  python generate.py content.json --out /path/to/html/    # custom output dir
 """
 import argparse
+import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 
 from template import build_carousel
-from carousels import round_1, round_2, round_3
-
-ALL_ROUNDS = {
-    "round_1": round_1.CAROUSELS,
-    "round_2": round_2.CAROUSELS,
-    "round_3": round_3.CAROUSELS,
-}
-
-OUT_DIR = Path(__file__).parent / "html"
 
 
-def generate(rounds=None, carousel_ids=None):
-    OUT_DIR.mkdir(exist_ok=True)
+def _load_carousels(json_path: Path) -> dict:
+    data = json.loads(json_path.read_text(encoding="utf-8"))
+    if "meta" in data and "slides" in data:
+        cid = data["meta"].get("id") or json_path.stem
+        return {cid: data}
+    return data
+
+
+def generate(json_paths: list[Path], out_dir: Path):
+    out_dir.mkdir(parents=True, exist_ok=True)
     count = 0
-    for round_name, carousels in ALL_ROUNDS.items():
-        if rounds and round_name not in rounds:
-            continue
-        for key, data in carousels.items():
-            if carousel_ids and key not in carousel_ids:
-                continue
+    for json_path in json_paths:
+        carousels = _load_carousels(json_path)
+        for cid, data in carousels.items():
             html = build_carousel(data["slides"], data["meta"])
-            out_path = OUT_DIR / f"{key}.html"
+            out_path = out_dir / f"{cid}.html"
             out_path.write_text(html, encoding="utf-8")
             print(f"  ✓ {out_path.name}  ({len(data['slides'])} slides)")
             count += 1
-    print(f"\nGenerated {count} carousel(s) → {OUT_DIR}/")
+    print(f"\nGenerated {count} carousel(s) → {out_dir}/")
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Generate carousel HTML files")
+    parser = argparse.ArgumentParser(description="Generate carousel HTML from a JSON content spec")
     parser.add_argument(
-        "--round",
+        "json_paths",
         nargs="+",
-        choices=list(ALL_ROUNDS.keys()),
-        metavar="ROUND",
-        help=f"Generate specific round(s) only. Choices: {', '.join(ALL_ROUNDS.keys())}",
+        type=Path,
+        metavar="JSON_FILE",
+        help="JSON file(s) with carousel content (single or multi-carousel shape)",
     )
     parser.add_argument(
-        "--carousel",
-        nargs="+",
-        metavar="ID",
-        help="Generate specific carousel(s) by ID (e.g. c07_big_5_lifts)",
+        "--out",
+        type=Path,
+        default=Path(__file__).parent / "html",
+        metavar="PATH",
+        help="Output directory for generated HTML (default: scripts/html/)",
     )
     args = parser.parse_args()
-    generate(rounds=args.round, carousel_ids=args.carousel)
+    generate(args.json_paths, args.out)
