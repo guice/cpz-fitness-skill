@@ -5,7 +5,7 @@ Usage:
   python generate.py                              # all rounds, all carousels
   python generate.py --round round_1              # one round only
   python generate.py --round round_2 round_3      # multiple rounds
-  python generate.py --carousel c07_workday_boundary c09_hardware  # specific carousels by ID
+  python generate.py --carousel c07_big_5_lifts c09_habit_stacking  # specific carousels by ID
 """
 import argparse
 import sys
@@ -55,7 +55,7 @@ if __name__ == "__main__":
         "--carousel",
         nargs="+",
         metavar="ID",
-        help="Generate specific carousel(s) by ID (e.g. c07_workday_boundary)",
+        help="Generate specific carousel(s) by ID (e.g. c07_big_5_lifts)",
     )
     args = parser.parse_args()
     generate(rounds=args.round, carousel_ids=args.carousel)
